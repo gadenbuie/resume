@@ -1,0 +1,2304 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Garrick Aden-Buie</title>
+        <style>
+            /*!
+* Bootstrap v3.3.7 (http://getbootstrap.com)
+* Copyright 2011-2017 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+
+/*!
+* Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=3aa489af73542f4a84df731fdc076c6c)
+* Config saved to config.json and https://gist.github.com/3aa489af73542f4a84df731fdc076c6c
+*/
+/*!
+* Bootstrap v3.3.7 (http://getbootstrap.com)
+* Copyright 2011-2016 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Source+Sans+Pro:300,400,600,700');
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden],
+template {
+    display: none;
+}
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 1em 40px;
+}
+hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+pre {
+    overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+    overflow: visible;
+}
+button,
+select {
+    text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+}
+optgroup {
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td,
+th {
+    padding: 0;
+}
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        /* color: #000 !important; */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: none;
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        page-break-after: avoid;
+    }
+    .navbar {
+        display: none;
+    }
+    .btn > .caret,
+    .dropup > .btn > .caret {
+        border-top-color: #000 !important;
+    }
+    .label {
+        border: 1px solid #000;
+    }
+    .table {
+        border-collapse: collapse !important;
+    }
+    .table td,
+    .table th {
+        background-color: #fff !important;
+    }
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #ddd !important;
+    }
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    font-family: "Source Sans Pro", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+a, a:visited {
+    /*color: #337ab7;*/
+    color: #ea5359;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    /*color: #23527c;*/
+    /* color: #cb484d; */
+    text-decoration: underline;
+}
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+figure {
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-rounded {
+    border-radius: 6px;
+}
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.img-circle {
+    border-radius: 50%;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}
+[role="button"] {
+    cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #777777;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+    font-size: 65%;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+    font-size: 75%;
+}
+h1,
+.h1 {
+    font-size: 36px;
+}
+h2,
+.h2 {
+    font-size: 30px;
+}
+h3,
+.h3 {
+    font-size: 24px;
+}
+h4,
+.h4 {
+    font-size: 18px;
+}
+h5,
+.h5 {
+    font-size: 14px;
+}
+h6,
+.h6 {
+    font-size: 12px;
+}
+p {
+    margin: 0 0 10px;
+}
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+@media (min-width: 768px) {
+    .lead {
+        font-size: 21px;
+    }
+}
+small,
+.small {
+    font-size: 85%;
+}
+mark,
+.mark {
+    background-color: #fcf8e3;
+    padding: .2em;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-muted {
+    color: #777777;
+}
+.text-primary {
+    color: #337ab7;
+}
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #286090;
+}
+.text-success {
+    color: #3c763d;
+}
+a.text-success:hover,
+a.text-success:focus {
+    color: #2b542c;
+}
+.text-info {
+    color: #31708f;
+}
+a.text-info:hover,
+a.text-info:focus {
+    color: #245269;
+}
+.text-warning {
+    color: #8a6d3b;
+}
+a.text-warning:hover,
+a.text-warning:focus {
+    color: #66512c;
+}
+.text-danger {
+    color: #a94442;
+}
+a.text-danger:hover,
+a.text-danger:focus {
+    color: #843534;
+}
+.bg-primary {
+    color: #fff;
+    background-color: #337ab7;
+}
+a.bg-primary:hover,
+a.bg-primary:focus {
+    background-color: #286090;
+}
+.bg-success {
+    background-color: #dff0d8;
+}
+a.bg-success:hover,
+a.bg-success:focus {
+    background-color: #c1e2b3;
+}
+.bg-info {
+    background-color: #d9edf7;
+}
+a.bg-info:hover,
+a.bg-info:focus {
+    background-color: #afd9ee;
+}
+.bg-warning {
+    background-color: #fcf8e3;
+}
+a.bg-warning:hover,
+a.bg-warning:focus {
+    background-color: #f7ecb5;
+}
+.bg-danger {
+    background-color: #f2dede;
+}
+a.bg-danger:hover,
+a.bg-danger:focus {
+    background-color: #e4b9b9;
+}
+.page-header {
+    padding-bottom: 5px;
+    margin: 40px 0 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+dt,
+dd {
+    line-height: 1.42857143;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+}
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        clear: left;
+        text-align: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .dl-horizontal dd {
+        margin-left: 180px;
+    }
+}
+abbr[title],
+abbr[data-original-title] {
+    cursor: help;
+    border-bottom: 1px dotted #777777;
+}
+.initialism {
+    font-size: 90%;
+    text-transform: uppercase;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eeeeee;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+    margin-bottom: 0;
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777777;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+    content: '\2014 \00A0';
+}
+.blockquote-reverse,
+blockquote.pull-right {
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid #eeeeee;
+    border-left: 0;
+    text-align: right;
+}
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+    content: '';
+}
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+    content: '\00A0 \2014';
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-11 {
+    width: 91.66666667%;
+}
+.col-xs-10 {
+    width: 83.33333333%;
+}
+.col-xs-9 {
+    width: 75%;
+}
+.col-xs-8 {
+    width: 66.66666667%;
+}
+.col-xs-7 {
+    width: 58.33333333%;
+}
+.col-xs-6 {
+    width: 50%;
+}
+.col-xs-5 {
+    width: 41.66666667%;
+}
+.col-xs-4 {
+    width: 33.33333333%;
+}
+.col-xs-3 {
+    width: 25%;
+}
+.col-xs-2 {
+    width: 16.66666667%;
+}
+.col-xs-1 {
+    width: 8.33333333%;
+}
+.col-xs-pull-12 {
+    right: 100%;
+}
+.col-xs-pull-11 {
+    right: 91.66666667%;
+}
+.col-xs-pull-10 {
+    right: 83.33333333%;
+}
+.col-xs-pull-9 {
+    right: 75%;
+}
+.col-xs-pull-8 {
+    right: 66.66666667%;
+}
+.col-xs-pull-7 {
+    right: 58.33333333%;
+}
+.col-xs-pull-6 {
+    right: 50%;
+}
+.col-xs-pull-5 {
+    right: 41.66666667%;
+}
+.col-xs-pull-4 {
+    right: 33.33333333%;
+}
+.col-xs-pull-3 {
+    right: 25%;
+}
+.col-xs-pull-2 {
+    right: 16.66666667%;
+}
+.col-xs-pull-1 {
+    right: 8.33333333%;
+}
+.col-xs-pull-0 {
+    right: auto;
+}
+.col-xs-push-12 {
+    left: 100%;
+}
+.col-xs-push-11 {
+    left: 91.66666667%;
+}
+.col-xs-push-10 {
+    left: 83.33333333%;
+}
+.col-xs-push-9 {
+    left: 75%;
+}
+.col-xs-push-8 {
+    left: 66.66666667%;
+}
+.col-xs-push-7 {
+    left: 58.33333333%;
+}
+.col-xs-push-6 {
+    left: 50%;
+}
+.col-xs-push-5 {
+    left: 41.66666667%;
+}
+.col-xs-push-4 {
+    left: 33.33333333%;
+}
+.col-xs-push-3 {
+    left: 25%;
+}
+.col-xs-push-2 {
+    left: 16.66666667%;
+}
+.col-xs-push-1 {
+    left: 8.33333333%;
+}
+.col-xs-push-0 {
+    left: auto;
+}
+.col-xs-offset-12 {
+    margin-left: 100%;
+}
+.col-xs-offset-11 {
+    margin-left: 91.66666667%;
+}
+.col-xs-offset-10 {
+    margin-left: 83.33333333%;
+}
+.col-xs-offset-9 {
+    margin-left: 75%;
+}
+.col-xs-offset-8 {
+    margin-left: 66.66666667%;
+}
+.col-xs-offset-7 {
+    margin-left: 58.33333333%;
+}
+.col-xs-offset-6 {
+    margin-left: 50%;
+}
+.col-xs-offset-5 {
+    margin-left: 41.66666667%;
+}
+.col-xs-offset-4 {
+    margin-left: 33.33333333%;
+}
+.col-xs-offset-3 {
+    margin-left: 25%;
+}
+.col-xs-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-xs-offset-1 {
+    margin-left: 8.33333333%;
+}
+.col-xs-offset-0 {
+    margin-left: 0%;
+}
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-11 {
+        width: 91.66666667%;
+    }
+    .col-sm-10 {
+        width: 83.33333333%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+    .col-sm-7 {
+        width: 58.33333333%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-5 {
+        width: 41.66666667%;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+    .col-sm-1 {
+        width: 8.33333333%;
+    }
+    .col-sm-pull-12 {
+        right: 100%;
+    }
+    .col-sm-pull-11 {
+        right: 91.66666667%;
+    }
+    .col-sm-pull-10 {
+        right: 83.33333333%;
+    }
+    .col-sm-pull-9 {
+        right: 75%;
+    }
+    .col-sm-pull-8 {
+        right: 66.66666667%;
+    }
+    .col-sm-pull-7 {
+        right: 58.33333333%;
+    }
+    .col-sm-pull-6 {
+        right: 50%;
+    }
+    .col-sm-pull-5 {
+        right: 41.66666667%;
+    }
+    .col-sm-pull-4 {
+        right: 33.33333333%;
+    }
+    .col-sm-pull-3 {
+        right: 25%;
+    }
+    .col-sm-pull-2 {
+        right: 16.66666667%;
+    }
+    .col-sm-pull-1 {
+        right: 8.33333333%;
+    }
+    .col-sm-pull-0 {
+        right: auto;
+    }
+    .col-sm-push-12 {
+        left: 100%;
+    }
+    .col-sm-push-11 {
+        left: 91.66666667%;
+    }
+    .col-sm-push-10 {
+        left: 83.33333333%;
+    }
+    .col-sm-push-9 {
+        left: 75%;
+    }
+    .col-sm-push-8 {
+        left: 66.66666667%;
+    }
+    .col-sm-push-7 {
+        left: 58.33333333%;
+    }
+    .col-sm-push-6 {
+        left: 50%;
+    }
+    .col-sm-push-5 {
+        left: 41.66666667%;
+    }
+    .col-sm-push-4 {
+        left: 33.33333333%;
+    }
+    .col-sm-push-3 {
+        left: 25%;
+    }
+    .col-sm-push-2 {
+        left: 16.66666667%;
+    }
+    .col-sm-push-1 {
+        left: 8.33333333%;
+    }
+    .col-sm-push-0 {
+        left: auto;
+    }
+    .col-sm-offset-12 {
+        margin-left: 100%;
+    }
+    .col-sm-offset-11 {
+        margin-left: 91.66666667%;
+    }
+    .col-sm-offset-10 {
+        margin-left: 83.33333333%;
+    }
+    .col-sm-offset-9 {
+        margin-left: 75%;
+    }
+    .col-sm-offset-8 {
+        margin-left: 66.66666667%;
+    }
+    .col-sm-offset-7 {
+        margin-left: 58.33333333%;
+    }
+    .col-sm-offset-6 {
+        margin-left: 50%;
+    }
+    .col-sm-offset-5 {
+        margin-left: 41.66666667%;
+    }
+    .col-sm-offset-4 {
+        margin-left: 33.33333333%;
+    }
+    .col-sm-offset-3 {
+        margin-left: 25%;
+    }
+    .col-sm-offset-2 {
+        margin-left: 16.66666667%;
+    }
+    .col-sm-offset-1 {
+        margin-left: 8.33333333%;
+    }
+    .col-sm-offset-0 {
+        margin-left: 0%;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .col-md-11 {
+        width: 91.66666667%;
+    }
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+    .col-md-1 {
+        width: 8.33333333%;
+    }
+    .col-md-pull-12 {
+        right: 100%;
+    }
+    .col-md-pull-11 {
+        right: 91.66666667%;
+    }
+    .col-md-pull-10 {
+        right: 83.33333333%;
+    }
+    .col-md-pull-9 {
+        right: 75%;
+    }
+    .col-md-pull-8 {
+        right: 66.66666667%;
+    }
+    .col-md-pull-7 {
+        right: 58.33333333%;
+    }
+    .col-md-pull-6 {
+        right: 50%;
+    }
+    .col-md-pull-5 {
+        right: 41.66666667%;
+    }
+    .col-md-pull-4 {
+        right: 33.33333333%;
+    }
+    .col-md-pull-3 {
+        right: 25%;
+    }
+    .col-md-pull-2 {
+        right: 16.66666667%;
+    }
+    .col-md-pull-1 {
+        right: 8.33333333%;
+    }
+    .col-md-pull-0 {
+        right: auto;
+    }
+    .col-md-push-12 {
+        left: 100%;
+    }
+    .col-md-push-11 {
+        left: 91.66666667%;
+    }
+    .col-md-push-10 {
+        left: 83.33333333%;
+    }
+    .col-md-push-9 {
+        left: 75%;
+    }
+    .col-md-push-8 {
+        left: 66.66666667%;
+    }
+    .col-md-push-7 {
+        left: 58.33333333%;
+    }
+    .col-md-push-6 {
+        left: 50%;
+    }
+    .col-md-push-5 {
+        left: 41.66666667%;
+    }
+    .col-md-push-4 {
+        left: 33.33333333%;
+    }
+    .col-md-push-3 {
+        left: 25%;
+    }
+    .col-md-push-2 {
+        left: 16.66666667%;
+    }
+    .col-md-push-1 {
+        left: 8.33333333%;
+    }
+    .col-md-push-0 {
+        left: auto;
+    }
+    .col-md-offset-12 {
+        margin-left: 100%;
+    }
+    .col-md-offset-11 {
+        margin-left: 91.66666667%;
+    }
+    .col-md-offset-10 {
+        margin-left: 83.33333333%;
+    }
+    .col-md-offset-9 {
+        margin-left: 75%;
+    }
+    .col-md-offset-8 {
+        margin-left: 66.66666667%;
+    }
+    .col-md-offset-7 {
+        margin-left: 58.33333333%;
+    }
+    .col-md-offset-6 {
+        margin-left: 50%;
+    }
+    .col-md-offset-5 {
+        margin-left: 41.66666667%;
+    }
+    .col-md-offset-4 {
+        margin-left: 33.33333333%;
+    }
+    .col-md-offset-3 {
+        margin-left: 25%;
+    }
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+    .col-md-offset-0 {
+        margin-left: 0%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .col-lg-11 {
+        width: 91.66666667%;
+    }
+    .col-lg-10 {
+        width: 83.33333333%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-8 {
+        width: 66.66666667%;
+    }
+    .col-lg-7 {
+        width: 58.33333333%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-5 {
+        width: 41.66666667%;
+    }
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-2 {
+        width: 16.66666667%;
+    }
+    .col-lg-1 {
+        width: 8.33333333%;
+    }
+    .col-lg-pull-12 {
+        right: 100%;
+    }
+    .col-lg-pull-11 {
+        right: 91.66666667%;
+    }
+    .col-lg-pull-10 {
+        right: 83.33333333%;
+    }
+    .col-lg-pull-9 {
+        right: 75%;
+    }
+    .col-lg-pull-8 {
+        right: 66.66666667%;
+    }
+    .col-lg-pull-7 {
+        right: 58.33333333%;
+    }
+    .col-lg-pull-6 {
+        right: 50%;
+    }
+    .col-lg-pull-5 {
+        right: 41.66666667%;
+    }
+    .col-lg-pull-4 {
+        right: 33.33333333%;
+    }
+    .col-lg-pull-3 {
+        right: 25%;
+    }
+    .col-lg-pull-2 {
+        right: 16.66666667%;
+    }
+    .col-lg-pull-1 {
+        right: 8.33333333%;
+    }
+    .col-lg-pull-0 {
+        right: auto;
+    }
+    .col-lg-push-12 {
+        left: 100%;
+    }
+    .col-lg-push-11 {
+        left: 91.66666667%;
+    }
+    .col-lg-push-10 {
+        left: 83.33333333%;
+    }
+    .col-lg-push-9 {
+        left: 75%;
+    }
+    .col-lg-push-8 {
+        left: 66.66666667%;
+    }
+    .col-lg-push-7 {
+        left: 58.33333333%;
+    }
+    .col-lg-push-6 {
+        left: 50%;
+    }
+    .col-lg-push-5 {
+        left: 41.66666667%;
+    }
+    .col-lg-push-4 {
+        left: 33.33333333%;
+    }
+    .col-lg-push-3 {
+        left: 25%;
+    }
+    .col-lg-push-2 {
+        left: 16.66666667%;
+    }
+    .col-lg-push-1 {
+        left: 8.33333333%;
+    }
+    .col-lg-push-0 {
+        left: auto;
+    }
+    .col-lg-offset-12 {
+        margin-left: 100%;
+    }
+    .col-lg-offset-11 {
+        margin-left: 91.66666667%;
+    }
+    .col-lg-offset-10 {
+        margin-left: 83.33333333%;
+    }
+    .col-lg-offset-9 {
+        margin-left: 75%;
+    }
+    .col-lg-offset-8 {
+        margin-left: 66.66666667%;
+    }
+    .col-lg-offset-7 {
+        margin-left: 58.33333333%;
+    }
+    .col-lg-offset-6 {
+        margin-left: 50%;
+    }
+    .col-lg-offset-5 {
+        margin-left: 41.66666667%;
+    }
+    .col-lg-offset-4 {
+        margin-left: 33.33333333%;
+    }
+    .col-lg-offset-3 {
+        margin-left: 25%;
+    }
+    .col-lg-offset-2 {
+        margin-left: 16.66666667%;
+    }
+    .col-lg-offset-1 {
+        margin-left: 8.33333333%;
+    }
+    .col-lg-offset-0 {
+        margin-left: 0%;
+    }
+}
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after,
+.dl-horizontal dd:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+    clear: both;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.invisible {
+    visibility: hidden;
+}
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.hidden {
+    display: none !important;
+}
+.affix {
+    position: fixed;
+}
+
+body {
+    background: #EEEEEE;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 8.5in;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.page-header {
+    padding-bottom: 5px;
+    margin: 40px 0 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.page-header h5 {
+    margin: 0px;
+    padding: 0px;
+    line-height: .8;
+    font-weight: bold;
+}
+
+.page-header {
+    margin-top: 0px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-margin {
+    margin: 0;
+}
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.sm-margin-bottom {
+    margin-bottom: 8px;
+}
+
+.sm-margin-top {
+    margin: 8px 0px 0px 0px;
+}
+
+.lg-margin-top {
+    margin-top: 15px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-padding-left {
+    padding-left: 0px;
+}
+
+.no-padding-right {
+    padding-right: 0px;
+}
+
+.sm-padding-left {
+    padding-left: 8px;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.job-title {
+    float: left;
+    font-size: 15px;
+    width: 100%;
+}
+
+.job-details, .education-date {
+    font-size: .7em;
+    float: right;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.education-date {
+    padding-top: 5px;
+}
+
+.job-information {
+    font-size: 10px;
+    padding: 0 0 0 0px;
+}
+
+.education-details {
+    font-style: italic;
+    /* padding-left: 8px; */
+    font-size: 11px;
+}
+
+.education-courses {
+    columns: 2;
+}
+
+.print-together {
+    page-break-inside: auto;
+}
+
+.no-page-break-after {
+    page-break-after: avoid;
+}
+
+.no-page-break {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+.newspaper {
+    text-align: justify;
+    text-justify: newspaper;
+    padding-left: 5px;
+    border-left: 2px solid lightblue;
+}
+
+.basics-name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  line-height: .8;
+}
+
+.basics-label {
+  font-weight: 300;
+}
+
+h5 {
+    font-family: "Noto Sans", "Source Sans Pro", sans-serif;
+}
+
+.page-header h5 {
+    font-variant-caps: petite-caps;
+    font-size: 14px;
+}
+
+@media print {
+    @page {
+        size: letter portrait;
+        margin: 25mm 25mm 25mm 25mm;
+    }
+    .container {
+        max-width: 100%;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    body,
+    html,
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+    h6 small {
+        color: #555555;
+    }
+}
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <!-- Name, title -->
+             <h3 class="basics-name sm-margin-bottom no-margin-top">
+                Garrick Aden-Buie
+                <span class="basics-label">Data Scientist</span>
+            </h3>
+
+            <p class="newspaper">Motivated, life-long learner. Always looking for questions and answers
+                in the data. Passionate about collaboration, communicating insights, and
+                sharing knowledge. Known as a highly organized, perceptive, and resourceful
+                team player.</p>
+            <!-- LEFT COLUMN -->
+            <div class="col-xs-3 no-padding lg-margin-top">
+                <div class="page-header no-margin">
+                     <h5>About</h5>
+
+                </div>
+                <!-- LEFT COLUMN: Address, contact information --> <small>
+                    <ul class="no-bullets no-padding-left no-margin-bottom">
+                        <li>
+                            <a href="https://www.garrickadenbuie.com">garrickadenbuie.com</a>
+                        </li>
+                        <li>
+                            <a href="mailto:g.adenbuie@gmail.com">g.adenbuie@gmail.com</a>
+                        </li>
+                        <li>(727) 344-9568</li>
+                        <li>
+                            St. Petersburg, Florida (US)
+                       </li>
+                    </ul>
+                    <!-- // LEFT COLUMN: Address, contact information -->
+
+
+                    <!-- LEFT COLUMN: Social Networking -->
+                    <ul class="no-bullets no-padding-left">
+                        <li><strong>GitHub:</strong> <a href="https://github.com/gadenbuie">gadenbuie</a></li>
+                        <li><strong>Twitter:</strong> <a href="https://twitter.com/grrrck">grrrck</a></li>
+                    </ul>
+                    <!-- // LEFT COLUMN: Social Networking -->
+
+
+
+                    <!-- LEFT COLUMN: Languages -->
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Languages</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            <strong>English</strong>
+                            (Native)
+                            <br />
+                            <strong>Spanish</strong>
+                            (Superior ACTFL/ETS)
+                            <br />
+                        </div>
+                    </div>
+                    <!-- // LEFT COLUMN: Languages -->
+
+
+                    <!-- LEFT COLUMN: Skills -->
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Skills</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            <i class="text-uppercase">Advanced</i>
+                            <br />
+
+                            <ul class="no-bullets sm-padding-left">
+                                <li>R</li>
+                                <li>Shiny</li>
+                                <li>Git</li>
+                                <li>RMarkdown</li>
+                                <li>R Package Development</li>
+                                <li>SQL (MySQL, SQLite, etc.)</li>
+                                <li>Bash</li>
+                                <li>MS Office (Excel, etc.)</li>
+                            </ul>
+                            <i class="text-uppercase">Intermediate</i>
+                            <br />
+
+                            <ul class="no-bullets sm-padding-left">
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PHP</li>
+                            </ul>
+                            <i class="text-uppercase">Familiar</i>
+                            <br />
+
+                            <ul class="no-bullets sm-padding-left">
+                                <li>JavaScript</li>
+                                <li>Julia</li>
+                                <li>Go</li>
+                            </ul>
+                            <i class="text-uppercase">Operating Systems</i>
+                            <br />
+
+                            <ul class="no-bullets sm-padding-left">
+                                <li>Linux (Debian, Ubuntu, Other)</li>
+                                <li>macOS</li>
+                                <li>Amazon AWS</li>
+                                <li>Docker</li>
+                                <li>Windows</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- // LEFT COLUMN: Skills -->
+
+                    <!-- LEFT COLUMN: Interests -->
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Interests</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            
+
+                            <ul class="no-bullets sm-padding-left">
+                                <li>Data Journalism</li>
+                                <li>Music</li>
+                                <li>Guitar</li>
+                                <li>Soccer</li>
+                                <li>Writing</li>
+                                <li>Reading</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- // LEFT COLUMN: Interests -->
+                </small>
+
+            </div>
+            <!-- // LEFT COLUMN -->
+            <!-- RIGHT COLUMN -->
+            <div class="col-xs-9 no-padding-right">
+                <!-- RIGHT COLUMN: Certifications -->
+                <!-- // RIGHT COLUMN: Certifications -->
+                <!-- RIGHT COLUMN: Education -->
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                             <h5>Education</h5>
+
+                        </div>
+                         <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2014 &mdash; 2018
+                            </span>
+
+                            University of South Florida
+                        </h6>
+
+                        <div class="clearfix"></div>
+                        <p class="education-details no-margin">Ph.D., Industrial and Management Systems Engineering , GPA: 3.95</p>
+                        <div
+                        class="clearfix"></div>
+                    <ul class="education-courses no-margin-bottom">
+                        <li>Deep Learning</li>
+                        <li>Statistical Design Models</li>
+                        <li>Large-Scale Optimization</li>
+                        <li>Advanced Analytics</li>
+                        <li>Bayesian Data Analysis</li>
+                    </ul>
+                     <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2012 &mdash; 2014
+                            </span>
+
+                            University of South Florida
+                        </h6>
+
+                    <div class="clearfix"></div>
+                    <p class="education-details no-margin">MSIE, Industrial and Management Systems Engineering , GPA: 4.00</p>
+                    <div
+                    class="clearfix"></div>
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2005 &mdash; 2006
+                            </span>
+
+                            Universidad Autónoma de Madrid and Syracuse University in Madrid
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">Study Abroad, Spanish</p>
+                <div class="clearfix"></div>
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2002 &mdash; 2007
+                            </span>
+
+                            Lehigh University
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">B.S. Applied Math, B.A. Spanish, Physics (minor) , GPA: 3.51</p>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- // RIGHT COLUMN: Education -->
+        <!-- RIGHT COLUMN: Experience -->
+        <div class="page-header no-margin-bottom lg-margin-top">
+             <h5>Professional Experience</h5>
+
+        </div>
+        <div class="print-together">
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Jan 2018<br />Sep 2014
+                            </span>
+
+                            Project Coordinator and Research Associate
+                            <br /><small style="font-size: 90%;">University of South Florida</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding"> <a href="http://usf.edu/engineering/create-health/">usf.edu/engineering/create-health/</a>
+                    <br
+                    />
+                </p>
+                <p class="sm-margin-top newspaper">Led diverse team of Ph.D., masters and undergradute students in development
+                    and evaluation of large smart home project for monitoring the daily activities
+                    of community-dwelling, independent older adults.</p>
+            </div>
+            <ul>
+                <li>Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students</li>
+                <li>Lead software developer for remote sensor data collection, processing,
+                    storage, administration, and visualization</li>
+                <li>Developed several R packages and Shiny dashboards and interactive front-ends
+                    for inventory management and data processing</li>
+                <li>Provisioned and adminsistered servers hosting MySQL and various microservices;
+                    remote data collection systems running on Raspberry Pis</li>
+                <li>Designed and implemented notification microservice for near-real-time
+                    evaluation and alerting for emergent conditions</li>
+            </ul>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Mar 2017<br />Jul 2016
+                            </span>
+
+                            R Package Developer: MCTestAnalysis
+                            <br /><small style="font-size: 90%;">University of South Florida</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/mctestanalysis/">gadenbuie.github.io/mctestanalysis/</a>
+                    <br
+                    />
+                </p>
+                <p class="sm-margin-top newspaper">Developed an R package for Multiple-Choice Test Analysis for educators
+                    who are not comfortable programming. The package includes a web interface
+                    for interactive exploration of test results, or a generated report based
+                    on best practices for the design and evaluation of multiple-choice tests.</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Sep 2014<br />Sep 2013
+                            </span>
+
+                            Research Assistant
+                            <br /><small style="font-size: 90%;">University of South Florida</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding"></p>
+                <p class="sm-margin-top newspaper">Various tasks and responsibilities in support of engineering education
+                    at USF.</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Sep 2013<br />Jun 2012
+                            </span>
+
+                            Research Assistant
+                            <br /><small style="font-size: 90%;">Patel College of Global Sustainability, USF</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding"> <a href="http://www.usf.edu/pcgs/">usf.edu/pcgs/</a>
+                    <br />
+                </p>
+                <p class="sm-margin-top newspaper"></p>
+            </div>
+            <ul>
+                <li>Research and design of an urban metabolism model for the USF Tampa Campus.</li>
+                <li>Supervised research of two undergraduate students (Spring 2013).</li>
+                <li>Assistant to the Director of the Office of Sustainability, USF. Coordinated,
+                    analyzed and prepared reports on campus sustainability-related initiatives.</li>
+                <li>Assist with research objectives of PCGS and in the preparation of reports,
+                    lectures and talks by PCGS staff and faculty.</li>
+            </ul>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Sep 2013<br />Sep 2009
+                            </span>
+
+                            Musician and Private Tutor
+                            <br /><small style="font-size: 90%;">Self-employed</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding">Chicago, IL and St. Petersburg, FL</p>
+                <p class="sm-margin-top newspaper"></p>
+            </div>
+            <ul>
+                <li>Booked, promoted and performed 5-10 shows per month while writing and
+                    recording original music</li>
+                <li>Performed on local radio stations, including Tampa&#x27;s WMNF</li>
+                <li>Worked one-on-one with 7 students in Math and Spanish, resulting in an
+                    average grade increase of 17%. Averate duration for tutoring sesssions
+                    were between 6 weeks to a full semester for each student.</li>
+            </ul>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Sep 2009<br />Jun 2008
+                            </span>
+
+                            Youth Development Specialist
+                            <br /><small style="font-size: 90%;">Peace Corps</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding">Gualaceo, Ecuador</p>
+                <p class="sm-margin-top newspaper"></p>
+            </div>
+            <ul>
+                <li>Created and implemented life-skills training program, educating 70 at-risk
+                    middle school students.</li>
+                <li>Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised
+                    $1,500 for a shelter for trafficked women in a contest-based fundraising
+                    initiative.</li>
+                <li>Individually tutored seven middle- and high-school students and two college
+                    math students in math topics such as Trigonometry, Fractions, Algebra and
+                    Calculus.</li>
+                <li>Designed interactive graphics and edited a six-month, biweekly column
+                    published in the leading provincial newspaper, appealing to both children
+                    and parents, highlight topics including hygiene, public health and children’s
+                    rights.</li>
+                <li>Organized and delivered an educational course for parents on drug and
+                    alcohol prevention in high-risk community.</li>
+            </ul>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                
+                                
+                                Jun 2008<br />Sep 2007
+                            </span>
+
+                            Sales Administrator
+                            <br /><small style="font-size: 90%;">Interplex Plastics</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="job-information no-margin no-padding"></p>
+                <p class="sm-margin-top newspaper">Restructured a previously fragmented position, consolidating roles and
+                    responsibilities to improve the processing of all sales orders.</p>
+            </div>
+            <ul>
+                <li>Successfully improved on-time delivery from 87%-98% for crucial client.</li>
+                <li>Responsible for order processing and control; monitored shipping and generated
+                    invoices.</li>
+                <li>Collaborated with various departments to coordinate machine scheduling,
+                    price quotations and revisions to meet customer and supplier needs while
+                    maintaining profit margins.</li>
+            </ul>
+        </div>
+        <!-- // RIGHT COLUMN: Experience -->
+        <!-- RIGHT COLUMN: Military -->
+        <!-- // RIGHT COLUMN: Miliary -->
+        <!-- RIGHT COLUMN: Awards -->
+        <!-- // RIGHT COLUMN: Awards -->
+        <!-- RIGHT COLUMN: Volunteer -->
+        <div class="page-header no-margin-bottom lg-margin-top">
+             <h5>Volunteer Experience</h5>
+
+        </div>
+        <div class="no-page-break">
+             <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2014 &mdash; 2015
+                            </span>
+
+                            INFORMS Student Chapter at USF
+                        </h6>
+
+            <div class="clearfix"></div>
+            <p class="education-details no-margin"> <span style="font-size: 1.1em">President</span>
+
+                <br />Served as President of the USF student chapter of INFORMS, the leading
+                international association for Operations Research and Analytics professionals.</p>
+            <div
+            class="clearfix"></div>
+        <ul class="no-margin-bottom">
+            <li>Started a student-led monthly journal club to share and disseminate cutting-edge
+                publications in statistics, machine learning, and operations research.</li>
+            <li>Initiated a travel grant supported by internal fundraising to partially
+                finance the attendance of chapter members at the INFORMS Annual Meeting.</li>
+            <li>Organized and led a college-wide code and data bootcamp for undergraduate
+                and graduate students, featuring hands-on learning of data science and
+                programming principles.</li>
+        </ul>
+        </div>
+        <div class="no-page-break">
+             <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2013 &mdash; 2014
+                            </span>
+
+                            INFORMS Student Chapter at USF
+                        </h6>
+
+            <div class="clearfix"></div>
+            <p class="education-details no-margin"> <span style="font-size: 1.1em">Newsletter Editor</span>
+
+                <br />Served as Newsletter Editor of the USF student chapter of INFORMS. Led
+                planning and coordination committee for annual Code &amp; Data Bootcamp</p>
+            <div
+            class="clearfix"></div>
+        <ul class="no-margin-bottom">
+            <li>Redesigned the chapter&#x27;s bi-annual newsletter in Adobe InDesign.</li>
+            <li>Led planning team for INFORMS@USF Code &amp; Data Bootcamp, built comprehensive
+                webpage, organized sessions and source code, and presented multiple sessions
+                on programming and data science with R.</li>
+        </ul>
+        </div>
+        <div class="no-page-break">
+             <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2008 &mdash; 2009
+                            </span>
+
+                            Peace Corps
+                        </h6>
+
+            <div class="clearfix"></div>
+            <p class="education-details no-margin"> <span style="font-size: 1.1em">Youth Development Specialist</span>
+
+                <br
+                />
+            </p>
+            <div class="clearfix"></div>
+            <ul class="no-margin-bottom">
+                <li>Created and implemented life-skills training program, educating 70 at-risk
+                    middle school students.</li>
+                <li>Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised
+                    $1,500 for a shelter for trafficked women in a contest-based fundraising
+                    initiative.</li>
+                <li>Individually tutored seven middle- and high-school students and two college
+                    math students in math topics such as Trigonometry, Fractions, Algebra and
+                    Calculus.</li>
+                <li>Designed interactive graphics and edited a six-month, biweekly column
+                    published in the leading provincial newspaper, appealing to both children
+                    and parents, highlight topics including hygiene, public health and children’s
+                    rights.</li>
+                <li>Organized and delivered an educational course for parents on drug and
+                    alcohol prevention in high-risk community.</li>
+            </ul>
+        </div>
+        <!-- // RIGHT COLUMN: Volunteer -->
+        <!-- RIGHT COLUMN: Publications -->
+        <div class="print-together">
+            <div class="page-header no-margin-bottom lg-margin-top">
+                 <h5>Publications</h5>
+
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date" style="min-width: 48px;">
+                                2015
+                            </span>
+
+                            Comparison of Final Examination Formats in a Numerical Methods Course
+                            <br /><small style="font-size: 90%;">International Journal of Engineering Education</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D.</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date" style="min-width: 48px;">
+                                2015
+                            </span>
+
+                            Rough Set Theory Based Prognostic Classification Models for Hospice Referral
+                            <br /><small style="font-size: 90%;">BMC Medical Informatics and Decision Making</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">E. Gil-Herrera and Garrick Aden-Buie, A. Yalcin, Ph.D., A. Tsalatsanis,
+                    Ph.D., L.E. Barnes, Ph.D., B. Djulbegovic, Ph.D.</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date" style="min-width: 48px;">
+                                2014
+                            </span>
+
+                            Introduction to Engineering Design: Piloting design projects for the first year engineering experience
+                            <br /><small style="font-size: 90%;">Sixth Annual First Year Engineering Experience Conference</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">J. Gaines, Ph.D., B. Joseph, Ph.D., Garrick Aden-Buie</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date" style="min-width: 48px;">
+                                2014
+                            </span>
+
+                            Are multiple-choice questions suitable for a final examination in a STEM course?
+                            <br /><small style="font-size: 90%;">American Society for Engineering Education</small>
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D., R. Pendyala, Ph.D.</p>
+            </div>
+        </div>
+        <!-- // RIGHT COLUMN: Publications -->
+        <!-- RIGHT COLUMN: Presentations -->
+        <div class="print-together">
+            <div class="page-header no-margin-bottom lg-margin-top">
+                 <h5>Presentations</h5>
+
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2018-01-23
+                            </span>
+
+                            A Gentle Guide to the Grammar of Graphics with ggplot2
+                            <br /><small style="font-size: 90%;">Tampa R Users Meetup</small>
+                        </h6>
+
+                <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/trug-ggplot2">gadenbuie.github.io/trug-ggplot2</a>
+                    <br
+                    />
+                </p>
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">An introduction to data visualization with the R package ggplot2</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2017-10-25
+                            </span>
+
+                            Occupant Activity Profiles from Smart Home Sensor Event Streams
+                            <br /><small style="font-size: 90%;">INFORMS Annual Meeting</small>
+                        </h6>
+
+                <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/informs-2017/">garrickadenbuie.com/talk/informs-2017/</a>
+                    <br
+                    />
+                </p>
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D.</p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2016-03-25
+                            </span>
+
+                            Getting StaRted in R
+                            <br /><small style="font-size: 90%;">INFORMS@USF Code &amp; Data Boot Camp</small>
+                        </h6>
+
+                <p class="job-information no-margin no-padding"> <a href="https://github.com/gadenbuie/usf-boot-camp-R">github.com/gadenbuie/usf-boot-camp-R</a>
+                    <br
+                    />
+                </p>
+                <div class="clearfix"></div>
+                <p class="education-details no-margin"></p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2014-04-11
+                            </span>
+
+                            Reporting Reproducible Research with R and Markdown
+                            <br /><small style="font-size: 90%;">INFORMS@USF Code &amp; Data Boot Camp</small>
+                        </h6>
+
+                <p class="job-information no-margin no-padding"> <a href="https://github.com/gadenbuie/usf-boot-camp-R">github.com/gadenbuie/usf-boot-camp-R</a>
+                    <br
+                    />
+                </p>
+                <div class="clearfix"></div>
+                <p class="education-details no-margin"></p>
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2013-10-07
+                            </span>
+
+                            Boosted Tree Ensembles for Predicting Postsurgical ICU Mortality
+                            <br /><small style="font-size: 90%;">INFORMS Annual Meeting</small>
+                        </h6>
+
+                <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/informs-2013/">garrickadenbuie.com/talk/informs-2013/</a>
+                    <br
+                    />
+                </p>
+                <div class="clearfix"></div>
+                <p class="education-details no-margin">Garrick Aden-Buie, Y. Chen, G. Romero, R. Kayal, H. Yang Ph.D.</p>
+            </div>
+        </div>
+        <!-- // RIGHT COLUMN: Presentations -->
+        <!-- RIGHT COLUMN: Projects -->
+        <div class="print-together">
+            <div class="page-header no-margin-bottom lg-margin-top">
+                 <h5>Projects</h5>
+
+            </div>
+            <div class="no-page-break">
+                 <h6 class="job-title sm-margin-top no-margin">
+
+                            Open Source Contributions
+                        </h6>
+
+                <div class="clearfix"></div>
+                <p class="education-details no-margin"></p>
+                <p class="sm-margin-top">I enjoy contributing to open source software projects and have made modest
+                    contributions to the following packages:<code>pandoc</code> (LaTeX), <code>knitr</code> (R), <code>xaringan</code> (R), <code>magick</code> (R), <code>tibbletime</code> (R).
+                    I also have released the following packages on GitHub:</p>
+                <ul class="no-margin-bottom">
+                    <li>ggpomological: <a href="https://github.com/gadenbuie/ggpomological">github.com/gadenbuie/ggpomological</a>
+                    </li>
+                    <li>MCTestAnalysis: <a href="https://github.com/gadenbuie/mctestanalysis">github.com/gadenbuie/MCTestAnalysis</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- // RIGHT COLUMN: Projects -->
+        </div>
+        <!-- // Right COLUMN -->
+        </div>
+        <!-- // Container -->
+    </body>
+
+</html>
