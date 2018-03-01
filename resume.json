@@ -90,9 +90,9 @@
       "company": "Peace Corps",
       "address": "Gualaceo, Ecuador",
       "position": "Youth Development Specialist",
-      "startDate": "2008-06-01",
-      "endDate": "2009-09-01",
-      "summary": "",
+      "startDate": "2008-06-16",
+      "endDate": "2009-08-20",
+      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
       "highlights": [
         "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
         "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.",
@@ -226,21 +226,6 @@
       "highlights": [
         "Redesigned the chapter's bi-annual newsletter in Adobe InDesign.",
         "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
-      ]
-    },
-    {
-      "flavor": "volunteer",
-      "organization": "Peace Corps",
-      "position": "Youth Development Specialist",
-      "startDate": "2008-06-01",
-      "endDate": "2009-09-01",
-      "summary": "",
-      "highlights": [
-        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
       ]
     }
   ],

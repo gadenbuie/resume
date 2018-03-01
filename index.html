@@ -249,7 +249,10 @@ th {
     }
     p,
     h2,
-    h3 {
+    h3,
+    h4,
+    h5,
+    h6 {
         orphans: 3;
         widows: 3;
     }
@@ -1612,7 +1615,7 @@ h5 {
 @media print {
     @page {
         size: letter portrait;
-        margin: 25mm 25mm 25mm 25mm;
+        margin: 25mm;
     }
     .container {
         max-width: 100%;
@@ -1624,8 +1627,12 @@ h5 {
     body,
     html,
     .container {
-        margin: 0px;
-        padding: 0px;
+        margin: 0mm;
+        padding-top: 0mm;
+        padding-bottom: 0mm;
+        padding-left: 2mm;
+        padding-right: 2mm;
+        font-size: 8pt;
     }
     h6 small {
         color: #555555;
@@ -1969,7 +1976,7 @@ h5 {
                             <span class="job-details">
                                 
                                 
-                                Sep 2009<br />Jun 2008
+                                Aug 2009<br />Jun 2008
                             </span>
 
                             Youth Development Specialist
@@ -1978,7 +1985,9 @@ h5 {
 
                 <div class="clearfix"></div>
                 <p class="job-information no-margin no-padding">Gualaceo, Ecuador</p>
-                <p class="sm-margin-top newspaper"></p>
+                <p class="sm-margin-top newspaper">Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction
+                    with local organizations to provide leadership training to children and
+                    youth among a number of other highlights listed below.</p>
             </div>
             <ul>
                 <li>Created and implemented life-skills training program, educating 70 at-risk
@@ -2080,39 +2089,6 @@ h5 {
                 webpage, organized sessions and source code, and presented multiple sessions
                 on programming and data science with R.</li>
         </ul>
-        </div>
-        <div class="no-page-break">
-             <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2008 &mdash; 2009
-                            </span>
-
-                            Peace Corps
-                        </h6>
-
-            <div class="clearfix"></div>
-            <p class="education-details no-margin"> <span style="font-size: 1.1em">Youth Development Specialist</span>
-
-                <br
-                />
-            </p>
-            <div class="clearfix"></div>
-            <ul class="no-margin-bottom">
-                <li>Created and implemented life-skills training program, educating 70 at-risk
-                    middle school students.</li>
-                <li>Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised
-                    $1,500 for a shelter for trafficked women in a contest-based fundraising
-                    initiative.</li>
-                <li>Individually tutored seven middle- and high-school students and two college
-                    math students in math topics such as Trigonometry, Fractions, Algebra and
-                    Calculus.</li>
-                <li>Designed interactive graphics and edited a six-month, biweekly column
-                    published in the leading provincial newspaper, appealing to both children
-                    and parents, highlight topics including hygiene, public health and children’s
-                    rights.</li>
-                <li>Organized and delivered an educational course for parents on drug and
-                    alcohol prevention in high-risk community.</li>
-            </ul>
         </div>
         <!-- // RIGHT COLUMN: Volunteer -->
         <!-- RIGHT COLUMN: Publications -->
@@ -2271,7 +2247,7 @@ h5 {
         <!-- // RIGHT COLUMN: Presentations -->
         <!-- RIGHT COLUMN: Projects -->
         <div class="print-together">
-            <div class="page-header no-margin-bottom lg-margin-top">
+            <div class="page-header no-margin-bottom lg-margin-top no-page-break-after">
                  <h5>Projects</h5>
 
             </div>
