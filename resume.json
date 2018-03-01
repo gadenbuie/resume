@@ -1,0 +1,342 @@
+{
+  "basics": {
+    "name": "Garrick Aden-Buie",
+    "label": "Data Scientist",
+    "website": "https://www.garrickadenbuie.com",
+    "phone": "(727) 344-9568",
+    "email": "g.adenbuie@gmail.com",
+    "location": {
+      "address": "474 34th Ave N.",
+      "postalCode": "FL 33704",
+      "city": "St. Petersburg",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "other": [],
+    "summary": "Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, communicating insights, and sharing knowledge. Known as a highly organized, perceptive, and resourceful team player.",
+    "picture": "",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "gadenbuie",
+        "url": "https://github.com/gadenbuie"
+      },
+      {
+        "network": "Twitter",
+        "username": "grrrck",
+        "url": "https://twitter.com/grrrck"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "University of South Florida",
+      "website": "http://usf.edu/engineering/create-health/",
+      "position": "Project Coordinator and Research Associate",
+      "startDate": "2014-09-01",
+      "endDate": "2018-01-01",
+      "summary": "Led diverse team of Ph.D., masters and undergradute students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.",
+      "highlights": [
+        "Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students",
+        "Lead software developer for remote sensor data collection, processing, storage, administration, and visualization",
+        "Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing",
+        "Provisioned and adminsistered servers hosting MySQL and various microservices; remote data collection systems running on Raspberry Pis",
+        "Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions"
+      ]
+    },
+    {
+      "company": "University of South Florida",
+      "position": "R Package Developer: MCTestAnalysis",
+      "website": "https://gadenbuie.github.io/mctestanalysis/",
+      "startDate": "2016-07-01",
+      "endDate": "2017-03-01",
+      "summary": "Developed an R package for Multiple-Choice Test Analysis for educators who are not comfortable programming. The package includes a web interface for interactive exploration of test results, or a generated report based on best practices for the design and evaluation of multiple-choice tests."
+    },
+    {
+      "company": "University of South Florida",
+      "position": "Research Assistant",
+      "startDate": "2013-09-01",
+      "endDate": "2014-09-01",
+      "summary": "Various tasks and responsibilities in support of engineering education at USF."
+    },
+    {
+      "company": "Patel College of Global Sustainability, USF",
+      "website": "http://www.usf.edu/pcgs/",
+      "position": "Research Assistant",
+      "startDate": "2012-06-01",
+      "endDate": "2013-09-01",
+      "summary": "",
+      "highlights": [
+        "Research and design of an urban metabolism model for the USF Tampa Campus.",
+        "Supervised research of two undergraduate students (Spring 2013).",
+        "Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.",
+        "Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty."
+      ]
+    },
+    {
+      "company": "Self-employed",
+      "position": "Musician and Private Tutor",
+      "address": "Chicago, IL and St. Petersburg, FL",
+      "startDate": "2009-09-01",
+      "endDate": "2013-09-01",
+      "summary": "",
+      "highlights": [
+        "Booked, promoted and performed 5-10 shows per month while writing and recording original music",
+        "Performed on local radio stations, including Tampa's WMNF",
+        "Worked one-on-one with 7 students in Math and Spanish, resulting in an average grade increase of 17%. Averate duration for tutoring sesssions were between 6 weeks to a full semester for each student."
+      ]
+    },
+    {
+      "company": "Peace Corps",
+      "address": "Gualaceo, Ecuador",
+      "position": "Youth Development Specialist",
+      "startDate": "2008-06-01",
+      "endDate": "2009-09-01",
+      "summary": "",
+      "highlights": [
+        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
+        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.",
+        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.",
+        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
+        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
+      ]
+    },
+    {
+      "company": "Interplex Plastics",
+      "position": "Sales Administrator",
+      "startDate": "2007-09-01",
+      "endDate": "2008-06-01",
+      "summary": "Restructured a previously fragmented position, consolidating roles and responsibilities to improve the processing of all sales orders.",
+      "highlights": [
+        "Successfully improved on-time delivery from 87%-98% for crucial client.",
+        "Responsible for order processing and control; monitored shipping and generated invoices.",
+        "Collaborated with various departments to coordinate machine scheduling, price quotations and revisions to meet customer and supplier needs while maintaining profit margins."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of South Florida",
+      "gpa": "3.95",
+      "courses": [
+        "Deep Learning",
+        "Statistical Design Models",
+        "Large-Scale Optimization",
+        "Advanced Analytics",
+        "Bayesian Data Analysis"
+      ],
+      "startDate": "2014-12-01",
+      "endDate": "2018-06-01",
+      "area": "Industrial and Management Systems Engineering",
+      "studyType": "Ph.D."
+    },
+    {
+      "institution": "University of South Florida",
+      "gpa": "4.00",
+      "startDate": "2012-09-01",
+      "endDate": "2014-12-01",
+      "area": "Industrial and Management Systems Engineering",
+      "studyType": "MSIE"
+    },
+    {
+      "institution": "Lehigh University",
+      "gpa": "3.51",
+      "startDate": "2002-09-01",
+      "endDate": "2007-05-01",
+      "area": "B.S. Applied Math, B.A. Spanish, Physics (minor)",
+      "honors": [
+        "Phi Beta Kappa",
+        "High Honors",
+        "Dean's List"
+      ]
+    },
+    {
+      "institution": "Universidad Autónoma de Madrid and Syracuse University in Madrid",
+      "startDate": "2005-09-01",
+      "endDate": "2006-08-01",
+      "area": "Spanish",
+      "studyType": "Study Abroad"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Advanced",
+      "level": "advanced",
+      "keywords": [
+        "R",
+        "Shiny",
+        "Git",
+        "RMarkdown",
+        "R Package Development",
+        "SQL (MySQL, SQLite, etc.)",
+        "Bash",
+        "MS Office (Excel, etc.)"
+      ]
+    },
+    {
+      "name": "Intermediate",
+      "level": "intermediate",
+      "keywords": [
+        "Python",
+        "HTML",
+        "CSS",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Familiar",
+      "level": "beginner",
+      "keywords": [
+        "JavaScript",
+        "Julia",
+        "Go"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "intermediate",
+      "keywords": [
+        "Linux (Debian, Ubuntu, Other)",
+        "macOS",
+        "Amazon AWS",
+        "Docker",
+        "Windows"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "INFORMS Student Chapter at USF",
+      "position": "President",
+      "startDate": "2014-05-01",
+      "endDate": "2015-05-01",
+      "summary": "Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.",
+      "highlights": [
+        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
+        "Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.",
+        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles."
+      ]
+    },
+    {
+      "organization": "INFORMS Student Chapter at USF",
+      "position": "Newsletter Editor",
+      "startDate": "2013-05-01",
+      "endDate": "2014-05-01",
+      "summary": "Served as Newsletter Editor of the USF student chapter of INFORMS. Led planning and coordination committee for annual Code & Data Bootcamp",
+      "highlights": [
+        "Redesigned the chapter's bi-annual newsletter in Adobe InDesign.",
+        "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
+      ]
+    },
+    {
+      "flavor": "volunteer",
+      "organization": "Peace Corps",
+      "position": "Youth Development Specialist",
+      "startDate": "2008-06-01",
+      "endDate": "2009-09-01",
+      "summary": "",
+      "highlights": [
+        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
+        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.",
+        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.",
+        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
+        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Comparison of Final Examination Formats in a Numerical Methods Course",
+      "publisher": "International Journal of Engineering Education",
+      "releaseDate": "2015",
+      "summary": "Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D."
+    },
+    {
+      "name": "Rough Set Theory Based Prognostic Classification Models for Hospice Referral",
+      "publisher": "BMC Medical Informatics and Decision Making",
+      "releaseDate": "2015",
+      "summary": "E. Gil-Herrera and Garrick Aden-Buie, A. Yalcin, Ph.D., A. Tsalatsanis, Ph.D., L.E. Barnes, Ph.D., B. Djulbegovic, Ph.D."
+    },
+    {
+      "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
+      "publisher": "Sixth Annual First Year Engineering Experience Conference",
+      "releaseDate": "2014", 
+      "summary": "J. Gaines, Ph.D., B. Joseph, Ph.D., Garrick Aden-Buie"
+    },
+    {
+      "name": "Are multiple-choice questions suitable for a final examination in a STEM course?",
+      "publisher": "American Society for Engineering Education",
+      "releaseDate": "2014", 
+      "summary": "Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D., R. Pendyala, Ph.D."
+    }
+  ],
+  "presentations": [
+    {
+      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
+      "date": "2018-01-23",
+      "event": "Tampa R Users Meetup", 
+      "website": "https://gadenbuie.github.io/trug-ggplot2",
+      "summary": "An introduction to data visualization with the R package ggplot2"
+    },
+    {
+      "name": "Occupant Activity Profiles from Smart Home Sensor Event Streams",
+      "date": "2017-10-25",
+      "event": "INFORMS Annual Meeting",
+      "website": "https://www.garrickadenbuie.com/talk/informs-2017/",
+      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D."
+    },
+    {
+      "name": "Getting StaRted in R",
+      "date": "2016-03-25",
+      "event": "INFORMS@USF Code & Data Boot Camp",
+      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
+    },
+    {
+      "name": "Reporting Reproducible Research with R and Markdown",
+      "date": "2014-04-11",
+      "event": "INFORMS@USF Code & Data Boot Camp",
+      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
+    },
+    {
+      "name": "Boosted Tree Ensembles for Predicting Postsurgical ICU Mortality",
+      "date": "2013-10-07",
+      "event": "INFORMS Annual Meeting",
+      "website": "https://www.garrickadenbuie.com/talk/informs-2013/",
+      "summary": "Garrick Aden-Buie, Y. Chen, G. Romero, R. Kayal, H. Yang Ph.D."
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [
+        "Data Journalism",
+        "Music",
+        "Guitar",
+        "Soccer",
+        "Writing",
+        "Reading"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Contributions",
+      "summary": "I enjoy contributing to open source software projects and have made modest contributions to the following packages:`pandoc` (LaTeX), `knitr` (R), `xaringan` (R), `magick` (R), `tibbletime` (R). I also have released the following packages on GitHub:",
+      "highlights": [
+        "ggpomological: [github.com/gadenbuie/ggpomological](https://github.com/gadenbuie/ggpomological)",
+        "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
+      ]
+    }
+  ],
+  "references": [],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    },
+    {
+      "language": "Spanish",
+      "level": "Superior ACTFL/ETS"
+    }
+  ]
+}
