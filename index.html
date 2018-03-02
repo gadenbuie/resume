@@ -1543,7 +1543,7 @@ body {
 
 .job-title {
     float: left;
-    font-size: 15px;
+    font-size: 1.25em;
     width: 100%;
 }
 
@@ -1559,14 +1559,14 @@ body {
 }
 
 .job-information {
-    font-size: 10px;
+    font-size: 0.85em;
     padding: 0 0 0 0px;
 }
 
 .education-details {
     font-style: italic;
     /* padding-left: 8px; */
-    font-size: 11px;
+    font-size: 0.92em;
 }
 
 .education-courses {
@@ -1601,6 +1601,7 @@ body {
 
 .basics-label {
   font-weight: 300;
+  white-space: nowrap;
 }
 
 h5 {
@@ -1609,9 +1610,17 @@ h5 {
 
 .page-header h5 {
     font-variant-caps: petite-caps;
-    font-size: 14px;
+    font-size: 1.16666em;
 }
-
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    body {
+        font-size: 0.95em;
+        margin: 5px;
+    }
+}
 @media print {
     @page {
         size: letter portrait;
@@ -1645,11 +1654,11 @@ h5 {
         <div class="container">
             <!-- Name, title -->
              <h3 class="basics-name sm-margin-bottom no-margin-top">
-                Garrick Aden-Buie
+                Garrick Aden-Buie 
                 <span class="basics-label">Data Scientist</span>
             </h3>
 
-            <p class="newspaper">Motivated, life-long learner. Always looking for questions and answers
+            <p class="newspaper no-margin-bottom">Motivated, life-long learner. Always looking for questions and answers
                 in the data. Passionate about collaboration, communicating insights, and
                 sharing knowledge. Known as a highly organized, perceptive, and resourceful
                 team player.</p>
