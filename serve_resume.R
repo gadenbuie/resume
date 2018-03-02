@@ -1,5 +1,17 @@
 #!/usr/bin/env Rscript
 
+"usage: serve_resume.R [--resume <resume> --host <host>]
+
+options:
+--resume <resume> resume.json file
+--host <host>     Host
+" -> doc
+library(docopt)
+library(glue)
+opts <- docopt(doc)
+host <- if (!is.null(opts$host)) opts$host else "127.0.0.1"
+resume <- if (!is.null(opts$resume)) opts$resume else "resume.json"
+
 missing_hackmyresume <- system("hackmyresume -h", ignore.stdout=TRUE, ignore.stderr=TRUE)
 if (missing_hackmyresume) {
   stop("hackmyresume is not installed.\nTry `[sudo] npm install -g hackmyresume`\nOr visit https://github.com/hacksalot/HackMyResume")
@@ -12,11 +24,11 @@ require(servr)
 
 has_index <- "index.html" %in% dir()
 if (!has_index)
-  system("hackmyresume build resume.json TO index.html -t ./theme/dave-alt/")
+  system(glue("hackmyresume build {resume} TO index.html -t ./theme/dave-alt/"))
 
 rebuild <- function(x) {
-  if (x == "resume.json")
-    system("hackmyresume build resume.json TO index.html -t ./theme/dave-alt/")
+  if (x == resume)
+    system(glue("hackmyresume build {resume} TO index.html -t ./theme/dave-alt/"))
 }
 
-httw(handler = rebuild, pattern = "resume.json")
+httw(handler = rebuild, pattern = resume, host = host)
