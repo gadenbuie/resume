@@ -37,7 +37,7 @@ basics:
   label: Data Scientist
   website: https://www.garrickadenbuie.com
   phone: "(727) 344-9568"
-  email: g.adenbuie@gmail.com
+  email: garrick@adenbuie.com
   location:
     address: 474 34th Ave N.
     postalCode: FL 33704
