@@ -1,0 +1,30 @@
+{
+  "name": "jsonresume-theme-dave-alt",
+  "version": "1.1.0",
+  "description": "A printable theme for JSON Resume",
+  "author": "Dave Tacker",
+  "contributors": [
+    {
+      "name": "Garrick Aden-Buie",
+      "email": "g.adenbuie@gmail.com",
+      "url": "https://garrickadenbuie.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gadenbuie/jsonresume-theme-dave-alt.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "css": "2.2.x",
+    "handlebars": "^2.0.0-alpha.4",
+    "moment": "^2.13.0",
+    "npm": "^5.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gadenbuie/jsonresume-theme-dave-alt/issues"
+  },
+  "homepage": "https://github.com/gadenbuie/jsonresume-theme-dave-alt",
+  "main": "index.js",
+  "devDependencies": {}
+}
