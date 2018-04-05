@@ -1,0 +1,515 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{resume.basics.name}}</title>
+        <style>
+            {{{css}}}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- Name, title -->
+            {{#resume.basics}}
+            <h3 class="basics-name sm-margin-bottom no-margin-top">
+                {{name}} 
+                {{#if label}}<span class="basics-label">{{label}}</span>{{/if}}
+            </h3>
+
+            {{#if summary}}
+            <p class="newspaper no-margin-bottom">{{{summary}}}</p>
+            {{/if}}
+            {{/resume.basics}}
+
+            <!-- LEFT COLUMN -->
+            <div class="col-xs-3 no-padding lg-margin-top">
+                <div class="page-header no-margin">
+                    <h5>About</h5>
+                </div>
+
+                <!-- LEFT COLUMN: Address, contact information -->
+                <small>
+                    {{#resume.basics}}
+                    <ul class="no-bullets no-padding-left no-margin-bottom">
+                        <li>
+                            {{#if website}}<a href="{{website}}">{{stripHttp website}}</a>{{/if}}
+                        </li>
+                        <li>
+                            {{#if email}}<a href="mailto:{{email}}">{{email}}</a>{{/if}}
+                        </li>
+                        <li>{{#if phone}}{{phone}}{{/if}}</li>
+                        <li>
+                            {{#location}}
+                            {{#if city}}{{city}}{{/if}}{{#if region}}, {{region}}{{/if}}{{#if countryCode}} ({{countryCode}}){{/if}}
+                            {{/location}}
+                       </li>
+                    </ul>
+                    <!-- // LEFT COLUMN: Address, contact information -->
+
+
+                    <!-- LEFT COLUMN: Social Networking -->
+                    {{#if profiles.length}}
+                    <ul class="no-bullets no-padding-left">
+                        {{#each profiles}}
+                        <li><strong>{{network}}:</strong> <a href="{{url}}">{{username}}</a></li>
+                        {{/each}}
+                    </ul>
+                    {{/if}}
+                    {{/resume.basics}}
+                    <!-- // LEFT COLUMN: Social Networking -->
+
+
+
+                    <!-- LEFT COLUMN: Languages -->
+                    {{#if resume.languages.length}}
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Languages</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            {{#each resume.languages}}
+                            <strong>{{#if language}}{{language}}{{/if}}</strong>
+                            {{#if level}}({{level}}){{/if}}
+                            <br />
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{/if}}
+                    <!-- // LEFT COLUMN: Languages -->
+
+
+                    <!-- LEFT COLUMN: Skills -->
+                    {{#if resume.skills.length}}
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Skills</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            {{#each resume.skills}}
+                            <i class="text-uppercase">{{#if name}}{{name}}{{/if}}</i>
+                            <br />
+
+                            {{#if keywords.length}}
+                            <ul class="no-bullets sm-padding-left">
+                                {{#each keywords}}
+                                <li>{{.}}</li>
+                                {{/each}}
+                            </ul>
+                            {{/if}}
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{/if}}
+                    <!-- // LEFT COLUMN: Skills -->
+
+                    <!-- LEFT COLUMN: Interests -->
+                    {{#if resume.interests.length}}
+                    <div class="page-header no-margin lg-margin-top">
+                        <h5>Interests</h5>
+                    </div>
+
+                    <div class="print-together">
+                        <div class="no-page-break">
+                            {{#each resume.interests}}
+                            {{#if name}}<i class="text-uppercase">{{name}}</i><br />{{/if}}
+
+                            {{#if keywords.length}}
+                            <ul class="no-bullets sm-padding-left">
+                                {{#each keywords}}
+                                <li>{{.}}</li>
+                                {{/each}}
+                            </ul>
+                            {{/if}}
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{/if}}
+                    <!-- // LEFT COLUMN: Interests -->
+                </small>
+            </div>
+            <!-- // LEFT COLUMN -->
+
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-xs-9 no-padding-right">
+                <!-- RIGHT COLUMN: Certifications -->
+                {{#if resume.certifications.length}}
+                <div class="page-header no-margin-top no-margin-bottom">
+                    <h5>CERTIFICATIONS</h5>
+                </div>
+
+                {{#each resume.certifications}}
+                <h6 class="job-title sm-margin-top no-margin-bottom">
+                    {{#if startDate}}
+                    <span class="education-date">
+                        {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                    </span>
+                    {{/if}}
+
+                    {{#if name}}{{name}}{{/if}}
+                </h6>
+
+                <div class="clearfix"></div>
+                {{/each}}
+                {{/if}}
+                <!-- // RIGHT COLUMN: Certifications -->
+
+
+                <!-- RIGHT COLUMN: Education -->
+                {{#if resume.education.length}}
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                            <h5>Education</h5>
+                        </div>
+
+                        {{#each resume.education}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if startDate}}
+                            <span class="education-date">
+                                {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if institution}}{{institution}}{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if studyType}}{{studyType}},{{/if}}
+                            {{#if area}}{{area}}{{/if}}
+                            {{#if gpa}}, GPA: {{gpa}}{{/if}}
+                        </p>
+
+                        <div class="clearfix"></div>
+
+                        {{#if courses.length}}
+                        <p class="no-margin">
+                            <strong>Courses: </strong>
+                            {{#each courses}}{{#if @last}}{{.}}{{else}}{{.}}, {{/if}}{{/each}}
+                        </p>
+                        {{/if}}
+
+                        {{/each}}
+                    </div>
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Education -->
+
+                <!-- RIGHT COLUMN: Experience -->
+                {{#if resume.work.length}}
+                <div class="page-header no-margin-bottom lg-margin-top">
+                    <h5>Professional Experience</h5>
+                </div>
+
+                <div class="print-together">
+                    {{#each resume.work}}
+                    <div class="no-page-break">
+                        <h6 class="job-title sm-margin-top no-margin-bottom">
+                            <span class="job-details">
+                                {{#if hours}}{{hours}} HRS per week<br />{{/if}}
+                                {{#if salary}}{{salary}}<br />{{/if}}
+                                {{#if startDate}}
+                                {{#if endDate}}{{endDate}}{{else}}Present{{/if}}<br />{{#if startDate}}{{startDate}}{{/if}}
+                                {{/if}}
+                            </span>
+
+                            {{#if position}}{{position}}{{/if}}
+                            {{#if company}}<br /><small style="font-size: 90%;">{{company}}</small>{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="job-information no-margin no-padding">
+                            {{#if website}}<a href="{{website}}">{{stripHttp website}}</a><br />{{/if}}
+                            {{#if address}}{{address}}{{/if}}
+                            {{#if supervisor}}- {{supervisor}}{{/if}}
+                            {{#if contact_phone}}- {{contact_phone}}{{/if}}
+                        </p>
+
+                        {{#if summary}}
+                        <p class="sm-margin-top newspaper">{{summary}}</p>
+                        {{/if}}
+                    </div>
+
+
+                    {{#if highlights.length}}
+                    <ul>
+                        {{#each highlights}}
+                        <li>{{.}}</li>
+                        {{/each}}
+                    </ul>
+                    {{/if}}
+                    {{/each}}
+
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Experience -->
+
+
+                <!-- RIGHT COLUMN: Military -->
+                {{#if resume.military.length}}
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                            <h5>Military Experience</h5>
+                        </div>
+
+                        {{#each resume.military}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if startDate}}
+                            <span class="education-date">
+                                {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if organization}}{{organization}}{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if position}}{{position}}{{/if}}
+                            {{#if summary}}{{#if position}}<br />{{/if}}{{summary}}{{/if}}
+                        </p>
+
+                        <div class="clearfix"></div>
+
+                        {{#if highlights.length}}
+                        <ul class="no-margin-bottom">
+                            {{#each highlights}}
+                            <li>{{.}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        {{/each}}
+
+                    </div>
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Miliary -->
+
+                <!-- RIGHT COLUMN: Awards  -->
+                {{#if resume.awards.length}}
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                            <h5>Awards</h5>
+                        </div>
+
+                        {{#each resume.awards}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if date}}
+                            <span class="education-date">
+                                {{#if date}}{{date}}{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if title}}{{title}}{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if awarder}}{{awarder}}{{/if}}
+                            <br />
+                            {{#if summary}}{{summary}}{{/if}}
+                        </p>
+
+                        <div class="clearfix"></div>
+
+                        {{#if highlights.length}}
+                        <ul class="no-margin-bottom">
+                            {{#each highlights}}
+                            <li>{{.}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        {{/each}}
+
+                    </div>
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Awards -->
+
+                <!-- RIGHT COLUMN: Volunteer -->
+                {{#if resume.volunteer.length}}
+                <div class="no-page-break">
+                    <div class="page-header no-margin-bottom lg-margin-top">
+                        <h5>Volunteer Experience</h5>
+                    </div>
+
+                    {{#each resume.volunteer}}
+                    <div class="no-page-break">
+                    <h6 class="job-title sm-margin-top no-margin">
+                        {{#if startDate}}
+                        <span class="education-date">
+                            {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                        </span>
+                        {{/if}}
+
+                        {{#if organization}}{{organization}}{{/if}}
+                    </h6>
+
+                    <div class="clearfix"></div>
+
+                    <p class="education-details no-margin">
+                        {{#if position}}<span style="font-size: 1.1em">{{position}}</span>{{/if}}
+                        {{#if summary}}{{#if position}}<br />{{/if}}{{summary}}{{/if}}
+                    </p>
+
+                    <div class="clearfix"></div>
+
+                    {{#if highlights.length}}
+                    <ul class="no-margin-bottom">
+                        {{#each highlights}}
+                        <li>{{.}}</li>
+                        {{/each}}
+                    </ul>
+                    {{/if}}
+
+                    </div>
+                    {{#if @first}}</div>{{/if}} <!-- close div keeping title and first entry together -->
+                    {{/each}}
+                {{/if}}
+                <!-- // RIGHT COLUMN: Volunteer -->
+
+
+                <!-- RIGHT COLUMN: Publications  -->
+                {{#if resume.publications.length}}
+                <div class="print-together">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                            <h5>Publications</h5>
+                        </div>
+
+                        {{#each resume.publications}}
+                        <div class="no-page-break">
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if releaseDate}}
+                            <span class="education-date" style="min-width: 48px;">
+                                {{#if releaseDate}}{{releaseDate}}{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if name}}{{name}}{{/if}}
+                            {{#if publisher}}<br /><small style="font-size: 90%;">{{publisher}}</small>{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if website}}<a href="{{website}}">{{stripHttp website}}</a><br />{{/if}}
+                            {{#if summary}}{{summary}}{{/if}}
+                        </p>
+
+                        </div>
+                        {{/each}}
+
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Publications -->
+
+
+                <!-- RIGHT COLUMN: Presentations  -->
+                {{#if resume.presentations.length}}
+                <div class="no-page-break">
+                    <div class="print-together">
+                        <div class="page-header no-margin-bottom lg-margin-top">
+                            <h5>Presentations</h5>
+                        </div>
+
+                        {{#each resume.presentations}}
+                        <div class="no-page-break">
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if date}}
+                            <span class="education-date">
+                                {{#if date}}{{date}}{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if name}}{{name}}{{/if}}
+                            {{#if event}}<br /><small style="font-size: 90%;">{{event}}</small>{{/if}}
+                        </h6>
+
+                        <p class="job-information no-margin no-padding">
+                            {{#if website}}<a href="{{website}}">{{stripHttp website}}</a><br />{{/if}}
+                            {{#if address}}{{address}}{{/if}}
+                        </p>
+
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if summary}}{{summary}}{{/if}}
+                        </p>
+
+                        </div>
+                        {{#if @first}}</div>{{/if}}
+                        {{/each}}
+
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Presentations -->
+
+                <!-- RIGHT COLUMN: Projects  -->
+                {{#if resume.projects.length}}
+                <div class="no-page-break">
+                    <div class="print-together">
+                        <div class="page-header no-margin-bottom lg-margin-top no-page-break-after">
+                            <h5>Projects</h5>
+                        </div>
+
+                        {{#each resume.projects}}
+                        <div class="no-page-break">
+                        {{#if name}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if date}}
+                            <span class="education-date">
+                                {{#if date}}{{date}}{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if name}}{{name}}{{/if}}
+                        </h6>
+                        {{/if}}
+                        
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if website}}<a href="{{website}}">{{stripHttp website}}</a>{{/if}}
+                        </p>
+
+                        {{#if summary}}
+                        <p class="sm-margin-top">
+                            {{{summary}}}
+                        </p>
+                       {{/if}} 
+
+                        {{#if highlights.length}}
+                        <ul class="no-margin-bottom">
+                            {{#each highlights}}
+                            <li>{{{.}}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        </div>
+                        {{#if @first}}</div>{{/if}}
+                        {{/each}}
+
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Projects -->
+
+            </div>
+            <!-- // Right COLUMN -->
+        </div> <!-- // Container -->
+    </body>
+</html>
