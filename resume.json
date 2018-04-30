@@ -233,6 +233,13 @@
       "website": "https://github.com/gadenbuie/usf-boot-camp-R"
     },
     {
+      "name": "Ambient Intelligence Applications in Healthcare",
+      "date": "2015-02-06",
+      "event": "ISERC at IIE Annual Conference & Expo",
+      "website": "https://www.garrickadenbuie.com/talk/iie-iserc-2015/",
+      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D., N. Agu, J. Hammett, E. Yetisener, C. Radwan"
+    },
+    {
       "name": "Reporting Reproducible Research with R and Markdown",
       "date": "2014-04-11",
       "event": "INFORMS@USF Code & Data Boot Camp",

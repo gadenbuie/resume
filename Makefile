@@ -2,6 +2,9 @@ all: resume cover
 
 resume: index.html
 
+txt: resume.json
+	hackmyresume build resume.json TO resume.txt
+
 index.html: resume.json
 	hackmyresume build resume.json TO index.html -t ./theme/dave-alt/
 
