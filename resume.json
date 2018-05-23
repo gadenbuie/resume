@@ -330,6 +330,7 @@
       "name": "Open Source Contributions",
       "summary": "I enjoy contributing to open source software projects and have made modest contributions to the following packages:`pandoc` (LaTeX), `knitr` (R), `xaringan` (R), `magick` (R), `tibbletime` (R), `blogdown` (R). I also have released the following packages on GitHub:",
       "highlights": [
+        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
         "regexplain: [github.com/gadenbuie/regexplain](https://github.com/gadenbuie/regexplain)",
         "ggpomological: [github.com/gadenbuie/ggpomological](https://github.com/gadenbuie/ggpomological)",
         "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
