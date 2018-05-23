@@ -11,7 +11,11 @@ Handlebars.registerHelper("stripHttp", function(website) {
 function GetSortOrder(prop, reverse = true){
    reverse = reverse ? -1 : 1;
    return function(a,b){
-      if( a[prop] > b[prop]){
+      if (a[prop] == "") {
+        return 1 * reverse;  
+      } else if (b[prop] == "") {
+          return -1 * reverse;
+      } else if( a[prop] > b[prop]){
           return 1 * reverse;
       }else if( a[prop] < b[prop] ){
           return -1 * reverse;
@@ -23,7 +27,7 @@ function GetSortOrder(prop, reverse = true){
 function getFormattedDate(date, date_format) {
     var DATE_FORMAT_INPUT = 'YYYY-MM-DD'; // resume.json standard date format
     date_format = date_format || config.date_format; // output format
-
+    if (date == "") return("")
     return moment(date, DATE_FORMAT_INPUT).format(date_format);
 }
 
