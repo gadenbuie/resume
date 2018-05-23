@@ -220,6 +220,13 @@
   ],
   "presentations": [
     {
+      "name": "Unsupervised behavior change detection using passive sensor systems in the homes of older adults",
+      "date": "2018-05-07",
+      "event": "11th World Conference of Gerontechnology",
+      "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
+      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D." 
+    },
+    {
       "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
       "date": "2018-01-23",
       "event": "Tampa R Users Meetup", 
