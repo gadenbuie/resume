@@ -92,9 +92,9 @@
         "Bayesian Data Analysis"
       ],
       "startDate": "2012-09-01",
-      "endDate": "2018-06-01",
-      "area": "Industrial and Management Systems Engineering",
-      "studyType": "Ph.D. (expected 2018), MSIE (2014)"
+      "endDate": "2018-12-01",
+      "area": "Industrial & Mgmt. Systems Engineering",
+      "studyType": "MSIE (2014), Ph.D. Candidate (exited ABD)"
     },
     {
       "institution": "Lehigh University",
@@ -125,7 +125,8 @@
         "Git",
         "RMarkdown",
         "R Package Development",
-        "SQL (MySQL, SQLite, etc.)",
+        "SQL (MySQL, SQLite, Postgres)",
+        "Database Management",
         "Bash",
         "MS Office (Excel, etc.)"
       ]
@@ -184,47 +185,84 @@
       "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
       "highlights": [
         "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
+        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created a collaborative, contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
+        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
+        "Designed interactive graphics and edited a six-month, biweekly column published in the leading local newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
+        "Organized and delivered an educational course for parents on drug and alcohol abuse prevention in high-risk community."
       ]
     }
   ],
   "awards": [],
   "publications": [
     {
+      "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2019-05-01",
+      "summary": "Creed J, Aden-Buie G, Monteiro A, Gerke TA"
+    },
+    {
+      "name": "Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening",
+      "publisher": "European Association of Urology Congress: Mar 15–19; Barcelona, Spain.",
+      "releaseDate": "2019",
+      "summary": "Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M"
+    },
+    {
+      "name": "Identifying genetic interactions that drive aggressive prostate cancer using an ensemble of penalized Cox regression models",
+      "publisher": "AACR Convergence: Artificial Intelligence, Big Data, and Prediction in Cancer: Oct 14-17; Newport, RI",
+      "releaseDate": "2018-10-14",
+      "summary": "Laajala TD, Aden-Buie G, Gerke T, Creed J, Berglund A, Stopsack K, Cramer SD, Tyekucheva S, Aittokallio T, Costello JC"
+    },
+    {
+      "name": "Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes",
+      "publisher": "TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC",
+      "releaseDate": "2018",
+      "summary": "Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R"
+    },
+    {
       "name": "Comparison of Final Examination Formats in a Numerical Methods Course",
       "publisher": "International Journal of Engineering Education",
       "releaseDate": "2015",
-      "summary": "Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D."
+      "summary": "Aden-Buie G, Kaw A, Yalcin A"
     },
     {
       "name": "Rough Set Theory Based Prognostic Classification Models for Hospice Referral",
       "publisher": "BMC Medical Informatics and Decision Making",
       "releaseDate": "2015",
-      "summary": "E. Gil-Herrera and Garrick Aden-Buie, A. Yalcin, Ph.D., A. Tsalatsanis, Ph.D., L.E. Barnes, Ph.D., B. Djulbegovic, Ph.D."
+      "summary": "Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B"
     },
     {
       "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
       "publisher": "Sixth Annual First Year Engineering Experience Conference",
       "releaseDate": "2014", 
-      "summary": "J. Gaines, Ph.D., B. Joseph, Ph.D., Garrick Aden-Buie"
+      "summary": "Gaines J, Joseph B, Aden-Buie G"
     },
     {
       "name": "Are multiple-choice questions suitable for a final examination in a STEM course?",
       "publisher": "American Society for Engineering Education",
       "releaseDate": "2014", 
-      "summary": "Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D., R. Pendyala, Ph.D."
+      "summary": "Aden-Buie G, Kaw A, Yalcin A, Pendyala R"
     }
   ],
   "presentations": [
+    {
+      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
+      "date": "2018-11-06",
+      "event": "Workshop on Data Analysis Using R (ASA at USF)",
+      "website": "https://www.garrickadenbuie.com/talk/gentle-ggplot2"
+    },
+    {
+      "name": "The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring",
+      "date": "2018-10-29",
+      "event": "Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center",
+      "website": "http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/",
+      "summary": "Aden-Buie G"
+    },
     {
       "name": "Unsupervised behavior change detection using passive sensor systems in the homes of older adults",
       "date": "2018-05-07",
       "event": "11th World Conference of Gerontechnology",
       "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
-      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D." 
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C" 
     },
     {
       "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
@@ -238,7 +276,7 @@
       "date": "2017-10-25",
       "event": "INFORMS Annual Meeting",
       "website": "https://www.garrickadenbuie.com/talk/informs-2017/",
-      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D."
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
     },
     {
       "name": "Getting StaRted in R",
@@ -251,7 +289,7 @@
       "date": "2015-02-06",
       "event": "ISERC at IIE Annual Conference & Expo",
       "website": "https://www.garrickadenbuie.com/talk/iie-iserc-2015/",
-      "summary": "Garrick Aden-Buie, A. Yalcin, Ph.D., C. VandeWeerd, Ph.D., N. Agu, J. Hammett, E. Yetisener, C. Radwan"
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C, Agu N, Hammett J, Yetisener E, Radwan C"
     },
     {
       "name": "Reporting Reproducible Research with R and Markdown",
@@ -264,18 +302,27 @@
       "date": "2013-10-07",
       "event": "INFORMS Annual Meeting",
       "website": "https://www.garrickadenbuie.com/talk/informs-2013/",
-      "summary": "Garrick Aden-Buie, Y. Chen, G. Romero, R. Kayal, H. Yang Ph.D."
+      "summary": "Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H"
     }
   ],
   "interests": [],
   "projects": [
     {
-      "name": "Open Source Contributions",
-      "summary": "I enjoy contributing to open source software projects and have made modest contributions to the following packages:`pandoc` (LaTeX), `knitr` (R), `xaringan` (R), `magick` (R), `tibbletime` (R), `blogdown` (R). I also have released the following packages on GitHub:",
+      "name": "Scientific Software",
+      "highlights": [
+        "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
+        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
+        "epiTAD — [gerkelab.com/project/epiTAD](https://gerkelab.com/project/epiTAD) <br>A web application for visualizing chromosome conformation capture data in the context of genetic epidemiology"
+      ]
+    },
+    {
+      "name": "Open Source Software",
+      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on GitHub:",
       "highlights": [
         "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
-        "regexplain: [github.com/gadenbuie/regexplain](https://github.com/gadenbuie/regexplain)",
-        "ggpomological: [github.com/gadenbuie/ggpomological](https://github.com/gadenbuie/ggpomological)",
+        "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
+        "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
+        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
         "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
       ]
     }
