@@ -16,10 +16,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "css": "2.2.x",
+    "css": "^2.2.4",
     "handlebars": "^2.0.0-alpha.4",
-    "moment": "^2.13.0",
-    "npm": "^5.8.0"
+    "moment": "^2.24.0",
+    "npm": "^5.10.0"
   },
   "bugs": {
     "url": "https://github.com/gadenbuie/jsonresume-theme-dave-alt/issues"
