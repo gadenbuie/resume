@@ -5,46 +5,45 @@ Web: https://www.garrickadenbuie.com
 ================================================================================
 
 
-Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, communicating insights, and sharing knowledge. Known as a highly organized, perceptive, and resourceful team player.
+Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, sharing knowledge, and communicating insights. Known as a highly organized, perceptive, and resourceful team player.
 
 
 SKILLS -------------------------------------------------------------------------
 
-- Advanced: R Shiny Git RMarkdown R Package Development SQL (MySQL, SQLite, etc.) Bash MS Office (Excel, etc.) 
-- Intermediate: Python HTML CSS PHP MQTT 
-- Familiar: JavaScript Julia Go 
-- Operating Systems: Linux (Debian, Ubuntu, Other) macOS Amazon AWS Docker Windows 
+- Advanced: R Shiny Git RMarkdown R Package Development Database Management SQL (MySQL, SQLite, Postgres) Commandline Scripting (Bash) HTML CSS MS Office (Excel, etc.) 
+- Intermediate: Python JavaScript PHP MQTT 
+- Familiar: Julia Go 
+- Operating Systems: Linux (Debian, Ubuntu, Other) macOS Amazon AWS Google Cloud Docker Windows 
 
 
 EMPLOYMENT ---------------------------------------------------------------------
+
+Research Data Analyst II (Bioinformatics), Moffitt Cancer Center,Gerke Lab, Cancer Epidemiology (2018-05 — Present)
+Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data lifecycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.
+- Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data
+- Created and led an in-depth course on data processing with R for data analysts in Moffitt's Collaborative Data Services Core
+- Awarded internal $50,000 grant as Co-PI with Dr. Gerke to develop DV3, a framework for data virtualization, visualization and versioning
 
 Project Coordinator and Research Associate, University of South Florida (2014-09 — 2018-01)
 Led diverse team of Ph.D., masters and undergradute students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.
 - Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students
 - Lead software developer for remote sensor data collection, processing, storage, administration, and visualization
 - Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing
-- Provisioned and adminsistered servers hosting MySQL and various microservices; remote data collection systems running on Raspberry Pis
+- Provisioned and adminsistered database and backend servers supporting remote data collection systems running on Raspberry Pis
 - Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions
 
 R Package Developer: MCTestAnalysis, University of South Florida (2016-07 — 2017-03)
 Developed an R package for Multiple-Choice Test Analysis for educators who are not comfortable programming. The package includes a web interface for interactive exploration of test results, or a generated report based on best practices for the design and evaluation of multiple-choice tests.
 
-Research Assistant, University of South Florida (2013-09 — 2014-09)
-Various tasks and responsibilities in support of engineering education at USF.
-
-Research Assistant, Patel College of Global Sustainability, USF (2012-06 — 2013-09)
-
-- Research and design of an urban metabolism model for the USF Tampa Campus.
-- Supervised research of two undergraduate students (Spring 2013).
-- Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.
-- Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty.
+Research Assistant, Patel College of Global Sustainability,Industrial Engineering and Management Sciences, University of South Florida (2012-06 — 2014-09)
+Assisted the Director of the Office of Sustainability. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives. Supported industrial engineering education and research at USF.
 
 
 
 
 EDUCATION ----------------------------------------------------------------------
 
-University of South Florida (2012-09 — 2018-06)
+University of South Florida (2012-09 — 2018-12)
 
 Lehigh University (2002-09 — 2007-05)
 
@@ -55,17 +54,17 @@ Universidad Autónoma de Madrid and Syracuse University in Madrid (2005-09 — 2
 
 WRITING ------------------------------------------------------------------------
 
-Comparison of Final Examination Formats in a Numerical Methods Course (International Journal of Engineering Education, 2015-01)
-Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D.
+epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology (Bioinformatics, 2019-05)
+Creed J, Aden-Buie G, Monteiro A, Gerke TA
+
+Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening (European Association of Urology Congress: Mar 15–19; Barcelona, Spain., 2019-01)
+Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M
+
+Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes (TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC, 2018-01)
+Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R
 
 Rough Set Theory Based Prognostic Classification Models for Hospice Referral (BMC Medical Informatics and Decision Making, 2015-01)
-E. Gil-Herrera and Garrick Aden-Buie, A. Yalcin, Ph.D., A. Tsalatsanis, Ph.D., L.E. Barnes, Ph.D., B. Djulbegovic, Ph.D.
-
-Introduction to Engineering Design: Piloting design projects for the first year engineering experience (Sixth Annual First Year Engineering Experience Conference, 2014-01)
-J. Gaines, Ph.D., B. Joseph, Ph.D., Garrick Aden-Buie
-
-Are multiple-choice questions suitable for a final examination in a STEM course? (American Society for Engineering Education, 2014-01)
-Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D., R. Pendyala, Ph.D.
+Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B
 
 
 
@@ -74,18 +73,13 @@ SERVICE ------------------------------------------------------------------------
 President, INFORMS Student Chapter at USF (2014-05 — 2015-05)
 Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.
 - Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.
-- Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.
-- Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles.
-- Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R.
+- Organized and led a university-wide INFORMS@USF Code & Data Bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles. Personally led multiple sessions on data science with R.
 
-Peace Corps (2008-06 — 2009-08)
-Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. 
-- Created and implemented life-skills training program, educating 70 at-risk middle school students.
-- Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.
-- Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.
-- Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.
-- Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community.
 
+RECOGNITION --------------------------------------------------------------------
+
+Runner Up, Shiny App Contest, RStudio (Jan 2019)
+Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using the R-Shiny framework. The dashboard monitors social media conversations around a conference or event, and received hundreds of visitors per day during RStudio's annual conference in January 2019.
 
 
 
