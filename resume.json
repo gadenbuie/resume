@@ -13,7 +13,7 @@
       "region": "Florida"
     },
     "other": [],
-    "summary": "Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, communicating insights, and sharing knowledge. Known as a highly organized, perceptive, and resourceful team player.",
+    "summary": "Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, sharing knowledge, and communicating insights. Known as a highly organized, perceptive, and resourceful team player.",
     "picture": "",
     "profiles": [
       {
@@ -30,11 +30,16 @@
   },
   "work": [
     {
-      "company": "Moffitt Cancer Center, Cancer Epidemiology",
+      "company": "Moffitt Cancer Center, Gerke Lab, Cancer Epidemiology",
       "position": "Research Data Analyst II (Bioinformatics)",
       "startDate": "2018-05-14",
       "endDate": "",
-      "summary": "Conduct advanced bioinformatic or statistical analyses; develop and utilize appropriate software methodologies for emerging genomic technologies; work with systems and solutions architects to coordinate development efforts throughout the data lifecycle; and benchmark new tools for high-dimensional data analysis as well as develop and apply novel analytic approaches to existing molecular epidemiology data."
+      "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data lifecycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
+      "highlights": [
+        "Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data",
+        "Created and led an in-depth course on data processing with R for data analysts in Moffitt's Collaborative Data Services Core",
+        "Awarded internal $50,000 grant as Co-PI with Dr. Gerke to develop DV3, a framework for data virtualization, visualization and versioning"
+      ]
     },
     {
       "company": "University of South Florida",
@@ -47,7 +52,7 @@
         "Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students",
         "Lead software developer for remote sensor data collection, processing, storage, administration, and visualization",
         "Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing",
-        "Provisioned and adminsistered servers hosting MySQL and various microservices; remote data collection systems running on Raspberry Pis",
+        "Provisioned and adminsistered database and backend servers supporting remote data collection systems running on Raspberry Pis",
         "Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions"
       ]
     },
@@ -125,9 +130,11 @@
         "Git",
         "RMarkdown",
         "R Package Development",
-        "SQL (MySQL, SQLite, Postgres)",
         "Database Management",
-        "Bash",
+        "SQL (MySQL, SQLite, Postgres)",
+        "Commandline Scripting (Bash)",
+        "HTML",
+        "CSS",
         "MS Office (Excel, etc.)"
       ]
     },
@@ -136,8 +143,7 @@
       "level": "intermediate",
       "keywords": [
         "Python",
-        "HTML",
-        "CSS",
+        "JavaScript",
         "PHP",
         "MQTT"
       ]
@@ -146,7 +152,6 @@
       "name": "Familiar",
       "level": "beginner",
       "keywords": [
-        "JavaScript",
         "Julia",
         "Go"
       ]
@@ -158,6 +163,7 @@
         "Linux (Debian, Ubuntu, Other)",
         "macOS",
         "Amazon AWS",
+        "Google Cloud",
         "Docker",
         "Windows"
       ]
@@ -192,7 +198,14 @@
       ]
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Runner Up, Shiny App Contest",
+      "date": "2019-04-01",
+      "awarder": "RStudio",
+      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using the R-Shiny framework. The dashboard monitors social media conversations around a conference or event, and received hundreds of visitors per day during RStudio's annual conference in January 2019."
+    }
+  ],
   "publications": [
     {
       "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
