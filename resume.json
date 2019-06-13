@@ -30,7 +30,7 @@
   },
   "work": [
     {
-      "company": "Moffitt Cancer Center, Gerke Lab, Cancer Epidemiology",
+      "company": ["Moffitt Cancer Center", "Gerke Lab, Cancer Epidemiology"],
       "position": "Research Data Analyst II (Bioinformatics)",
       "startDate": "2018-05-14",
       "endDate": "",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "company": "University of South Florida",
+      "company": ["University of South Florida"],
       "website": "http://usf.edu/engineering/create-health/",
       "position": "Project Coordinator and Research Associate",
       "startDate": "2014-09-01",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "company": "University of South Florida",
+      "company": ["University of South Florida"],
       "position": "R Package Developer: MCTestAnalysis",
       "website": "https://gadenbuie.github.io/mctestanalysis/",
       "startDate": "2016-07-01",
@@ -65,29 +65,18 @@
       "summary": "Developed an R package for Multiple-Choice Test Analysis for educators who are not comfortable programming. The package includes a web interface for interactive exploration of test results, or a generated report based on best practices for the design and evaluation of multiple-choice tests."
     },
     {
-      "company": "University of South Florida",
-      "position": "Research Assistant",
-      "startDate": "2013-09-01",
-      "endDate": "2014-09-01",
-      "summary": "Various tasks and responsibilities in support of engineering education at USF."
-    },
-    {
-      "company": "Patel College of Global Sustainability, USF",
-      "website": "http://www.usf.edu/pcgs/",
+      "company": [
+        "Patel College of Global Sustainability",
+        "Industrial Engineering and Management Sciences, University of South Florida"
+      ],
       "position": "Research Assistant",
       "startDate": "2012-06-01",
-      "endDate": "2013-09-01",
-      "summary": "",
-      "highlights": [
-        "Research and design of an urban metabolism model for the USF Tampa Campus.",
-        "Supervised research of two undergraduate students (Spring 2013).",
-        "Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.",
-        "Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty."
-      ]
+      "endDate": "2014-09-01",
+      "summary": "Assisted the Director of the Office of Sustainability. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives. Supported industrial engineering education and research at USF."
     }
   ],
   "education": [
-    { 
+    {
       "institution": "University of South Florida",
       "courses": [
         "Deep Learning",
@@ -118,6 +107,114 @@
       "endDate": "2006-08-01",
       "area": "Spanish",
       "studyType": "Study Abroad"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "President, INFORMS Student Chapter at USF",
+      "startDate": "2014-05-01",
+      "endDate": "2015-05-01",
+      "summary": "Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.",
+      "highlights": [
+        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
+        "Organized and led a university-wide INFORMS@USF Code & Data Bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles. Personally led multiple sessions on data science with R."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Runner Up, Shiny App Contest",
+      "date": "2019-04-01",
+      "awarder": "RStudio",
+      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using the R-Shiny framework. The dashboard monitors social media conversations around a conference or event, and received hundreds of visitors per day during RStudio's annual conference in January 2019."
+    }
+  ],
+  "publications": [
+    {
+      "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2019-05-01",
+      "summary": "Creed J, Aden-Buie G, Monteiro A, Gerke TA"
+    },
+    {
+      "name": "Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening",
+      "publisher": "European Association of Urology Congress: Mar 15–19; Barcelona, Spain.",
+      "releaseDate": "2019",
+      "summary": "Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M"
+    },
+    {
+      "name": "Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes",
+      "publisher": "TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC",
+      "releaseDate": "2018",
+      "summary": "Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R"
+    },
+    {
+      "name": "Rough Set Theory Based Prognostic Classification Models for Hospice Referral",
+      "publisher": "BMC Medical Informatics and Decision Making",
+      "releaseDate": "2015",
+      "summary": "Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B"
+    }
+  ],
+  "presentations": [
+    {
+      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
+      "date": "2018-11-06",
+      "event": "Workshop on Data Analysis Using R (ASA at USF)",
+      "website": "https://www.garrickadenbuie.com/talk/gentle-ggplot2"
+    },
+    {
+      "name": "The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring",
+      "date": "2018-10-29",
+      "event": "Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center",
+      "website": "http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/",
+      "summary": "Aden-Buie G"
+    },
+    {
+      "name": "Unsupervised behavior change detection using passive sensor systems in the homes of older adults",
+      "date": "2018-05-07",
+      "event": "11th World Conference of Gerontechnology",
+      "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
+    },
+    {
+      "name": "Occupant Activity Profiles from Smart Home Sensor Event Streams",
+      "date": "2017-10-25",
+      "event": "INFORMS Annual Meeting",
+      "website": "https://www.garrickadenbuie.com/talk/informs-2017/",
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
+    }
+  ],
+  "interests": [],
+  "projects": [
+    {
+      "name": "Scientific Software",
+      "highlights": [
+        "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
+        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
+        "epiTAD — [gerkelab.com/project/epiTAD](https://gerkelab.com/project/epiTAD) <br>A web application for visualizing chromosome conformation capture data in the context of genetic epidemiology"
+      ]
+    },
+    {
+      "name": "Open Source Software",
+      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on GitHub:",
+      "highlights": [
+        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
+        "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
+        "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
+        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
+        "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
+      ]
+    }
+  ],
+  "references": [],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    },
+    {
+      "language": "Spanish",
+      "level": "Superior ACTFL/ETS"
     }
   ],
   "skills": [
@@ -167,188 +264,6 @@
         "Docker",
         "Windows"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "President, INFORMS Student Chapter at USF",
-      "startDate": "2014-05-01",
-      "endDate": "2015-05-01",
-      "summary": "Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.",
-      "highlights": [
-        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
-        "Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.",
-        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles.",
-        "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
-      ]
-    },
-    {
-      "organization": "Peace Corps",
-      "address": "Gualaceo, Ecuador",
-      "position": "Youth Development Specialist",
-      "startDate": "2008-06-16",
-      "endDate": "2009-08-20",
-      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
-      "highlights": [
-        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created a collaborative, contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading local newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol abuse prevention in high-risk community."
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Runner Up, Shiny App Contest",
-      "date": "2019-04-01",
-      "awarder": "RStudio",
-      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using the R-Shiny framework. The dashboard monitors social media conversations around a conference or event, and received hundreds of visitors per day during RStudio's annual conference in January 2019."
-    }
-  ],
-  "publications": [
-    {
-      "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
-      "publisher": "Bioinformatics",
-      "releaseDate": "2019-05-01",
-      "summary": "Creed J, Aden-Buie G, Monteiro A, Gerke TA"
-    },
-    {
-      "name": "Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening",
-      "publisher": "European Association of Urology Congress: Mar 15–19; Barcelona, Spain.",
-      "releaseDate": "2019",
-      "summary": "Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M"
-    },
-    {
-      "name": "Identifying genetic interactions that drive aggressive prostate cancer using an ensemble of penalized Cox regression models",
-      "publisher": "AACR Convergence: Artificial Intelligence, Big Data, and Prediction in Cancer: Oct 14-17; Newport, RI",
-      "releaseDate": "2018-10-14",
-      "summary": "Laajala TD, Aden-Buie G, Gerke T, Creed J, Berglund A, Stopsack K, Cramer SD, Tyekucheva S, Aittokallio T, Costello JC"
-    },
-    {
-      "name": "Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes",
-      "publisher": "TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC",
-      "releaseDate": "2018",
-      "summary": "Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R"
-    },
-    {
-      "name": "Comparison of Final Examination Formats in a Numerical Methods Course",
-      "publisher": "International Journal of Engineering Education",
-      "releaseDate": "2015",
-      "summary": "Aden-Buie G, Kaw A, Yalcin A"
-    },
-    {
-      "name": "Rough Set Theory Based Prognostic Classification Models for Hospice Referral",
-      "publisher": "BMC Medical Informatics and Decision Making",
-      "releaseDate": "2015",
-      "summary": "Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B"
-    },
-    {
-      "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
-      "publisher": "Sixth Annual First Year Engineering Experience Conference",
-      "releaseDate": "2014", 
-      "summary": "Gaines J, Joseph B, Aden-Buie G"
-    },
-    {
-      "name": "Are multiple-choice questions suitable for a final examination in a STEM course?",
-      "publisher": "American Society for Engineering Education",
-      "releaseDate": "2014", 
-      "summary": "Aden-Buie G, Kaw A, Yalcin A, Pendyala R"
-    }
-  ],
-  "presentations": [
-    {
-      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
-      "date": "2018-11-06",
-      "event": "Workshop on Data Analysis Using R (ASA at USF)",
-      "website": "https://www.garrickadenbuie.com/talk/gentle-ggplot2"
-    },
-    {
-      "name": "The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring",
-      "date": "2018-10-29",
-      "event": "Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center",
-      "website": "http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/",
-      "summary": "Aden-Buie G"
-    },
-    {
-      "name": "Unsupervised behavior change detection using passive sensor systems in the homes of older adults",
-      "date": "2018-05-07",
-      "event": "11th World Conference of Gerontechnology",
-      "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C" 
-    },
-    {
-      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
-      "date": "2018-01-23",
-      "event": "Tampa R Users Meetup", 
-      "website": "https://gadenbuie.github.io/trug-ggplot2",
-      "summary": "An introduction to data visualization with the R package ggplot2"
-    },
-    {
-      "name": "Occupant Activity Profiles from Smart Home Sensor Event Streams",
-      "date": "2017-10-25",
-      "event": "INFORMS Annual Meeting",
-      "website": "https://www.garrickadenbuie.com/talk/informs-2017/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
-    },
-    {
-      "name": "Getting StaRted in R",
-      "date": "2016-03-25",
-      "event": "INFORMS@USF Code & Data Boot Camp",
-      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
-    },
-    {
-      "name": "Ambient Intelligence Applications in Healthcare",
-      "date": "2015-02-06",
-      "event": "ISERC at IIE Annual Conference & Expo",
-      "website": "https://www.garrickadenbuie.com/talk/iie-iserc-2015/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C, Agu N, Hammett J, Yetisener E, Radwan C"
-    },
-    {
-      "name": "Reporting Reproducible Research with R and Markdown",
-      "date": "2014-04-11",
-      "event": "INFORMS@USF Code & Data Boot Camp",
-      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
-    },
-    {
-      "name": "Boosted Tree Ensembles for Predicting Postsurgical ICU Mortality",
-      "date": "2013-10-07",
-      "event": "INFORMS Annual Meeting",
-      "website": "https://www.garrickadenbuie.com/talk/informs-2013/",
-      "summary": "Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H"
-    }
-  ],
-  "interests": [],
-  "projects": [
-    {
-      "name": "Scientific Software",
-      "highlights": [
-        "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
-        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
-        "epiTAD — [gerkelab.com/project/epiTAD](https://gerkelab.com/project/epiTAD) <br>A web application for visualizing chromosome conformation capture data in the context of genetic epidemiology"
-      ]
-    },
-    {
-      "name": "Open Source Software",
-      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on GitHub:",
-      "highlights": [
-        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
-        "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
-        "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
-        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
-        "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
-      ]
-    }
-  ],
-  "references": [],
-  "languages": [
-    {
-      "language": "English",
-      "level": "Native"
-    },
-    {
-      "language": "Spanish",
-      "level": "Superior ACTFL/ETS"
     }
   ]
 }

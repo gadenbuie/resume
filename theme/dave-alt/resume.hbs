@@ -220,7 +220,11 @@
                             </span>
 
                             {{#if position}}{{position}}{{/if}}
-                            {{#if company}}<br /><small style="font-size: 90%;">{{company}}</small>{{/if}}
+                            {{#if company}}<br /><small style="font-size: 90%;">{{/if}}
+                            {{#each company}}
+                              {{this}}{{#unless @last}}<br />{{/unless}}
+                            {{/each}}
+                            {{#if company}}</small>{{/if}}
                         </h6>
 
                         <div class="clearfix"></div>
@@ -393,7 +397,7 @@
                 {{#if resume.publications.length}}
                 <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top">
-                            <h5>Publications</h5>
+                            <h5>Selected Publications</h5>
                         </div>
 
                         {{#each resume.publications}}
@@ -428,7 +432,7 @@
                 <div class="no-page-break">
                     <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top">
-                            <h5>Presentations</h5>
+                            <h5>Selected Presentations</h5>
                         </div>
 
                         {{#each resume.presentations}}
