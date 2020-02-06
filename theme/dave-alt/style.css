@@ -625,12 +625,16 @@ ul,
 ol {
     margin-top: 0;
     margin-bottom: 10px;
+    padding-left: 23px;
 }
 ul ul,
 ol ul,
 ul ol,
 ol ol {
     margin-bottom: 0;
+}
+.column-right ul li {
+    list-style-type: square;
 }
 .list-unstyled {
     padding-left: 0;
