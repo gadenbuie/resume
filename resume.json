@@ -52,7 +52,7 @@
       "position": "Research Data Analyst II (Bioinformatics)",
       "startDate": "2018-05-14",
       "endDate": "2019-08-12",
-      "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data lifecycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
+      "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data life cycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
       "highlights": [
         "Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data",
         "Created and led an in-depth course on data processing with R for data analysts in Moffitt's Collaborative Data Services Core",
@@ -65,12 +65,12 @@
       "position": "Project Coordinator and Research Associate",
       "startDate": "2014-09-01",
       "endDate": "2018-01-01",
-      "summary": "Led diverse team of Ph.D., masters and undergradute students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.",
+      "summary": "Led diverse team of Ph.D., masters and undergraduate students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.",
       "highlights": [
         "Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students",
         "Lead software developer for remote sensor data collection, processing, storage, administration, and visualization",
         "Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing",
-        "Provisioned and adminsistered database and backend servers supporting remote data collection systems running on Raspberry Pis",
+        "Provisioned and administered database and backend servers supporting remote data collection systems running on Raspberry Pis",
         "Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions"
       ]
     },
@@ -168,7 +168,7 @@
         "R Package Development",
         "Database Management",
         "SQL (MySQL, SQLite, Postgres)",
-        "Commandline Scripting (Bash)",
+        "Command-line Scripting (Bash)",
         "MS Office (Excel, etc.)"
       ]
     },
