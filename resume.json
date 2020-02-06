@@ -102,46 +102,6 @@
         "Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.",
         "Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty."
       ]
-    },
-    {
-      "company": "Self-employed",
-      "position": "Musician and Private Tutor",
-      "address": "Chicago, IL and St. Petersburg, FL",
-      "startDate": "2009-09-01",
-      "endDate": "2013-09-01",
-      "summary": "",
-      "highlights": [
-        "Booked, promoted and performed 5-10 shows per month while writing and recording original music",
-        "Performed on local radio stations, including Tampa's WMNF",
-        "Worked one-on-one with 7 students in Math and Spanish, resulting in an average grade increase of 17%. Averate duration for tutoring sesssions were between 6 weeks to a full semester for each student."
-      ]
-    },
-    {
-      "company": "Peace Corps",
-      "address": "Gualaceo, Ecuador",
-      "position": "Youth Development Specialist",
-      "startDate": "2008-06-16",
-      "endDate": "2009-08-20",
-      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
-      "highlights": [
-        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
-      ]
-    },
-    {
-      "company": "Interplex Plastics",
-      "position": "Sales Administrator",
-      "startDate": "2007-09-01",
-      "endDate": "2008-06-01",
-      "summary": "Restructured a previously fragmented position, consolidating roles and responsibilities to improve the processing of all sales orders.",
-      "highlights": [
-        "Successfully improved on-time delivery from 87%-98% for crucial client.",
-        "Responsible for order processing and control; monitored shipping and generated invoices.",
-        "Collaborated with various departments to coordinate machine scheduling, price quotations and revisions to meet customer and supplier needs while maintaining profit margins."
-      ]
     }
   ],
   "certifications": [
@@ -153,7 +113,7 @@
     }
   ],
   "education": [
-    { 
+    {
       "institution": "University of South Florida",
       "courses": [
         "Deep Learning",
@@ -169,7 +129,6 @@
     },
     {
       "institution": "University of South Florida",
-      "gpa": "4.00",
       "startDate": "2012-09-01",
       "endDate": "2018-12-01",
       "area": "Industrial & Mgmt. Systems Engineering",
@@ -410,8 +369,7 @@
       "summary": "Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H"
     }
   ],
-  "interests": [],
-  "projects": [
+  "interests": [
     {
       "keywords": [
         "Data Visualization",
@@ -421,7 +379,9 @@
         "Books",
         "Blogging"
       ]
-    },
+    }
+  ],
+  "projects": [
     {
       "name": "Scientific Software",
       "highlights": [

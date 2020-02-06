@@ -5,25 +5,39 @@ Web: https://www.garrickadenbuie.com
 ================================================================================
 
 
-Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, communicating insights, and sharing knowledge. Known as a highly organized, perceptive, and resourceful team player.
+Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, sharing knowledge, and communicating insights. Known as a highly organized, perceptive, and resourceful team player.
 
 
 SKILLS -------------------------------------------------------------------------
 
-- Advanced: R Shiny Git RMarkdown R Package Development SQL (MySQL, SQLite, etc.) Bash MS Office (Excel, etc.) 
-- Intermediate: Python HTML CSS PHP MQTT 
-- Familiar: JavaScript Julia Go 
-- Operating Systems: Linux (Debian, Ubuntu, Other) macOS Amazon AWS Docker Windows 
+- Advanced: R Shiny RMarkdown JavaScript HTML CSS Git R Package Development Database Management SQL (MySQL, SQLite, Postgres) Commandline Scripting (Bash) MS Office (Excel, etc.) 
+- Intermediate: Python PHP MQTT 
+- Familiar: Julia Go 
+- Operating Systems: Linux (Debian, Ubuntu, Other) macOS Amazon AWS Google Cloud Docker Windows 
 
 
 EMPLOYMENT ---------------------------------------------------------------------
+
+Scientific Programmer, Collaborative Data Services, Moffitt Cancer Center (2019-08 — Present)
+Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement new tools to automate data ingestion, cleaning, normalization and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.
+- Designed and led trainings in R programming, data analysis, and version control for multiple teams at Moffitt
+- Developed several R packages to streamline project management, reporting, and access to various databases
+
+Workshop: JavaScript for Shiny Users, rstudio::conf(2020) (2020-01)
+Led two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS.
+
+Research Data Analyst II (Bioinformatics), Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center (2018-05 — 2019-08)
+Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data lifecycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.
+- Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data
+- Created and led an in-depth course on data processing with R for data analysts in Moffitt's Collaborative Data Services Core
+- Awarded internal $50,000 grant as Co-PI with Dr. Gerke to develop DV3, a framework for data virtualization, visualization and versioning
 
 Project Coordinator and Research Associate, University of South Florida (2014-09 — 2018-01)
 Led diverse team of Ph.D., masters and undergradute students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.
 - Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students
 - Lead software developer for remote sensor data collection, processing, storage, administration, and visualization
 - Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing
-- Provisioned and adminsistered servers hosting MySQL and various microservices; remote data collection systems running on Raspberry Pis
+- Provisioned and adminsistered database and backend servers supporting remote data collection systems running on Raspberry Pis
 - Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions
 
 R Package Developer: MCTestAnalysis, University of South Florida (2016-07 — 2017-03)
@@ -39,34 +53,14 @@ Research Assistant, Patel College of Global Sustainability, USF (2012-06 — 201
 - Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.
 - Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty.
 
-Musician and Private Tutor, Self-employed (2009-09 — 2013-09)
-
-- Booked, promoted and performed 5-10 shows per month while writing and recording original music
-- Performed on local radio stations, including Tampa's WMNF
-- Worked one-on-one with 7 students in Math and Spanish, resulting in an average grade increase of 17%. Averate duration for tutoring sesssions were between 6 weeks to a full semester for each student.
-
-Youth Development Specialist, Peace Corps (2008-06 — 2009-08)
-Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. 
-- Created and implemented life-skills training program, educating 70 at-risk middle school students.
-- Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and raised $1,500 for a shelter for trafficked women in a contest-based fundraising initiative.
-- Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Fractions, Algebra and Calculus.
-- Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.
-- Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community.
-
-Sales Administrator, Interplex Plastics (2007-09 — 2008-06)
-Restructured a previously fragmented position, consolidating roles and responsibilities to improve the processing of all sales orders.
-- Successfully improved on-time delivery from 87%-98% for crucial client.
-- Responsible for order processing and control; monitored shipping and generated invoices.
-- Collaborated with various departments to coordinate machine scheduling, price quotations and revisions to meet customer and supplier needs while maintaining profit margins.
-
 
 
 
 EDUCATION ----------------------------------------------------------------------
 
-University of South Florida (2014-12 — 2018-06)
+University of South Florida (2014-12 — 2018-12)
 
-University of South Florida (2012-09 — 2014-12)
+University of South Florida (2012-09 — 2018-12)
 
 Lehigh University (2002-09 — 2007-05)
 
@@ -77,39 +71,66 @@ Universidad Autónoma de Madrid and Syracuse University in Madrid (2005-09 — 2
 
 WRITING ------------------------------------------------------------------------
 
+shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs) (Epidemiology (In Review), 2020-01)
+Creed J, Aden-Buie G, Gerke TA
+
+epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology (Bioinformatics, 2019-05)
+Creed J, Aden-Buie G, Monteiro A, Gerke TA
+
+Effects of tobacco smoking on the tumor immune microenvironment in head and neck squamous cell carcinoma (Clinical Cancer Research, 2019-01)
+Janis, V, Slebos, RJ, Martin-Gomez, L, Wang, X, Teer, JK, Tan, AC, Gerke, TA, Aden-Buie, G, Van Veen, T, Masannat, J and Chaudhary, R
+
+Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening (European Association of Urology Congress: Mar 15–19; Barcelona, Spain., 2019-01)
+Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M
+
+Identifying genetic interactions that drive aggressive prostate cancer using an ensemble of penalized Cox regression models (AACR Convergence: Artificial Intelligence, Big Data, and Prediction in Cancer: Oct 14-17; Newport, RI, 2018-10)
+Laajala TD, Aden-Buie G, Gerke T, Creed J, Berglund A, Stopsack K, Cramer SD, Tyekucheva S, Aittokallio T, Costello JC
+
+Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes (TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC, 2018-01)
+Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R
+
 Comparison of Final Examination Formats in a Numerical Methods Course (International Journal of Engineering Education, 2015-01)
-Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D.
+Aden-Buie G, Kaw A, Yalcin A
 
 Rough Set Theory Based Prognostic Classification Models for Hospice Referral (BMC Medical Informatics and Decision Making, 2015-01)
-E. Gil-Herrera and Garrick Aden-Buie, A. Yalcin, Ph.D., A. Tsalatsanis, Ph.D., L.E. Barnes, Ph.D., B. Djulbegovic, Ph.D.
+Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B
 
 Introduction to Engineering Design: Piloting design projects for the first year engineering experience (Sixth Annual First Year Engineering Experience Conference, 2014-01)
-J. Gaines, Ph.D., B. Joseph, Ph.D., Garrick Aden-Buie
+Gaines J, Joseph B, Aden-Buie G
 
 Are multiple-choice questions suitable for a final examination in a STEM course? (American Society for Engineering Education, 2014-01)
-Garrick Aden-Buie, A. Kaw, Ph.D., A. Yalcin, Ph.D., R. Pendyala, Ph.D.
+Aden-Buie G, Kaw A, Yalcin A, Pendyala R
 
 
 
 SERVICE ------------------------------------------------------------------------
 
-INFORMS Student Chapter at USF (2014-05 — 2015-05)
+President, INFORMS Student Chapter at USF (2014-05 — 2015-05)
 Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.
 - Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.
 - Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.
 - Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles.
-
-INFORMS Student Chapter at USF (2013-05 — 2014-05)
-Served as Newsletter Editor of the USF student chapter of INFORMS. Led planning and coordination committee for annual Code & Data Bootcamp
-- Redesigned the chapter's bi-annual newsletter in Adobe InDesign.
 - Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R.
 
+Peace Corps (2008-06 — 2009-08)
+Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. 
+- Created and implemented life-skills training program, educating 70 at-risk middle school students.
+- Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created a collaborative, contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.
+- Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.
+- Designed interactive graphics and edited a six-month, biweekly column published in the leading local newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.
+- Organized and delivered an educational course for parents on drug and alcohol abuse prevention in high-risk community.
+
+
+RECOGNITION --------------------------------------------------------------------
+
+Runner Up, Shiny App Contest, RStudio (Jan 2019)
+Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using Shiny. The dashboard monitors social media conversations around a conference or event, and received hundreds of simultaneous visitors per day during RStudio's annual conference in January 2019.
 
 
 
 
 INTERESTS ----------------------------------------------------------------------
 
-: Data Journalism Music Guitar Soccer Writing Reading 
+: Data Visualization Acoustic Instruments Music Soccer Books Blogging 
 
 
