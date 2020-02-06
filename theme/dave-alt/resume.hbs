@@ -14,7 +14,7 @@
             <!-- Name, title -->
             {{#resume.basics}}
             <h3 class="basics-name sm-margin-bottom no-margin-top">
-                {{name}} 
+                {{name}}
                 {{#if label}}<span class="basics-label">{{label}}</span>{{/if}}
             </h3>
 
@@ -135,29 +135,7 @@
 
 
             <!-- RIGHT COLUMN -->
-            <div class="col-xs-9 no-padding-right">
-                <!-- RIGHT COLUMN: Certifications -->
-                {{#if resume.certifications.length}}
-                <div class="page-header no-margin-top no-margin-bottom">
-                    <h5>CERTIFICATIONS</h5>
-                </div>
-
-                {{#each resume.certifications}}
-                <h6 class="job-title sm-margin-top no-margin-bottom">
-                    {{#if startDate}}
-                    <span class="education-date">
-                        {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
-                    </span>
-                    {{/if}}
-
-                    {{#if name}}{{name}}{{/if}}
-                </h6>
-
-                <div class="clearfix"></div>
-                {{/each}}
-                {{/if}}
-                <!-- // RIGHT COLUMN: Certifications -->
-
+            <div class="col-xs-9 no-padding-right column-right">
 
                 <!-- RIGHT COLUMN: Education -->
                 {{#if resume.education.length}}
@@ -200,6 +178,28 @@
                 </div>
                 {{/if}}
                 <!-- // RIGHT COLUMN: Education -->
+
+                <!-- RIGHT COLUMN: Certifications -->
+                {{#if resume.certifications.length}}
+                <div class="page-header no-margin-bottom lg-margin-top">
+                    <h5>Certifications</h5>
+                </div>
+
+                {{#each resume.certifications}}
+                <h6 class="job-title sm-margin-top no-margin-bottom">
+                    {{#if startDate}}
+                    <span class="education-date">
+                        {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                    </span>
+                    {{/if}}
+
+                    {{#if name}}{{name}}{{/if}}
+                </h6>
+
+                <div class="clearfix"></div>
+                {{/each}}
+                {{/if}}
+                <!-- // RIGHT COLUMN: Certifications -->
 
                 <!-- RIGHT COLUMN: Experience -->
                 {{#if resume.work.length}}
@@ -360,7 +360,7 @@
                             {{#if name}}{{name}}{{/if}}
                         </h6>
                         {{/if}}
-                        
+
                         <div class="clearfix"></div>
 
                         <p class="education-details no-margin">
@@ -371,7 +371,7 @@
                         <p class="sm-margin-top">
                             {{{summary}}}
                         </p>
-                       {{/if}} 
+                       {{/if}}
 
                         {{#if highlights.length}}
                         <ul class="no-margin-bottom">

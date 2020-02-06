@@ -30,10 +30,28 @@
   },
   "work": [
     {
-      "company": "Moffitt Cancer Center, Gerke Lab, Cancer Epidemiology",
+      "company": "Collaborative Data Services, Moffitt Cancer Center",
+      "position": "Scientific Programmer",
+      "startDate": "2019-08-12",
+      "endDate": "",
+      "summary": "Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement new tools to automate data ingestion, cleaning, normalization and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.",
+      "highlights": [
+        "Designed and led trainings in R programming, data analysis, and version control for multiple teams at Moffitt",
+        "Developed several R packages to streamline project management, reporting, and access to various databases"
+      ]
+    },
+    {
+      "company": "rstudio::conf(2020)",
+      "position": "Workshop: JavaScript for Shiny Users",
+      "startDate": "2020-01-26",
+      "endDate": "2020-01-28",
+      "summary": "Led two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
+    },
+    {
+      "company": "Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center",
       "position": "Research Data Analyst II (Bioinformatics)",
       "startDate": "2018-05-14",
-      "endDate": "",
+      "endDate": "2019-08-12",
       "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data lifecycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
       "highlights": [
         "Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data",
@@ -84,6 +102,54 @@
         "Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.",
         "Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty."
       ]
+    },
+    {
+      "company": "Self-employed",
+      "position": "Musician and Private Tutor",
+      "address": "Chicago, IL and St. Petersburg, FL",
+      "startDate": "2009-09-01",
+      "endDate": "2013-09-01",
+      "summary": "",
+      "highlights": [
+        "Booked, promoted and performed 5-10 shows per month while writing and recording original music",
+        "Performed on local radio stations, including Tampa's WMNF",
+        "Worked one-on-one with 7 students in Math and Spanish, resulting in an average grade increase of 17%. Averate duration for tutoring sesssions were between 6 weeks to a full semester for each student."
+      ]
+    },
+    {
+      "company": "Peace Corps",
+      "address": "Gualaceo, Ecuador",
+      "position": "Youth Development Specialist",
+      "startDate": "2008-06-16",
+      "endDate": "2009-08-20",
+      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
+      "highlights": [
+        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
+        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
+        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
+        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
+        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
+      ]
+    },
+    {
+      "company": "Interplex Plastics",
+      "position": "Sales Administrator",
+      "startDate": "2007-09-01",
+      "endDate": "2008-06-01",
+      "summary": "Restructured a previously fragmented position, consolidating roles and responsibilities to improve the processing of all sales orders.",
+      "highlights": [
+        "Successfully improved on-time delivery from 87%-98% for crucial client.",
+        "Responsible for order processing and control; monitored shipping and generated invoices.",
+        "Collaborated with various departments to coordinate machine scheduling, price quotations and revisions to meet customer and supplier needs while maintaining profit margins."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "RStudio Certified Tidyverse Instructor",
+      "startDate": "2019-09-03",
+      "endDate": "",
+      "area": "https://education.rstudio.com/trainers/"
     }
   ],
   "education": [
@@ -96,6 +162,14 @@
         "Advanced Analytics",
         "Bayesian Data Analysis"
       ],
+      "startDate": "2014-12-01",
+      "endDate": "2018-12-01",
+      "area": "Industrial and Management Systems Engineering",
+      "studyType": "Ph.D. Candidate (exited ABD)"
+    },
+    {
+      "institution": "University of South Florida",
+      "gpa": "4.00",
       "startDate": "2012-09-01",
       "endDate": "2018-12-01",
       "area": "Industrial & Mgmt. Systems Engineering",
@@ -127,14 +201,15 @@
       "keywords": [
         "R",
         "Shiny",
-        "Git",
         "RMarkdown",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Git",
         "R Package Development",
         "Database Management",
         "SQL (MySQL, SQLite, Postgres)",
         "Commandline Scripting (Bash)",
-        "HTML",
-        "CSS",
         "MS Office (Excel, etc.)"
       ]
     },
@@ -143,7 +218,6 @@
       "level": "intermediate",
       "keywords": [
         "Python",
-        "JavaScript",
         "PHP",
         "MQTT"
       ]
@@ -203,10 +277,22 @@
       "title": "Runner Up, Shiny App Contest",
       "date": "2019-04-01",
       "awarder": "RStudio",
-      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using the R-Shiny framework. The dashboard monitors social media conversations around a conference or event, and received hundreds of visitors per day during RStudio's annual conference in January 2019."
+      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using Shiny. The dashboard monitors social media conversations around a conference or event, and received hundreds of simultaneous visitors per day during RStudio's annual conference in January 2019."
     }
   ],
   "publications": [
+    {
+      "name": "shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
+      "publisher": "Epidemiology (In Review)",
+      "releaseDate": "2020",
+      "summary": "Creed J, Aden-Buie G, Gerke TA"
+    },
+    {
+      "name": "Effects of tobacco smoking on the tumor immune microenvironment in head and neck squamous cell carcinoma",
+      "publisher": "Clinical Cancer Research",
+      "releaseDate": "2019",
+      "summary": "Janis, V, Slebos, RJ, Martin-Gomez, L, Wang, X, Teer, JK, Tan, AC, Gerke, TA, Aden-Buie, G, Van Veen, T, Masannat, J and Chaudhary, R"
+    },
     {
       "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
       "publisher": "Bioinformatics",
@@ -246,13 +332,13 @@
     {
       "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
       "publisher": "Sixth Annual First Year Engineering Experience Conference",
-      "releaseDate": "2014", 
+      "releaseDate": "2014",
       "summary": "Gaines J, Joseph B, Aden-Buie G"
     },
     {
       "name": "Are multiple-choice questions suitable for a final examination in a STEM course?",
       "publisher": "American Society for Engineering Education",
-      "releaseDate": "2014", 
+      "releaseDate": "2014",
       "summary": "Aden-Buie G, Kaw A, Yalcin A, Pendyala R"
     }
   ],
@@ -275,12 +361,12 @@
       "date": "2018-05-07",
       "event": "11th World Conference of Gerontechnology",
       "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C" 
+      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
     },
     {
       "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
       "date": "2018-01-23",
-      "event": "Tampa R Users Meetup", 
+      "event": "Tampa R Users Meetup",
       "website": "https://gadenbuie.github.io/trug-ggplot2",
       "summary": "An introduction to data visualization with the R package ggplot2"
     },
@@ -321,8 +407,19 @@
   "interests": [],
   "projects": [
     {
+      "keywords": [
+        "Data Visualization",
+        "Acoustic Instruments",
+        "Music",
+        "Soccer",
+        "Books",
+        "Blogging"
+      ]
+    },
+    {
       "name": "Scientific Software",
       "highlights": [
+        "moffittCDS - An internal R package for the Collaborative Data Services Core at Moffitt for managing projects, creating reports, and connecting to various databases",
         "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
         "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
         "epiTAD — [gerkelab.com/project/epiTAD](https://gerkelab.com/project/epiTAD) <br>A web application for visualizing chromosome conformation capture data in the context of genetic epidemiology"
@@ -332,11 +429,18 @@
       "name": "Open Source Software",
       "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on GitHub:",
       "highlights": [
-        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
         "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
+        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
+        "js4shiny: [pkg.js4shiny.com/](http://pkg.js4shiny.com/)",
         "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
         "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
-        "MCTestAnalysis: [github.com/gadenbuie/MCTestAnalysis](https://github.com/gadenbuie/mctestanalysis)"
+        "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
+        "rsthemes: [github.com/gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes)",
+        "metathis: [pkg.garrickadenbuie.com/metathis/](https://pkg.garrickadenbuie.com/metathis/)",
+        "ggweekly: [github.com/gadenbuie/ggweekly](https://github.com/gadenbuie/ggweekly)",
+        "cleanrmd: [pkg.garrickadenbuie.com/cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)",
+        "tweetrmd: [github.com/gadenbuie/tweetrmd](https://github.com/gadenbuie/tweetrmd)",
+        "MCTestAnalysis: [garrickadenbuie.com/project/mc-test-analysis/](https://www.garrickadenbuie.com/project/mc-test-analysis/)"
       ]
     }
   ],
