@@ -255,12 +255,12 @@ $if(basics)$
 \address{
   % $if(basics.name)$\bf{$basics.name$}\\$endif$
   \begin{tabular}{cl}
-  $if(basics.name)${\color{greyicon}\faUser}&{\color{greytext}\bf{$basics.name$}}\\$endif$
-  $if(basics.label)${\color{greyicon}\faTag}&{\color{greytext}$basics.label$}\\$endif$
-  $if(basics.email)${\color{greyicon}\faEnvelope}&{\color{greytext}$basics.email$}\\$endif$
-  $if(basics.phone)${\color{greyicon}\faPhone}&{\color{greytext}$basics.phone$}\\$endif$
-  $if(basics.website)${\color{greyicon}\faLaptop}&{\color{greytext}$basics.website$}\\$endif$
-  $if(basics.location)${\color{greyicon}\faHome}&{\color{greytext}$basics.location.address$, $basics.location.city$, $basics.location.postalCode$}\\$endif$
+  $if(basics.name)${\color{greyicon}\faUser}&{\color{greytext}\bf{$basics.name$}}\\$endif$$if(basics.label)$
+  {\color{greyicon}\faTag}&{\color{greytext}$basics.label$}\\$endif$$if(basics.email)$
+  {\color{greyicon}\faEnvelope}&{\color{greytext}$basics.email$}\\$endif$$if(basics.phone)$
+  {\color{greyicon}\faPhone}&{\color{greytext}$basics.phone$}\\$endif$$if(basics.website)$
+  {\color{greyicon}\faLaptop}&{\color{greytext}$basics.website$}\\$endif$$if(basics.location)$
+  {\color{greyicon}\faHome}&{\color{greytext}$basics.location.address$, $basics.location.city$, $basics.location.postalCode$}\\$endif$
   $if(basics.profiles)$
   $for(basics.profiles)${\color{greyicon}\fa$basics.profiles.network$}&{\color{greytext}$basics.profiles.username$}\\$endfor$
   $endif$
