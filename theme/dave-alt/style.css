@@ -497,6 +497,7 @@ h6,
 }
 p {
     margin: 0 0 10px;
+    line-height: 1.33;
 }
 .lead {
     margin-bottom: 20px;
@@ -624,7 +625,7 @@ a.bg-danger:focus {
 ul,
 ol {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     padding-left: 23px;
 }
 ul ul,
@@ -1587,6 +1588,8 @@ body {
     text-justify: newspaper;
     padding-left: 5px;
     border-left: 2px solid lightblue;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .basics-name {
@@ -1608,6 +1611,13 @@ h5 {
     font-variant-caps: petite-caps;
     font-size: 1.16666em;
 }
+
+.skills-header {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -1647,6 +1657,9 @@ h5 {
     }
     .sm-margin-top {
         margin: 4px 0px 0px 0px;
+    }
+    .experience ul {
+        margin-top: 1px;
     }
     h6 small {
         color: #555555;
