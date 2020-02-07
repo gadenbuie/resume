@@ -83,15 +83,14 @@
 
                     <!-- LEFT COLUMN: Skills -->
                     {{#if resume.skills.length}}
-                    <div class="page-header no-margin lg-margin-top">
+                    <div class="page-header no-margin lg-margin-top skills">
                         <h5>Skills</h5>
                     </div>
 
                     <div class="print-together">
                         <div class="no-page-break">
                             {{#each resume.skills}}
-                            <i class="text-uppercase">{{#if name}}{{name}}{{/if}}</i>
-                            <br />
+                            <div class="text-uppercase skills-header">{{#if name}}{{name}}{{/if}}</div>
 
                             {{#if keywords.length}}
                             <ul class="no-bullets sm-padding-left">
@@ -149,8 +148,12 @@
                         <h6 class="job-title sm-margin-top no-margin">
                             {{#if startDate}}
                             <span class="education-date">
-                                {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                                {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}} {{endDate}}{{else}}Present{{/if}}
                             </span>
+                            {{else}}
+                            {{#if endDate}}
+                            <span class="education-date">{{endDate}}</span>
+                            {{/if}}
                             {{/if}}
 
                             {{#if institution}}{{institution}}{{/if}}
@@ -159,8 +162,8 @@
                         <div class="clearfix"></div>
 
                         <p class="education-details no-margin">
-                            {{#if studyType}}{{studyType}},{{/if}}
-                            {{#if area}}{{area}}{{/if}}
+                            {{#if studyType}}{{{studyType}}}{{/if}}
+                            {{#if area}}, {{area}}{{/if}}
                             {{#if gpa}}, GPA: {{gpa}}{{/if}}
                         </p>
 
@@ -189,8 +192,12 @@
                 <h6 class="job-title sm-margin-top no-margin-bottom">
                     {{#if startDate}}
                     <span class="education-date">
-                        {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                        {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}} {{endDate}}{{else}}Present{{/if}}
                     </span>
+                    {{else}}
+                    {{#if endDate}}
+                    <span class="education-date">{{endDate}}</span>
+                    {{/if}}
                     {{/if}}
 
                     {{#if name}}{{name}}{{/if}}
@@ -207,7 +214,7 @@
                     <h5>Professional Experience</h5>
                 </div>
 
-                <div class="print-together">
+                <div class="print-together experience">
                     {{#each resume.work}}
                     <div class="no-page-break">
                         <h6 class="job-title sm-margin-top no-margin-bottom">
@@ -216,6 +223,8 @@
                                 {{#if salary}}{{salary}}<br />{{/if}}
                                 {{#if startDate}}
                                 {{#if endDate}}{{endDate}}{{else}}Present{{/if}}<br />{{#if startDate}}{{startDate}}{{/if}}
+                                {{else}}
+                                {{#if endDate}}{{endDate}}{{/if}}
                                 {{/if}}
                             </span>
 
@@ -393,7 +402,7 @@
                 {{#if resume.publications.length}}
                 <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top">
-                            <h5>Publications</h5>
+                            <h5>Selected Publications</h5>
                         </div>
 
                         {{#each resume.publications}}
@@ -428,7 +437,7 @@
                 <div class="no-page-break">
                     <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top">
-                            <h5>Presentations</h5>
+                            <h5>Selected Presentations</h5>
                         </div>
 
                         {{#each resume.presentations}}

@@ -505,6 +505,7 @@ h6,
 }
 p {
     margin: 0 0 10px;
+    line-height: 1.33;
 }
 .lead {
     margin-bottom: 20px;
@@ -632,7 +633,7 @@ a.bg-danger:focus {
 ul,
 ol {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     padding-left: 23px;
 }
 ul ul,
@@ -1595,6 +1596,8 @@ body {
     text-justify: newspaper;
     padding-left: 5px;
     border-left: 2px solid lightblue;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .basics-name {
@@ -1616,6 +1619,13 @@ h5 {
     font-variant-caps: petite-caps;
     font-size: 1.16666em;
 }
+
+.skills-header {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 15px;
@@ -1655,6 +1665,9 @@ h5 {
     }
     .sm-margin-top {
         margin: 4px 0px 0px 0px;
+    }
+    .experience ul {
+        margin-top: 1px;
     }
     h6 small {
         color: #555555;
@@ -1725,14 +1738,13 @@ h5 {
 
 
                     <!-- LEFT COLUMN: Skills -->
-                    <div class="page-header no-margin lg-margin-top">
+                    <div class="page-header no-margin lg-margin-top skills">
                         <h5>Skills</h5>
                     </div>
 
                     <div class="print-together">
                         <div class="no-page-break">
-                            <i class="text-uppercase">Advanced</i>
-                            <br />
+                            <div class="text-uppercase skills-header">Advanced</div>
 
                             <ul class="no-bullets sm-padding-left">
                                 <li>R</li>
@@ -1748,23 +1760,20 @@ h5 {
                                 <li>Command-line Scripting (Bash)</li>
                                 <li>MS Office (Excel, etc.)</li>
                             </ul>
-                            <i class="text-uppercase">Intermediate</i>
-                            <br />
+                            <div class="text-uppercase skills-header">Intermediate</div>
 
                             <ul class="no-bullets sm-padding-left">
                                 <li>Python</li>
                                 <li>PHP</li>
                                 <li>MQTT</li>
                             </ul>
-                            <i class="text-uppercase">Familiar</i>
-                            <br />
+                            <div class="text-uppercase skills-header">Familiar</div>
 
                             <ul class="no-bullets sm-padding-left">
                                 <li>Julia</li>
                                 <li>Go</li>
                             </ul>
-                            <i class="text-uppercase">Operating Systems</i>
-                            <br />
+                            <div class="text-uppercase skills-header">Operating Systems</div>
 
                             <ul class="no-bullets sm-padding-left">
                                 <li>Linux (Debian, Ubuntu, Other)</li>
@@ -1813,14 +1822,14 @@ h5 {
                         </div>
                          <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
-                                2014 &mdash; 2018
+                                2014 &mdash;  2018
                             </span>
 
                             University of South Florida
                         </h6>
 
                         <div class="clearfix"></div>
-                        <p class="education-details no-margin">Ph.D. Candidate (exited ABD), Industrial and Management Systems Engineering</p>
+                        <p class="education-details no-margin">Ph.D. Candidate (exited ABD) , Industrial and Management Systems Engineering</p>
                         <div
                         class="clearfix"></div>
                     <p class="no-margin"> <strong>Courses: </strong>
@@ -1828,37 +1837,37 @@ Deep Learning, Statistical Design Models, Large-Scale
                         Optimization, Advanced Analytics, Bayesian Data Analysis</p>
                      <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
-                                2012 &mdash; 2018
+                                2012 &mdash;  2018
                             </span>
 
                             University of South Florida
                         </h6>
 
                     <div class="clearfix"></div>
-                    <p class="education-details no-margin">MSIE (2014), Ph.D. Candidate (exited ABD), Industrial &amp; Mgmt. Systems
+                    <p class="education-details no-margin">MSIE (2014), Ph.D. Candidate (exited ABD) , Industrial &amp; Mgmt. Systems
                         Engineering</p>
                     <div class="clearfix"></div>
                      <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
-                                2005 &mdash; 2006
+                                2005 &mdash;  2006
                             </span>
 
                             Universidad Autónoma de Madrid and Syracuse University in Madrid
                         </h6>
 
                     <div class="clearfix"></div>
-                    <p class="education-details no-margin">Study Abroad, Spanish</p>
+                    <p class="education-details no-margin">Study Abroad , Spanish</p>
                     <div class="clearfix"></div>
                      <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
-                                2002 &mdash; 2007
+                                2002 &mdash;  2007
                             </span>
 
                             Lehigh University
                         </h6>
 
                     <div class="clearfix"></div>
-                    <p class="education-details no-margin">B.S. Applied Math, B.A. Spanish, Physics (minor)</p>
+                    <p class="education-details no-margin">, B.S. Applied Math, B.A. Spanish, Physics (minor)</p>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -1883,7 +1892,7 @@ Deep Learning, Statistical Design Models, Large-Scale
                  <h5>Professional Experience</h5>
 
             </div>
-            <div class="print-together">
+            <div class="print-together experience">
                 <div class="no-page-break">
                      <h6 class="job-title sm-margin-top no-margin-bottom">
                             <span class="job-details">
@@ -2161,7 +2170,7 @@ Deep Learning, Statistical Design Models, Large-Scale
             <!-- RIGHT COLUMN: Publications -->
             <div class="print-together">
                 <div class="page-header no-margin-bottom lg-margin-top">
-                     <h5>Publications</h5>
+                     <h5>Selected Publications</h5>
 
                 </div>
                 <div class="no-page-break">
@@ -2304,7 +2313,7 @@ Deep Learning, Statistical Design Models, Large-Scale
             <div class="no-page-break">
                 <div class="print-together">
                     <div class="page-header no-margin-bottom lg-margin-top">
-                         <h5>Presentations</h5>
+                         <h5>Selected Presentations</h5>
 
                     </div>
                     <div class="no-page-break">
