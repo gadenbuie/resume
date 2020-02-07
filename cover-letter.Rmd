@@ -1,27 +1,27 @@
 ---
-output: 
+output:
   pdf_document:
     template: cover-letter.template
     latex_engine: xelatex
     md_extensions: "-autolink_bare_uris"
 author: Garrick Aden-Buie
-opening: To whom it may concern,
+opening: Dear Hiring Team,
 closing: Sincerely,
 date: '`r strftime(Sys.time(), "%B %e, %Y")`'
-address: 
-- 123 Any St.
-- Anytown, USA
+address:
+- RStudio, PBC
+- Boston, MA
 return-address: |
   **Garrick Aden-Buie** \
   474 34th Ave N \
-  St. Petersburg, FL \ 
+  St. Petersburg, FL \
 cc:
-encl: resume
-ps: 
+encl:
+ps:
 # fontfamily: mathpazo
 mainfont: Source Sans Pro
 fontsize: 11pt
-geometry: margin=1in
+geometry: top=0.5in,left=1in,right=1in,bottom=1in
 blockquote: true
 # letterhead: example/letterhead.pdf
 signature: gab-signature.pdf
@@ -34,7 +34,6 @@ urlcolor: "bostonuniversityred"
 
 basics:
   name: Garrick Aden-Buie
-  label: Data Scientist
   website: https://www.garrickadenbuie.com
   phone: "(727) 344-9568"
   email: garrick@adenbuie.com
@@ -57,10 +56,23 @@ basics:
     url: https://twitter.com/grrrck
 ...
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique eleifend. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor [egestas fringilla](http://example.com):
+**R Markdown** is an indispensable part of my life.
+I know it sounds hyperbolic to say.
+But R Markdown is such a powerful tool for creating and sharing knowledge, that I think it's worth risking sounding cheesy.
+But behind this statement is a deep respect for the technical choices that led to `rmarkdown`; respect for the low-level and conscious design choices that make it a versatile and approachable format for mixing prose and code.
 
-> Nullam eget dapibus quam, sit amet sagittis magna. Nam tincidunt, orci ac imperdiet ultricies, neque metus ultrices quam, id gravida augue lacus ac leo. 
+I believe in R Markdown so much that the first task I undertook when designing the _JavaScript for Shiny Users_ workshop for rstudio::conf 2020 was to develop a custom JavaScript `knitr` engine that replicates the literate programming experience R users are accustomed to.
+_How can anyone learn to program in a new language without R Markdown?_, I thought.
 
-Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros placerat non. Cras ornare, risus in faucibus malesuada, libero sem fringilla quam, ut luctus enim sapien eget dolor.
+For years and to anyone who will listen, I have been happy to expound on the many benefits of R Markdown:
+_The code that creates the plot, and the table, and the calculated statistic are woven together with the narrative within the same document!_
+It has been an immense pleasure to watch the community embrace the format, to hear of university courses where `.Rmd` is the expected file extensions for assignments, to have conversations move from "What is it?" to "How do I...?".
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique eleifend. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu.
+As R Markdown has gained in popularity and acceptance, I have tried to give back to the community when and where I can, by sharing the things I've learned on my personal blog, by answering questions on Twitter or other sites, and by contributing pull requests whenever possible.
+I have always found myself most interested and effortlessly enthusiastic when working on the tools and educational resources that empower data scientists and R users.
+
+For these reasons, I believe I am uniquely qualified for the role of R Markdown Engineer.
+This role will require technical proficiency with the R source code and development infrastructure of the `rmarkdown`-related packages; it will require an empathetic and perceptive educator who can triage and respond to issues reported by users of various technical skill levels; it will require a self-directed and motivated learner who can effectively manage their time.
+On each of these key traits, my experience as an R developer, educator and life-long learner support my success in the role.
+
+I look forward to discussing the role and my experience with you.
