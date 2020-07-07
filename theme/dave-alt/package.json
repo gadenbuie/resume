@@ -19,7 +19,7 @@
     "css": "^2.2.4",
     "handlebars": "^4.3.0",
     "moment": "^2.24.0",
-    "npm": "^6.13.4"
+    "npm": "^6.14.6"
   },
   "bugs": {
     "url": "https://github.com/gadenbuie/jsonresume-theme-dave-alt/issues"
