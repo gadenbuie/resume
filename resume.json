@@ -45,7 +45,7 @@
       "position": "Workshop: JavaScript for Shiny Users",
       "startDate": "2020-01-26",
       "endDate": "2020-01-28",
-      "summary": "Led two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
+      "summary": "Led two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development at one of the largest conferences for R users. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
     },
     {
       "company": "Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center",
@@ -280,6 +280,13 @@
   ],
   "publications": [
     {
+      "name": "HomeSense: Design of an ambient home health and wellness monitoring platform for older adults",
+      "publisher": "Health and Technology",
+      "releaseDate": "2020-07-03",
+      "summary": "VandeWeerd C, Yalcin A, Aden-Buie G, Wang Y, Roberts M, Mahser N, Fnu C, Fabiano D",
+      "url": "https://link.springer.com/article/10.1007/s12553-019-00404-6"
+    },
+    {
       "name": "shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
       "publisher": "Epidemiology (In Review)",
       "releaseDate": "2020",
@@ -341,6 +348,24 @@
     }
   ],
   "presentations": [
+    {
+      "name": "Build Your Own Universe",
+      "date": "2020-08-28",
+      "event": "R/Medicine 2020",
+      "website": "https://www.garrickadenbuie.com/talk/build-your-own-universe/"
+    },
+    {
+      "name": "Your Slides are So Extra!",
+      "date": "2020-07-08",
+      "event": "useR!2020",
+      "website": "https://www.garrickadenbuie.com/talk/extra-special-xaringan/"
+    },
+    {
+      "name": "10,000 Reasons to Love Functions",
+      "date": "2020-05-15",
+      "event": "Bio-Data Club at Moffitt Cancer Center",
+      "website": "https://www.garrickadenbuie.com/talk/ten-thousand-functions/"
+    },
     {
       "name": "Reproducible Data Workflows with Drake",
       "date": "2019-07-19",
@@ -436,11 +461,13 @@
       "highlights": [
         "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
         "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
+        "xaringanExtra: [pkg.garrickadenbuie.com/xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra)",
         "js4shiny: [pkg.js4shiny.com/](http://pkg.js4shiny.com/)",
         "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
         "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
         "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
-        "rsthemes: [github.com/gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes)",
+        "rsthemes: [garrickadenbuie.com/project/rsthemes](https://www.garrickadenbuie.com/project/rsthemes)",
+        "shrtcts: [pkg.garrickadenbuie.com/shrtcts](https://pkg.garrickadenbuie.com/shrtcts/)",
         "metathis: [pkg.garrickadenbuie.com/metathis/](https://pkg.garrickadenbuie.com/metathis/)",
         "ggweekly: [github.com/gadenbuie/ggweekly](https://github.com/gadenbuie/ggweekly)",
         "cleanrmd: [pkg.garrickadenbuie.com/cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)",
