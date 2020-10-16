@@ -1584,9 +1584,9 @@ body {
 }
 
 .newspaper {
-    text-align: justify;
-    text-justify: newspaper;
-    padding-left: 5px;
+    /* text-align: justify;
+    text-justify: newspaper; */
+    padding-left: 7px;
     border-left: 2px solid lightblue;
     margin-top: 8px;
     margin-bottom: 5px;
@@ -1658,8 +1658,11 @@ h5 {
     .sm-margin-top {
         margin: 4px 0px 0px 0px;
     }
-    .experience ul {
-        margin-top: 1px;
+    .no-page-break:not(:first-of-type) {
+        margin-top: 8px;
+    }
+    .experience > ul {
+        margin-top: 7px;
     }
     h6 small {
         color: #555555;

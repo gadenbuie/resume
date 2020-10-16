@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Garrick Aden-Buie",
-    "label": "Data Scientist",
+    "label": "Data Scientist/Educator",
     "website": "https://www.garrickadenbuie.com",
     "phone": "(727) 344-9568",
     "email": "garrick@adenbuie.com",
@@ -30,15 +30,15 @@
   },
   "work": [
     {
-      "company": "Collaborative Data Services, Moffitt Cancer Center",
+      "company": "Collaborative Data Services (CDS), Moffitt Cancer Center",
       "position": "Scientific Programmer",
       "startDate": "2019-08-12",
       "endDate": "",
       "summary": "Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement approachable and consistent tools to automate data access, cleaning, and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.",
       "highlights": [
         "Designed and led trainings in R programming, data analysis, and version control for multiple teams at Moffitt",
-        "Developed **moffittverse**: a set of R packages to streamline project management, reporting, and access to hospital data systems",
-        "Organized and led a weekly educational session for dozens of Moffitt R users centered around _R for Data Science_"
+        "Developed **moffittverse**: a set of inter-related R packages for access to heterogeneous hospital data systems, with an API intentionally designed for broad accessibility",
+        "Led a weekly educational session for dozens of Moffitt R users centered around _R for Data Science_"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "position": "Workshop: JavaScript for Shiny Users",
       "startDate": "2020-01-26",
       "endDate": "2020-01-28",
-      "summary": "Created and led an entirely new, two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development at one of the largest conferences for R users. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
+      "summary": "Created and led an entirely new, two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development at one of the largest conferences for R users. Developed the js4shiny R package to support the workshop and provide additional resources and tools for JavaScript development in R and RStudio using R Markdown and Shiny, including an R Markdown format for literate JavaScript programming and a Codepen clone for RStudio with live preview of HTML, CSS and JS."
     },
     {
       "company": "Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center",
@@ -56,8 +56,8 @@
       "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data life cycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
       "highlights": [
         "Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data",
-        "Created and led an in-depth course on data processing with R for data analysts in Moffitt's Collaborative Data Services Core",
-        "Awarded internal $50,000 grant as Co-PI with Dr. Gerke to develop DV3, a framework for data virtualization, visualization and versioning"
+        "Created and led an in-depth course on data processing with R for data analysts in CDS",
+        "Co-PI: Internal $50,000 grant to develop DV3, a framework for data virtualization, visualization and versioning"
       ]
     },
     {
@@ -69,10 +69,8 @@
       "summary": "Led diverse team of Ph.D., masters and undergraduate students in development and evaluation of large smart home project for monitoring the daily activities of community-dwelling, independent older adults.",
       "highlights": [
         "Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students",
-        "Lead software developer for remote sensor data collection, processing, storage, administration, and visualization",
-        "Developed several R packages and Shiny dashboards and interactive front-ends for inventory management and data processing",
-        "Provisioned and administered database and backend servers supporting remote data collection systems running on Raspberry Pis",
-        "Designed and implemented notification microservice for near-real-time evaluation and alerting for emergent conditions"
+        "Lead software developer for remote sensor data collection, processing, storage, admin, and visualization",
+        "Developed several R packages and Shiny applications for inventory management and data processing"
       ]
     },
     {
@@ -84,40 +82,6 @@
       "summary": "Developed an R package for Multiple-Choice Test Analysis for educators who are not comfortable programming. The package includes a web interface for interactive exploration of test results, or a generated report based on best practices for the design and evaluation of multiple-choice tests."
     },
     {
-      "company": "University of South Florida",
-      "position": "Research Assistant",
-      "startDate": "2013-09-01",
-      "endDate": "2014-09-01",
-      "summary": "Various tasks and responsibilities in support of engineering education at USF."
-    },
-    {
-      "company": "Patel College of Global Sustainability, USF",
-      "website": "http://www.usf.edu/pcgs/",
-      "position": "Research Assistant",
-      "startDate": "2012-06-01",
-      "endDate": "2013-09-01",
-      "summary": "",
-      "highlights": [
-        "Research and design of an urban metabolism model for the USF Tampa Campus.",
-        "Supervised research of two undergraduate students (Spring 2013).",
-        "Assistant to the Director of the Office of Sustainability, USF. Coordinated, analyzed and prepared reports on campus sustainability-related initiatives.",
-        "Assist with research objectives of PCGS and in the preparation of reports, lectures and talks by PCGS staff and faculty."
-      ]
-    },
-    {
-      "company": "Self-employed",
-      "position": "Musician and Private Tutor",
-      "address": "Chicago, IL and St. Petersburg, FL",
-      "startDate": "2009-09-01",
-      "endDate": "2013-09-01",
-      "summary": "",
-      "highlights": [
-        "Booked, promoted and performed 5-10 shows per month while writing and recording original music",
-        "Performed on local radio stations, including Tampa's WMNF",
-        "Worked one-on-one with 7 students in Math and Spanish, resulting in an average grade increase of 17%. Average duration for tutoring sessions were between 6 weeks to a full semester for each student."
-      ]
-    },
-    {
       "company": "Peace Corps",
       "address": "Gualaceo, Ecuador",
       "position": "Youth Development Specialist",
@@ -127,21 +91,17 @@
       "highlights": [
         "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
         "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading provincial newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol prevention in high-risk community."
+        "Various educational activities including: establishing a tutoring program for math students; designing interactive materials for children and parents around topics of public health; developing and delivering drug and alcohol abuse prevention education for parents."
       ]
     },
     {
-      "company": "Interplex Plastics",
-      "position": "Sales Administrator",
-      "startDate": "2007-09-01",
-      "endDate": "2008-06-01",
-      "summary": "Restructured a previously fragmented position, consolidating roles and responsibilities to improve the processing of all sales orders.",
+      "company": "INFORMS Student Chapter at USF",
+      "position": "Chapter President",
+      "startDate": "2014-05-01",
+      "endDate": "2015-05-01",
       "highlights": [
-        "Successfully improved on-time delivery from 87%-98% for crucial client.",
-        "Responsible for order processing and control; monitored shipping and generated invoices.",
-        "Collaborated with various departments to coordinate machine scheduling, price quotations and revisions to meet customer and supplier needs while maintaining profit margins."
+        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
+        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles."
       ]
     }
   ],
@@ -158,29 +118,21 @@
       "institution": "University of South Florida",
       "courses": [
         "Deep Learning",
-        "Statistical Design Models",
         "Large-Scale Optimization",
-        "Advanced Analytics",
+        "Adv. Analytics",
         "Bayesian Data Analysis"
       ],
-      "startDate": "2014-12-01",
-      "endDate": "2018-12-01",
-      "area": "Industrial and Management Systems Engineering",
-      "studyType": "Ph.D. Candidate (exited ABD)"
-    },
-    {
-      "institution": "University of South Florida",
-      "gpa": "4.00",
       "startDate": "2012-09-01",
       "endDate": "2018-12-01",
       "area": "Industrial & Mgmt. Systems Engineering",
-      "studyType": "MSIE (2014), Ph.D. Candidate (exited ABD)"
+      "studyType": "Ph.D. Candidate (exited ABD), MSIE (2014)"
     },
     {
       "institution": "Lehigh University",
       "startDate": "2002-09-01",
       "endDate": "2007-05-01",
-      "area": "B.S. Applied Math, B.A. Spanish, Physics (minor)",
+      "studyType": "B.S. Applied Math",
+      "area": "B.A. Spanish, Physics (minor)",
       "honors": [
         "Phi Beta Kappa",
         "High Honors",
@@ -244,35 +196,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "President, INFORMS Student Chapter at USF",
-      "startDate": "2014-05-01",
-      "endDate": "2015-05-01",
-      "summary": "Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.",
-      "highlights": [
-        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
-        "Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.",
-        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles.",
-        "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
-      ]
-    },
-    {
-      "organization": "Peace Corps",
-      "address": "Gualaceo, Ecuador",
-      "position": "Youth Development Specialist",
-      "startDate": "2008-06-16",
-      "endDate": "2009-08-20",
-      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
-      "highlights": [
-        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created a collaborative, contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
-        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
-        "Designed interactive graphics and edited a six-month, biweekly column published in the leading local newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
-        "Organized and delivered an educational course for parents on drug and alcohol abuse prevention in high-risk community."
-      ]
-    }
-  ],
   "awards": [
     {
       "title": "Runner Up, Shiny App Contest",
@@ -283,52 +206,17 @@
   ],
   "publications": [
     {
-      "name": "shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
-      "publisher": "Epidemiology (In Review)",
-      "releaseDate": "2020",
-      "summary": "Creed J, Aden-Buie G, Gerke TA"
-    },
-    {
-      "name": "Effects of tobacco smoking on the tumor immune microenvironment in head and neck squamous cell carcinoma",
-      "publisher": "Clinical Cancer Research",
-      "releaseDate": "2019",
-      "summary": "Janis, V, Slebos, RJ, Martin-Gomez, L, Wang, X, Teer, JK, Tan, AC, Gerke, TA, Aden-Buie, G, Van Veen, T, Masannat, J and Chaudhary, R"
+      "name": "HomeSense: Design of an ambient home health and wellness monitoring platform for older adults",
+      "publisher": "Health and Technology",
+      "releaseDate": "2020-07-03",
+      "summary": "VandeWeerd C, Yalcin A, Aden-Buie G, Wang Y, Roberts M, Mahser N, Fnu C, Fabiano D",
+      "url": "https://link.springer.com/article/10.1007/s12553-019-00404-6"
     },
     {
       "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
       "publisher": "Bioinformatics",
       "releaseDate": "2019-05-01",
       "summary": "Creed J, Aden-Buie G, Monteiro A, Gerke TA"
-    },
-    {
-      "name": "Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening",
-      "publisher": "European Association of Urology Congress: Mar 15–19; Barcelona, Spain.",
-      "releaseDate": "2019",
-      "summary": "Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA, Preston M"
-    },
-    {
-      "name": "Identifying genetic interactions that drive aggressive prostate cancer using an ensemble of penalized Cox regression models",
-      "publisher": "AACR Convergence: Artificial Intelligence, Big Data, and Prediction in Cancer: Oct 14-17; Newport, RI",
-      "releaseDate": "2018-10-14",
-      "summary": "Laajala TD, Aden-Buie G, Gerke T, Creed J, Berglund A, Stopsack K, Cramer SD, Tyekucheva S, Aittokallio T, Costello JC"
-    },
-    {
-      "name": "Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes",
-      "publisher": "TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC",
-      "releaseDate": "2018",
-      "summary": "Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R"
-    },
-    {
-      "name": "Comparison of Final Examination Formats in a Numerical Methods Course",
-      "publisher": "International Journal of Engineering Education",
-      "releaseDate": "2015",
-      "summary": "Aden-Buie G, Kaw A, Yalcin A"
-    },
-    {
-      "name": "Rough Set Theory Based Prognostic Classification Models for Hospice Referral",
-      "publisher": "BMC Medical Informatics and Decision Making",
-      "releaseDate": "2015",
-      "summary": "Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic B"
     },
     {
       "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
@@ -344,6 +232,18 @@
     }
   ],
   "presentations": [
+     {
+      "name": "Build Your Own Universe",
+      "date": "2020-08-28",
+      "event": "R/Medicine 2020",
+      "website": "https://www.garrickadenbuie.com/talk/build-your-own-universe/"
+    },
+    {
+      "name": "Your Slides are So Extra!",
+      "date": "2020-07-08",
+      "event": "useR!2020",
+      "website": "https://www.garrickadenbuie.com/talk/extra-special-xaringan/"
+    },
     {
       "name": "Reproducible Data Workflows with Drake",
       "date": "2019-07-19",
@@ -369,46 +269,6 @@
       "event": "11th World Conference of Gerontechnology",
       "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
       "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
-    },
-    {
-      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
-      "date": "2018-01-23",
-      "event": "Tampa R Users Meetup",
-      "website": "https://gadenbuie.github.io/trug-ggplot2",
-      "summary": "An introduction to data visualization with the R package ggplot2"
-    },
-    {
-      "name": "Occupant Activity Profiles from Smart Home Sensor Event Streams",
-      "date": "2017-10-25",
-      "event": "INFORMS Annual Meeting",
-      "website": "https://www.garrickadenbuie.com/talk/informs-2017/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
-    },
-    {
-      "name": "Getting StaRted in R",
-      "date": "2016-03-25",
-      "event": "INFORMS@USF Code & Data Boot Camp",
-      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
-    },
-    {
-      "name": "Ambient Intelligence Applications in Healthcare",
-      "date": "2015-02-06",
-      "event": "ISERC at IIE Annual Conference & Expo",
-      "website": "https://www.garrickadenbuie.com/talk/iie-iserc-2015/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C, Agu N, Hammett J, Yetisener E, Radwan C"
-    },
-    {
-      "name": "Reporting Reproducible Research with R and Markdown",
-      "date": "2014-04-11",
-      "event": "INFORMS@USF Code & Data Boot Camp",
-      "website": "https://github.com/gadenbuie/usf-boot-camp-R"
-    },
-    {
-      "name": "Boosted Tree Ensembles for Predicting Postsurgical ICU Mortality",
-      "date": "2013-10-07",
-      "event": "INFORMS Annual Meeting",
-      "website": "https://www.garrickadenbuie.com/talk/informs-2013/",
-      "summary": "Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H"
     }
   ],
   "interests": [],
@@ -426,23 +286,24 @@
     {
       "name": "Scientific Software",
       "highlights": [
-        "moffittCDS - An internal R package for the Collaborative Data Services Core at Moffitt for managing projects, creating reports, and connecting to various databases",
+        "moffittverse - An collection of internal R packages for data access and analysis at Moffitt. Enables and facilitates database access and workflows using various hospital data systems.",
         "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
-        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
-        "epiTAD — [gerkelab.com/project/epiTAD](https://gerkelab.com/project/epiTAD) <br>A web application for visualizing chromosome conformation capture data in the context of genetic epidemiology"
+        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)"
       ]
     },
     {
       "name": "Open Source Software",
-      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on GitHub:",
+      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on CRAN and GitHub:",
       "highlights": [
         "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
+        "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
+        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
         "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
+        "xaringanExtra: [pkg.garrickadenbuie.com/xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra)",
         "js4shiny: [pkg.js4shiny.com/](http://pkg.js4shiny.com/)",
         "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
-        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
-        "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
-        "rsthemes: [github.com/gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes)",
+        "rsthemes: [garrickadenbuie.com/project/rsthemes](https://www.garrickadenbuie.com/project/rsthemes)",
+        "shrtcts: [pkg.garrickadenbuie.com/shrtcts](https://pkg.garrickadenbuie.com/shrtcts/)",
         "metathis: [pkg.garrickadenbuie.com/metathis/](https://pkg.garrickadenbuie.com/metathis/)",
         "ggweekly: [github.com/gadenbuie/ggweekly](https://github.com/gadenbuie/ggweekly)",
         "cleanrmd: [pkg.garrickadenbuie.com/cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)",
