@@ -34,10 +34,11 @@
       "position": "Scientific Programmer",
       "startDate": "2019-08-12",
       "endDate": "",
-      "summary": "Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement new tools to automate data ingestion, cleaning, normalization and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.",
+      "summary": "Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement approachable and consistent tools to automate data access, cleaning, and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.",
       "highlights": [
         "Designed and led trainings in R programming, data analysis, and version control for multiple teams at Moffitt",
-        "Developed several R packages to streamline project management, reporting, and access to various databases"
+        "Developed **moffittverse**: a set of R packages to streamline project management, reporting, and access to hospital data systems",
+        "Organized and led a weekly educational session for dozens of Moffitt R users centered around _R for Data Science_"
       ]
     },
     {
