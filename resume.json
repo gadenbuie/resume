@@ -46,7 +46,7 @@
       "position": "Workshop: JavaScript for Shiny Users",
       "startDate": "2020-01-26",
       "endDate": "2020-01-28",
-      "summary": "Led two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development at one of the largest conferences for R users. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
+      "summary": "Created and led an entirely new, two-day, hands-on and project-driven workshop for 90 Shiny users on JavaScript and web development at one of the largest conferences for R users. Developed the js4shiny R package to support the workshop and provide additional resources and tools based on R Markdown and Shiny for JavaScript development in R and RStudio, including an R Markdown format for literate JavaScript programming and a Shiny app code editor and live preview for HTML, CSS and JS."
     },
     {
       "company": "Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center",
