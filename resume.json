@@ -154,9 +154,8 @@
     }
   ],
   "education": [
-    {
+    { 
       "institution": "University of South Florida",
-      "gpa": "3.95",
       "courses": [
         "Deep Learning",
         "Statistical Design Models",
@@ -173,13 +172,12 @@
       "institution": "University of South Florida",
       "gpa": "4.00",
       "startDate": "2012-09-01",
-      "endDate": "2014-12-01",
-      "area": "Industrial and Management Systems Engineering",
-      "studyType": "MSIE"
+      "endDate": "2018-12-01",
+      "area": "Industrial & Mgmt. Systems Engineering",
+      "studyType": "MSIE (2014), Ph.D. Candidate (exited ABD)"
     },
     {
       "institution": "Lehigh University",
-      "gpa": "3.51",
       "startDate": "2002-09-01",
       "endDate": "2007-05-01",
       "area": "B.S. Applied Math, B.A. Spanish, Physics (minor)",
@@ -212,7 +210,7 @@
         "R Package Development",
         "Database Management",
         "SQL (MySQL, SQLite, Postgres)",
-        "Command-line Scripting (Bash)",
+        "Commandline Scripting (Bash)",
         "MS Office (Excel, etc.)"
       ]
     },
@@ -248,26 +246,30 @@
   ],
   "volunteer": [
     {
-      "organization": "INFORMS Student Chapter at USF",
-      "position": "President",
+      "organization": "President, INFORMS Student Chapter at USF",
       "startDate": "2014-05-01",
       "endDate": "2015-05-01",
       "summary": "Served as President of the USF student chapter of INFORMS, the leading international association for Operations Research and Analytics professionals.",
       "highlights": [
         "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
         "Initiated a travel grant supported by internal fundraising to partially finance the attendance of chapter members at the INFORMS Annual Meeting.",
-        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles."
+        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles.",
+        "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
       ]
     },
     {
-      "organization": "INFORMS Student Chapter at USF",
-      "position": "Newsletter Editor",
-      "startDate": "2013-05-01",
-      "endDate": "2014-05-01",
-      "summary": "Served as Newsletter Editor of the USF student chapter of INFORMS. Led planning and coordination committee for annual Code & Data Bootcamp",
+      "organization": "Peace Corps",
+      "address": "Gualaceo, Ecuador",
+      "position": "Youth Development Specialist",
+      "startDate": "2008-06-16",
+      "endDate": "2009-08-20",
+      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjuction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
       "highlights": [
-        "Redesigned the chapter's bi-annual newsletter in Adobe InDesign.",
-        "Led planning team for INFORMS@USF Code & Data Bootcamp, built comprehensive webpage, organized sessions and source code, and presented multiple sessions on programming and data science with R."
+        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
+        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created a collaborative, contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
+        "Individually tutored seven middle- and high-school students and two college math students in math topics such as Trigonometry, Algebra and Calculus.",
+        "Designed interactive graphics and edited a six-month, biweekly column published in the leading local newspaper, appealing to both children and parents, highlight topics including hygiene, public health and children’s rights.",
+        "Organized and delivered an educational course for parents on drug and alcohol abuse prevention in high-risk community."
       ]
     }
   ],
@@ -280,13 +282,6 @@
     }
   ],
   "publications": [
-    {
-      "name": "HomeSense: Design of an ambient home health and wellness monitoring platform for older adults",
-      "publisher": "Health and Technology",
-      "releaseDate": "2020-07-03",
-      "summary": "VandeWeerd C, Yalcin A, Aden-Buie G, Wang Y, Roberts M, Mahser N, Fnu C, Fabiano D",
-      "url": "https://link.springer.com/article/10.1007/s12553-019-00404-6"
-    },
     {
       "name": "shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)",
       "publisher": "Epidemiology (In Review)",
@@ -349,24 +344,6 @@
     }
   ],
   "presentations": [
-    {
-      "name": "Build Your Own Universe",
-      "date": "2020-08-28",
-      "event": "R/Medicine 2020",
-      "website": "https://www.garrickadenbuie.com/talk/build-your-own-universe/"
-    },
-    {
-      "name": "Your Slides are So Extra!",
-      "date": "2020-07-08",
-      "event": "useR!2020",
-      "website": "https://www.garrickadenbuie.com/talk/extra-special-xaringan/"
-    },
-    {
-      "name": "10,000 Reasons to Love Functions",
-      "date": "2020-05-15",
-      "event": "Bio-Data Club at Moffitt Cancer Center",
-      "website": "https://www.garrickadenbuie.com/talk/ten-thousand-functions/"
-    },
     {
       "name": "Reproducible Data Workflows with Drake",
       "date": "2019-07-19",
@@ -434,7 +411,8 @@
       "summary": "Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H"
     }
   ],
-  "interests": [
+  "interests": [],
+  "projects": [
     {
       "keywords": [
         "Data Visualization",
@@ -444,9 +422,7 @@
         "Books",
         "Blogging"
       ]
-    }
-  ],
-  "projects": [
+    },
     {
       "name": "Scientific Software",
       "highlights": [
@@ -462,13 +438,11 @@
       "highlights": [
         "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
         "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
-        "xaringanExtra: [pkg.garrickadenbuie.com/xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra)",
         "js4shiny: [pkg.js4shiny.com/](http://pkg.js4shiny.com/)",
         "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
         "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
         "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
-        "rsthemes: [garrickadenbuie.com/project/rsthemes](https://www.garrickadenbuie.com/project/rsthemes)",
-        "shrtcts: [pkg.garrickadenbuie.com/shrtcts](https://pkg.garrickadenbuie.com/shrtcts/)",
+        "rsthemes: [github.com/gadenbuie/rsthemes](https://github.com/gadenbuie/rsthemes)",
         "metathis: [pkg.garrickadenbuie.com/metathis/](https://pkg.garrickadenbuie.com/metathis/)",
         "ggweekly: [github.com/gadenbuie/ggweekly](https://github.com/gadenbuie/ggweekly)",
         "cleanrmd: [pkg.garrickadenbuie.com/cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)",
