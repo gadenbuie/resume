@@ -23,6 +23,7 @@ html {
 }
 body {
     margin: 0;
+    color: #404041;
 }
 article,
 aside,
@@ -309,7 +310,8 @@ textarea {
 }
 a, a:visited {
     /*color: #337ab7;*/
-    color: #ea5359;
+    /* color: #ea5359; */
+    color: #ee6331;
     text-decoration: none;
 }
 a:hover,
@@ -635,7 +637,7 @@ ol ol {
     margin-bottom: 0;
 }
 .column-right ul li {
-    list-style-type: square;
+    list-style-type: disclosure-closed;
 }
 .list-unstyled {
     padding-left: 0;
@@ -1551,6 +1553,10 @@ body {
     margin-bottom: 0;
 }
 
+.job-title small {
+    color: #6d747a;
+}
+
 .education-date {
     padding-top: 5px;
 }
@@ -1587,9 +1593,25 @@ body {
     /* text-align: justify;
     text-justify: newspaper; */
     padding-left: 7px;
-    border-left: 2px solid lightblue;
+    border-left: 2px solid #c6d4e0;
     margin-top: 8px;
     margin-bottom: 5px;
+}
+
+.sidebar-section {
+    font-size: 95%;
+}
+
+.sidebar-about ul > li > svg {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+  fill: #404041;
+}
+
+.sidebar-about ul > li {
+  margin-bottom: 3px;
 }
 
 .basics-name {
@@ -1608,15 +1630,45 @@ h5 {
 }
 
 .page-header h5 {
-    font-variant-caps: petite-caps;
-    font-size: 1.16666em;
+    font-size: 1.5em;
 }
 
 .skills-header {
     margin-top: 5px;
     margin-bottom: 0;
-    font-style: italic;
+    /* font-style: italic; */
 }
+
+.section-projects ul > li {
+  list-style-type: none;
+  line-height: normal;
+}
+
+.section-projects ul > li + li {
+  margin-top: 3px;
+}
+
+.section-projects ul {
+  padding-left: 0;
+}
+
+.section-projects strong {
+  color: #404041;
+}
+
+.section-projects > :nth-child(3) > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2px;
+}
+
+.section-projects > :nth-child(3) > ul > li {
+  margin-top: 0;
+}
+
+.section-projects > :nth-child(3) > p {
+    margin-top: 2px;
+  }
 
 @media (max-width: 768px) {
     .container {
@@ -1659,7 +1711,7 @@ h5 {
         margin: 4px 0px 0px 0px;
     }
     .no-page-break:not(:first-of-type) {
-        margin-top: 8px;
+        margin-top: 4px;
     }
     .experience > ul {
         margin-top: 7px;

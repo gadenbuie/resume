@@ -1,39 +1,33 @@
 {
   "basics": {
     "name": "Garrick Aden-Buie",
-    "label": "Data Scientist/Educator",
+    "label": "Data Scientist/Educator/Software Engineer",
     "website": "https://www.garrickadenbuie.com",
-    "phone": "(727) 344-9568",
     "email": "garrick@adenbuie.com",
-    "location": {
-      "address": "474 34th Ave N.",
-      "postalCode": "FL 33704",
-      "city": "St. Petersburg",
-      "countryCode": "US",
-      "region": "Florida"
-    },
     "other": [],
-    "summary": "Motivated, life-long learner. Always looking for questions and answers in the data. Passionate about collaboration, sharing knowledge, and communicating insights. Known as a highly organized, perceptive, and resourceful team player.",
+    "summary": "Motivated, life-long learner. Always looking for questions and answers in the data or source code. Passionate about collaboration and empathetic communication. Known as a highly organized, perceptive, and resourceful team player.",
     "picture": "",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "gadenbuie",
-        "url": "https://github.com/gadenbuie"
-      },
-      {
-        "network": "Twitter",
-        "username": "grrrck",
-        "url": "https://twitter.com/grrrck"
-      }
-    ]
+    "github": "gadenbuie",
+    "twitter": "grrrck"
   },
   "work": [
+    {
+      "company": "<del>RStudio</del> Posit Academy",
+      "website": "https://posit.co/academy",
+      "position": "Data Science Educator & Software Engineer",
+      "startDate": "2020-11-01",
+      "endDate": "",
+      "summary": "Maintainer and lead developer of a suite of packages for authoring interactive tutorials and grading user-submitted code. Crafted bespoke internal tools for authoring projects and tutorials. Wrote and copy-edited tutorials and projects to teach data skills to Academy customers. Mentored customers, Academy Mentors, and fellow team mates in programming and package development in R.",
+      "highlights": [
+        "Maintainer of public, open-source, and widely used R packages [learnr](https://pkgs.rstudio.com/learnr) and [gradethis](https://pkgs.rstudio.com)",
+        "Author and maintainer of numerous internal tools for reporting, accessing and analyzing metrics, and publishing content"
+      ]
+    },
     {
       "company": "Collaborative Data Services (CDS), Moffitt Cancer Center",
       "position": "Scientific Programmer",
       "startDate": "2019-08-12",
-      "endDate": "",
+      "endDate": "2020-11-01",
       "summary": "Worked closely with CDS analysts and Moffitt investigators as a software engineer to design and implement approachable and consistent tools to automate data access, cleaning, and reporting. Provided training and support to CDS analysts in data science best practices while architecting and implementing new workflows.",
       "highlights": [
         "Designed and led trainings in R programming, data analysis, and version control for multiple teams at Moffitt",
@@ -43,6 +37,7 @@
     },
     {
       "company": "rstudio::conf(2020)",
+      "website": "https://js4shiny.com",
       "position": "Workshop: JavaScript for Shiny Users",
       "startDate": "2020-01-26",
       "endDate": "2020-01-28",
@@ -56,7 +51,7 @@
       "summary": "Conducted advanced bioinformatic and statistical analyses in support of cancer epidemiology research. Developed several R packages and worked with diverse data systems architects to coordinate development efforts throughout the data life cycle. Applied novel analytic approaches and software pipelines to multiplex immunohistochemistry data.",
       "highlights": [
         "Designed and developed a Shiny dashboard interface with companion R package for analysis of the FCDS Florida Cancer Registry data",
-        "Created and led an in-depth course on data processing with R for data analysts in CDS",
+        "Created and led an in-depth course on data processing with R for analysts in CDS",
         "Co-PI: Internal $50,000 grant to develop DV3, a framework for data virtualization, visualization and versioning"
       ]
     },
@@ -72,37 +67,6 @@
         "Lead software developer for remote sensor data collection, processing, storage, admin, and visualization",
         "Developed several R packages and Shiny applications for inventory management and data processing"
       ]
-    },
-    {
-      "company": "University of South Florida",
-      "position": "R Package Developer: MCTestAnalysis",
-      "website": "https://gadenbuie.github.io/mctestanalysis/",
-      "startDate": "2016-07-01",
-      "endDate": "2017-03-01",
-      "summary": "Developed an R package for Multiple-Choice Test Analysis for educators who are not comfortable programming. The package includes a web interface for interactive exploration of test results, or a generated report based on best practices for the design and evaluation of multiple-choice tests."
-    },
-    {
-      "company": "Peace Corps",
-      "address": "Gualaceo, Ecuador",
-      "position": "Youth Development Specialist",
-      "startDate": "2008-06-16",
-      "endDate": "2009-08-20",
-      "summary": "Served in the Peace Corps in Gualaceo, Ecuador, working in conjunction with local organizations to provide leadership training to children and youth among a number of other highlights listed below. ",
-      "highlights": [
-        "Created and implemented life-skills training program, educating 70 at-risk middle school students.",
-        "Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created contest-based fundraiser for a shelter for trafficked women in Guayaquil, Ecuador.",
-        "Various educational activities including: establishing a tutoring program for math students; designing interactive materials for children and parents around topics of public health; developing and delivering drug and alcohol abuse prevention education for parents."
-      ]
-    },
-    {
-      "company": "INFORMS Student Chapter at USF",
-      "position": "Chapter President",
-      "startDate": "2014-05-01",
-      "endDate": "2015-05-01",
-      "highlights": [
-        "Started a student-led monthly journal club to share and disseminate cutting-edge publications in statistics, machine learning, and operations research.",
-        "Organized and led a college-wide code and data bootcamp for undergraduate and graduate students, featuring hands-on learning of data science and programming principles."
-      ]
     }
   ],
   "certifications": [
@@ -114,14 +78,8 @@
     }
   ],
   "education": [
-    { 
+    {
       "institution": "University of South Florida",
-      "courses": [
-        "Deep Learning",
-        "Large-Scale Optimization",
-        "Adv. Analytics",
-        "Bayesian Data Analysis"
-      ],
       "startDate": "2012-09-01",
       "endDate": "2018-12-01",
       "area": "Industrial & Mgmt. Systems Engineering",
@@ -140,7 +98,7 @@
       ]
     },
     {
-      "institution": "Universidad Autónoma de Madrid and Syracuse University in Madrid",
+      "institution": "Universidad Autónoma de Madrid & Syracuse Uni. (Madrid)",
       "startDate": "2005-09-01",
       "endDate": "2006-08-01",
       "area": "Spanish",
@@ -161,9 +119,8 @@
         "Git",
         "R Package Development",
         "Database Management",
-        "SQL (MySQL, SQLite, Postgres)",
-        "Commandline Scripting (Bash)",
-        "MS Office (Excel, etc.)"
+        "SQL (Postgres, DuckDB, SQLite)",
+        "Commandline Scripting (Bash)"
       ]
     },
     {
@@ -184,7 +141,7 @@
       ]
     },
     {
-      "name": "Operating Systems",
+      "name": "Systems",
       "level": "intermediate",
       "keywords": [
         "Linux (Debian, Ubuntu, Other)",
@@ -201,38 +158,30 @@
       "title": "Runner Up, Shiny App Contest",
       "date": "2019-04-01",
       "awarder": "RStudio",
-      "summary": "Selected as one of 10 developers from 136 submissions in recognition of a web app and dashboard built using Shiny. The dashboard monitors social media conversations around a conference or event, and received hundreds of simultaneous visitors per day during RStudio's annual conference in January 2019."
+      "summary": "Built a Shiny dashboard to monitor social media conversations around a conference or event, and received hundreds of simultaneous visitors per day during RStudio's annual conference in January 2019."
     }
   ],
-  "publications": [
-    {
-      "name": "HomeSense: Design of an ambient home health and wellness monitoring platform for older adults",
-      "publisher": "Health and Technology",
-      "releaseDate": "2020-07-03",
-      "summary": "VandeWeerd C, Yalcin A, Aden-Buie G, Wang Y, Roberts M, Mahser N, Fnu C, Fabiano D",
-      "url": "https://link.springer.com/article/10.1007/s12553-019-00404-6"
-    },
-    {
-      "name": "epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology",
-      "publisher": "Bioinformatics",
-      "releaseDate": "2019-05-01",
-      "summary": "Creed J, Aden-Buie G, Monteiro A, Gerke TA"
-    },
-    {
-      "name": "Introduction to Engineering Design: Piloting design projects for the first year engineering experience",
-      "publisher": "Sixth Annual First Year Engineering Experience Conference",
-      "releaseDate": "2014",
-      "summary": "Gaines J, Joseph B, Aden-Buie G"
-    },
-    {
-      "name": "Are multiple-choice questions suitable for a final examination in a STEM course?",
-      "publisher": "American Society for Engineering Education",
-      "releaseDate": "2014",
-      "summary": "Aden-Buie G, Kaw A, Yalcin A, Pendyala R"
-    }
-  ],
+  "publications": [],
   "presentations": [
-     {
+    {
+      "name": "Professional, Polished, Presentable",
+      "date": "2021-07-07",
+      "event": "useR!2021",
+      "website": "https://presentable-user2021.netlify.app/"
+    },
+    {
+      "name": "R Markdown: An Incomplete History",
+      "date": "2021-02-11",
+      "event": "Toronto Data Workshop",
+      "website": "https://www.garrickadenbuie.com/talk/toronto-data-workshop/"
+    },
+    {
+      "name": "xaringan Playground",
+      "date": "2021-01-21",
+      "event": "rstudio::global(2021)",
+      "website": "https://www.garrickadenbuie.com/talk/xaringan-playground/"
+    },
+    {
       "name": "Build Your Own Universe",
       "date": "2020-08-28",
       "event": "R/Medicine 2020",
@@ -243,32 +192,6 @@
       "date": "2020-07-08",
       "event": "useR!2020",
       "website": "https://www.garrickadenbuie.com/talk/extra-special-xaringan/"
-    },
-    {
-      "name": "Reproducible Data Workflows with Drake",
-      "date": "2019-07-19",
-      "event": "Bio-Data Club at Moffitt Cancer Center",
-      "website": "https://gadenbuie.github.io/drake-intro/"
-    },
-    {
-      "name": "A Gentle Guide to the Grammar of Graphics with ggplot2",
-      "date": "2018-11-06",
-      "event": "Workshop on Data Analysis Using R (ASA at USF)",
-      "website": "https://www.garrickadenbuie.com/talk/gentle-ggplot2"
-    },
-    {
-      "name": "The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring",
-      "date": "2018-10-29",
-      "event": "Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center",
-      "website": "http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/",
-      "summary": "Aden-Buie G"
-    },
-    {
-      "name": "Unsupervised behavior change detection using passive sensor systems in the homes of older adults",
-      "date": "2018-05-07",
-      "event": "11th World Conference of Gerontechnology",
-      "website": "https://www.garrickadenbuie.com/talk/isg-2018/",
-      "summary": "Aden-Buie G, Yalcin A, VandeWeerd C"
     }
   ],
   "interests": [],
@@ -284,31 +207,34 @@
       ]
     },
     {
-      "name": "Scientific Software",
+      "name": "Shiny Apps",
       "highlights": [
-        "moffittverse - An collection of internal R packages for data access and analysis at Moffitt. Enables and facilitates database access and workflows using various hospital data systems.",
-        "fcds — [gerkelab.github.io/fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the [Florida Cancer Data System](https://fcds.med.miami.edu/inc/welcome.shtml)",
-        "ShinyDAG — [gerkelab.com/project/shinydag](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)"
+        "[tweet-conf-dash](https://apps.garrickadenbuie.com/rstudioconf-2019)<br>A Shiny dashboard for following a remote conference, such as rstudio::conf(2019). Featured in the [Shiny User Showcase](https://shiny.rstudio.com/gallery/#user-showcase).",
+        "[rstudio::global(2021) Calendar](https://garrick-rstudio.shinyapps.io/rstudio-global-2021/)<br>Find talks in your local timezone and download your schedule as an `.ics` file.",
+        "[branchmover](https://www.garrickadenbuie.com/blog/branchmover/)<br>An RStudio addin and Shiny app to help you change the default branch of all of your GitHub repos from `master` to `main`."
       ]
     },
     {
       "name": "Open Source Software",
-      "summary": "I enjoy contributing to open source software projects and whenever possible I contribute to the R packages that I use. I also have released the following software packages for R on CRAN and GitHub:",
+      "summary": "I enjoy creating and contributing to open source software. Here are some of my favorite personal projects, you can find more at [garrickadenbuie.com/project](https://garrickadenbuie.com/project) or on my [GitHub](https://github.com/gadenbuie).",
       "highlights": [
-        "regexplain: [garrickadenbuie.com/project/regexplain/](https://www.garrickadenbuie.com/project/regexplain/)",
-        "tidyexplain: [garrickadenbuie.com/project/tidyexplain/](https://www.garrickadenbuie.com/project/tidyexplain)",
-        "countdown: [pkg.garrickadenbuie.com/countdown](https://pkg.garrickadenbuie.com/countdown)",
-        "xaringanthemer: [pkg.garrickadenbuie.com/xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
-        "xaringanExtra: [pkg.garrickadenbuie.com/xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra)",
-        "js4shiny: [pkg.js4shiny.com/](http://pkg.js4shiny.com/)",
-        "ggpomological: [garrickadenbuie.com/project/ggpomological](https://www.garrickadenbuie.com/project/ggpomological)",
-        "rsthemes: [garrickadenbuie.com/project/rsthemes](https://www.garrickadenbuie.com/project/rsthemes)",
-        "shrtcts: [pkg.garrickadenbuie.com/shrtcts](https://pkg.garrickadenbuie.com/shrtcts/)",
-        "metathis: [pkg.garrickadenbuie.com/metathis/](https://pkg.garrickadenbuie.com/metathis/)",
-        "ggweekly: [github.com/gadenbuie/ggweekly](https://github.com/gadenbuie/ggweekly)",
-        "cleanrmd: [pkg.garrickadenbuie.com/cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)",
-        "tweetrmd: [github.com/gadenbuie/tweetrmd](https://github.com/gadenbuie/tweetrmd)",
-        "MCTestAnalysis: [garrickadenbuie.com/project/mc-test-analysis/](https://www.garrickadenbuie.com/project/mc-test-analysis/)"
+        "[regexplain](https://www.garrickadenbuie.com/project/regexplain/)",
+        "[countdown](https://pkg.garrickadenbuie.com/countdown)",
+        "[xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer)",
+        "[xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra)",
+        "[js4shiny](http://pkg.js4shiny.com/)",
+        "[epoxy](https://pkg.garrickadenbuie.com/epoxy)",
+        "[shinyComponents](https://github.com/gadenbuie/shinyComponents)",
+        "[metathis](https://pkg.garrickadenbuie.com/metathis/)",
+        "[cleanrmd](https://pkg.garrickadenbuie.com/cleanrmd)"
+      ]
+    },
+    {
+      "name": "Scientific Software",
+      "highlights": [
+        "moffittverse<br>A collection of internal R packages for data access and analysis at Moffitt. Enables and facilitates database access and workflows using various hospital data systems.",
+        "[fcds](https://gerkelab.github.io/fcds) <br>An R package and Shiny web application for the analysis of Florida Cancer Regististry data from the Florida Cancer Data System.",
+        "[ShinyDAG](https://gerkelab.com/project/shinydag) <br>A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)."
       ]
     }
   ],

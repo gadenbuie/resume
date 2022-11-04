@@ -251,6 +251,7 @@ $endif$
 % \definecolor{greytext}{RGB}{119,119,119}
 
 $if(basics)$
+\usepackage{fontspec}
 \usepackage{fontawesome}
 \address{
   % $if(basics.name)$\bf{$basics.name$}\\$endif$

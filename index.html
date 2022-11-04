@@ -31,6 +31,7 @@ html {
 }
 body {
     margin: 0;
+    color: #404041;
 }
 article,
 aside,
@@ -317,7 +318,8 @@ textarea {
 }
 a, a:visited {
     /*color: #337ab7;*/
-    color: #ea5359;
+    /* color: #ea5359; */
+    color: #ee6331;
     text-decoration: none;
 }
 a:hover,
@@ -643,7 +645,7 @@ ol ol {
     margin-bottom: 0;
 }
 .column-right ul li {
-    list-style-type: square;
+    list-style-type: disclosure-closed;
 }
 .list-unstyled {
     padding-left: 0;
@@ -1559,6 +1561,10 @@ body {
     margin-bottom: 0;
 }
 
+.job-title small {
+    color: #6d747a;
+}
+
 .education-date {
     padding-top: 5px;
 }
@@ -1595,9 +1601,25 @@ body {
     /* text-align: justify;
     text-justify: newspaper; */
     padding-left: 7px;
-    border-left: 2px solid lightblue;
+    border-left: 2px solid #c6d4e0;
     margin-top: 8px;
     margin-bottom: 5px;
+}
+
+.sidebar-section {
+    font-size: 95%;
+}
+
+.sidebar-about ul > li > svg {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+  fill: #404041;
+}
+
+.sidebar-about ul > li {
+  margin-bottom: 3px;
 }
 
 .basics-name {
@@ -1616,15 +1638,45 @@ h5 {
 }
 
 .page-header h5 {
-    font-variant-caps: petite-caps;
-    font-size: 1.16666em;
+    font-size: 1.5em;
 }
 
 .skills-header {
     margin-top: 5px;
     margin-bottom: 0;
-    font-style: italic;
+    /* font-style: italic; */
 }
+
+.section-projects ul > li {
+  list-style-type: none;
+  line-height: normal;
+}
+
+.section-projects ul > li + li {
+  margin-top: 3px;
+}
+
+.section-projects ul {
+  padding-left: 0;
+}
+
+.section-projects strong {
+  color: #404041;
+}
+
+.section-projects > :nth-child(3) > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2px;
+}
+
+.section-projects > :nth-child(3) > ul > li {
+  margin-top: 0;
+}
+
+.section-projects > :nth-child(3) > p {
+    margin-top: 2px;
+  }
 
 @media (max-width: 768px) {
     .container {
@@ -1667,7 +1719,7 @@ h5 {
         margin: 4px 0px 0px 0px;
     }
     .no-page-break:not(:first-of-type) {
-        margin-top: 8px;
+        margin-top: 4px;
     }
     .experience > ul {
         margin-top: 7px;
@@ -1684,71 +1736,82 @@ h5 {
             <!-- Name, title -->
              <h3 class="basics-name sm-margin-bottom no-margin-top">
                 Garrick Aden-Buie
-                <span class="basics-label">Data Scientist/Educator</span>
+                <span class="basics-label">Data Scientist/Educator/Software Engineer</span>
             </h3>
 
             <p class="newspaper no-margin-bottom">Motivated, life-long learner. Always looking for questions and answers
-                in the data. Passionate about collaboration, sharing knowledge, and communicating
-                insights. Known as a highly organized, perceptive, and resourceful team
-                player.</p>
+                in the data or source code. Passionate about collaboration and empathetic
+                communication. Known as a highly organized, perceptive, and resourceful
+                team player.</p>
             <!-- LEFT COLUMN -->
-            <div class="col-xs-3 no-padding lg-margin-top">
-                <div class="page-header no-margin">
-                     <h5>About</h5>
+            <div class="col-xs-3 no-padding lg-margin-top sidebar">
+                <div class="sidebar-section sidebar-about">
+                    <!-- LEFT COLUMN: Address, contact information -->
+                    <div class="page-header no-margin">
+                         <h5>About</h5>
 
-                </div>
-                <!-- LEFT COLUMN: Address, contact information --> <small>
+                    </div>
                     <ul class="no-bullets no-padding-left no-margin-bottom">
+                        <li></li>
+                        <li></li>
                         <li>
-                            <a href="https://www.garrickadenbuie.com">garrickadenbuie.com</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <path d="M218.8,103.7,138.8,31a16,16,0,0,0-21.6,0l-80,72.7A16,16,0,0,0,32,115.5v92.1a16.4,16.4,0,0,0,4,11A15.9,15.9,0,0,0,48,224H96a8,8,0,0,0,8-8V168a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8v48a8,8,0,0,0,8,8h48a15.6,15.6,0,0,0,7.6-1.9A16.1,16.1,0,0,0,224,208V115.5A16,16,0,0,0,218.8,103.7Z"></path>
+                            </svg> <a href="https://www.garrickadenbuie.com">garrickadenbuie.com</a>
+
                         </li>
                         <li>
-                            <a href="mailto:garrick@adenbuie.com">garrick@adenbuie.com</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <path d="M227.7,48.3,175.3,234.2a15.9,15.9,0,0,1-14.1,11.6h-1.4a16,16,0,0,1-14.4-9.1l-35.7-75.4a4.1,4.1,0,0,1,.8-4.6l51.3-51.3a8,8,0,1,0-11.3-11.3L99.2,145.5a4.1,4.1,0,0,1-4.6.8l-75-35.5a16.6,16.6,0,0,1-9.5-15.6A15.9,15.9,0,0,1,21.8,80.7L208.1,28.2a16,16,0,0,1,17.7,6.5A16.7,16.7,0,0,1,227.7,48.3Z"></path>
+                            </svg> <a href="mailto:garrick@adenbuie.com">garrick@adenbuie.com</a>
+
                         </li>
-                        <li>(727) 344-9568</li>
                         <li>
-                            St. Petersburg, Florida (US)
-                       </li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12"
+                            height="12">
+                                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg> <a href="https://github.com/gadenbuie">gadenbuie</a>
+
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 256 256">
+                                <rect width="256" height="256" fill="none"></rect>
+                                <path d="M245.7,77.7l-30.2,30.1C209.5,177.7,150.5,232,80,232c-14.5,0-26.5-2.3-35.6-6.8-7.3-3.7-10.3-7.6-11.1-8.8a8,8,0,0,1,3.9-11.9c.2-.1,23.8-9.1,39.1-26.4a108.6,108.6,0,0,1-24.7-24.4c-13.7-18.6-28.2-50.9-19.5-99.1a8.1,8.1,0,0,1,5.5-6.2,8,8,0,0,1,8.1,1.9c.3.4,33.6,33.2,74.3,43.8V88a48.3,48.3,0,0,1,48.6-48,48.2,48.2,0,0,1,41,24H240a8,8,0,0,1,7.4,4.9A8.4,8.4,0,0,1,245.7,77.7Z"></path>
+                            </svg> <a href="https://twitter.com/grrrck">grrrck</a>
+
+                        </li>
                     </ul>
                     <!-- // LEFT COLUMN: Address, contact information -->
-
-
                     <!-- LEFT COLUMN: Social Networking -->
-                    <ul class="no-bullets no-padding-left">
-                        <li><strong>GitHub:</strong> <a href="https://github.com/gadenbuie">gadenbuie</a></li>
-                        <li><strong>Twitter:</strong> <a href="https://twitter.com/grrrck">grrrck</a></li>
-                    </ul>
-                    <!-- // LEFT COLUMN: Social Networking -->
-
-
-
-                    <!-- LEFT COLUMN: Languages -->
+                </div>
+                <!-- // LEFT COLUMN: Social Networking -->
+                <!-- LEFT COLUMN: Languages -->
+                <div class="sidebar-section sidebar-languages">
                     <div class="page-header no-margin lg-margin-top">
-                        <h5>Languages</h5>
-                    </div>
+                         <h5>Languages</h5>
 
+                    </div>
                     <div class="print-together">
-                        <div class="no-page-break">
-                            <strong>English</strong>
-                            (Native)
-                            <br />
-                            <strong>Spanish</strong>
-                            (Superior ACTFL/ETS)
+                        <div class="no-page-break"> <strong>English</strong>
+(Native)
+                            <br /> <strong>Spanish</strong>
+(Superior ACTFL/ETS)
                             <br />
                         </div>
                     </div>
-                    <!-- // LEFT COLUMN: Languages -->
-
-
-                    <!-- LEFT COLUMN: Skills -->
+                </div>
+                <!-- // LEFT COLUMN: Languages -->
+                <!-- LEFT COLUMN: Skills -->
+                <div class="sidebar-section sidebar-skills">
                     <div class="page-header no-margin lg-margin-top skills">
-                        <h5>Skills</h5>
-                    </div>
+                         <h5>Skills</h5>
 
+                    </div>
                     <div class="print-together">
                         <div class="no-page-break">
                             <div class="text-uppercase skills-header">Advanced</div>
-
                             <ul class="no-bullets sm-padding-left">
                                 <li>R</li>
                                 <li>Shiny</li>
@@ -1759,25 +1822,21 @@ h5 {
                                 <li>Git</li>
                                 <li>R Package Development</li>
                                 <li>Database Management</li>
-                                <li>SQL (MySQL, SQLite, Postgres)</li>
+                                <li>SQL (Postgres, DuckDB, SQLite)</li>
                                 <li>Commandline Scripting (Bash)</li>
-                                <li>MS Office (Excel, etc.)</li>
                             </ul>
                             <div class="text-uppercase skills-header">Intermediate</div>
-
                             <ul class="no-bullets sm-padding-left">
                                 <li>Python</li>
                                 <li>PHP</li>
                                 <li>MQTT</li>
                             </ul>
                             <div class="text-uppercase skills-header">Familiar</div>
-
                             <ul class="no-bullets sm-padding-left">
                                 <li>Julia</li>
                                 <li>Go</li>
                             </ul>
-                            <div class="text-uppercase skills-header">Operating Systems</div>
-
+                            <div class="text-uppercase skills-header">Systems</div>
                             <ul class="no-bullets sm-padding-left">
                                 <li>Linux (Debian, Ubuntu, Other)</li>
                                 <li>macOS</li>
@@ -1788,18 +1847,16 @@ h5 {
                             </ul>
                         </div>
                     </div>
-                    <!-- // LEFT COLUMN: Skills -->
-
-                    <!-- LEFT COLUMN: Interests -->
-                    <!-- // LEFT COLUMN: Interests -->
-                </small>
-
+                </div>
+                <!-- // LEFT COLUMN: Skills -->
+                <!-- LEFT COLUMN: Interests -->
+                <!-- // LEFT COLUMN: Interests -->
             </div>
             <!-- // LEFT COLUMN -->
             <!-- RIGHT COLUMN -->
             <div class="col-xs-9 no-padding-right column-right">
                 <!-- RIGHT COLUMN: Education -->
-                <div class="print-together">
+                <div class="section-education print-together">
                     <div class="no-page-break">
                         <div class="page-header no-margin-bottom lg-margin-top">
                              <h5>Education</h5>
@@ -1817,15 +1874,12 @@ h5 {
                         <p class="education-details no-margin">Ph.D. Candidate (exited ABD), MSIE (2014), Industrial &amp; Mgmt. Systems
                             Engineering</p>
                         <div class="clearfix"></div>
-                        <p class="no-margin"> <strong>Courses: </strong>
-Deep Learning, Large-Scale Optimization, Adv.
-                            Analytics, Bayesian Data Analysis</p>
                          <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
                                 2005 &mdash;  2006
                             </span>
 
-                            Universidad Autónoma de Madrid and Syracuse University in Madrid
+                            Universidad Autónoma de Madrid &amp; Syracuse Uni. (Madrid)
                         </h6>
 
                         <div class="clearfix"></div>
@@ -1846,213 +1900,177 @@ Deep Learning, Large-Scale Optimization, Adv.
                 </div>
                 <!-- // RIGHT COLUMN: Education -->
                 <!-- RIGHT COLUMN: Certifications -->
-                <div class="page-header no-margin-bottom lg-margin-top">
-                     <h5>Certifications</h5>
+                <div class="section-certifications">
+                    <div class="page-header no-margin-bottom lg-margin-top">
+                         <h5>Certifications</h5>
 
+                    </div>
+                     <h6 class="job-title sm-margin-top no-margin-bottom">
+                        <span class="education-date">
+                            Sep 2019 &mdash; Present
+                        </span>
+
+                        RStudio Certified Tidyverse Instructor
+                    </h6>
+
+                    <div class="clearfix"></div>
                 </div>
-                 <h6 class="job-title sm-margin-top no-margin-bottom">
-                    <span class="education-date">
-                        Sep 2019 &mdash; Present
-                    </span>
-
-                    RStudio Certified Tidyverse Instructor
-                </h6>
-
-                <div class="clearfix"></div>
                 <!-- // RIGHT COLUMN: Certifications -->
                 <!-- RIGHT COLUMN: Experience -->
-                <div class="page-header no-margin-bottom lg-margin-top">
-                     <h5>Professional Experience</h5>
+                <div class="section-work">
+                    <div class="page-header no-margin-bottom lg-margin-top">
+                         <h5>Professional Experience</h5>
 
-                </div>
-                <div class="print-together experience">
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Present<br />Aug 2019
-                            </span>
-
-                            Scientific Programmer
-                            <br /><small style="font-size: 90%;">Collaborative Data Services (CDS), Moffitt Cancer Center</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"></p>
-                        <p class="sm-margin-top newspaper">Worked closely with CDS analysts and Moffitt investigators as a software
-                            engineer to design and implement approachable and consistent tools to automate
-                            data access, cleaning, and reporting. Provided training and support to
-                            CDS analysts in data science best practices while architecting and implementing
-                            new workflows.</p>
                     </div>
-                    <ul>
-                        <li>Designed and led trainings in R programming, data analysis, and version
-                            control for multiple teams at Moffitt</li>
-                        <li>Developed <strong>moffittverse</strong>: a set of inter-related R packages
-                            for access to heterogeneous hospital data systems, with an API intentionally
-                            designed for broad accessibility</li>
-                        <li>Led a weekly educational session for dozens of Moffitt R users centered
-                            around <em>R for Data Science</em>
-                        </li>
-                    </ul>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Jan 2020<br />Jan 2020
-                            </span>
+                    <div class="print-together experience">
+                        <div class="no-page-break">
+                             <h6 class="job-title sm-margin-top no-margin-bottom">
+                                <span class="job-details">
+                                    
+                                    
+                                    Present<br />Nov 2020
+                                </span>
 
-                            Workshop: JavaScript for Shiny Users
-                            <br /><small style="font-size: 90%;">rstudio::conf(2020)</small>
-                        </h6>
+                                Data Science Educator &amp; Software Engineer
+                                <br /><small style="font-size: 90%;"><del>RStudio</del> Posit Academy</small>
+                            </h6>
 
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"></p>
-                        <p class="sm-margin-top newspaper">Created and led an entirely new, two-day, hands-on and project-driven
-                            workshop for 90 Shiny users on JavaScript and web development at one of
-                            the largest conferences for R users. Developed the js4shiny R package to
-                            support the workshop and provide additional resources and tools for JavaScript
-                            development in R and RStudio using R Markdown and Shiny, including an R
-                            Markdown format for literate JavaScript programming and a Codepen clone
-                            for RStudio with live preview of HTML, CSS and JS.</p>
+                            <div class="clearfix"></div>
+                            <p class="job-information no-margin no-padding"> <a href="https://posit.co/academy">posit.co/academy</a>
+                                <br />
+                            </p>
+                            <p class="sm-margin-top newspaper">Maintainer and lead developer of a suite of packages for authoring interactive
+                                tutorials and grading user-submitted code. Crafted bespoke internal tools
+                                for authoring projects and tutorials. Wrote and copy-edited tutorials and
+                                projects to teach data skills to Academy customers. Mentored customers,
+                                Academy Mentors, and fellow team mates in programming and package development
+                                in R.</p>
+                        </div>
+                        <ul>
+                            <li>Maintainer of public, open-source, and widely used R packages <a href="https://pkgs.rstudio.com/learnr">learnr</a> and
+                                <a
+                                href="https://pkgs.rstudio.com">gradethis</a>
+                            </li>
+                            <li>Author and maintainer of numerous internal tools for reporting, accessing
+                                and analyzing metrics, and publishing content</li>
+                        </ul>
+                        <div class="no-page-break">
+                             <h6 class="job-title sm-margin-top no-margin-bottom">
+                                <span class="job-details">
+                                    
+                                    
+                                    Nov 2020<br />Aug 2019
+                                </span>
+
+                                Scientific Programmer
+                                <br /><small style="font-size: 90%;">Collaborative Data Services (CDS), Moffitt Cancer Center</small>
+                            </h6>
+
+                            <div class="clearfix"></div>
+                            <p class="job-information no-margin no-padding"></p>
+                            <p class="sm-margin-top newspaper">Worked closely with CDS analysts and Moffitt investigators as a software
+                                engineer to design and implement approachable and consistent tools to automate
+                                data access, cleaning, and reporting. Provided training and support to
+                                CDS analysts in data science best practices while architecting and implementing
+                                new workflows.</p>
+                        </div>
+                        <ul>
+                            <li>Designed and led trainings in R programming, data analysis, and version
+                                control for multiple teams at Moffitt</li>
+                            <li>Developed <strong>moffittverse</strong>: a set of inter-related R packages
+                                for access to heterogeneous hospital data systems, with an API intentionally
+                                designed for broad accessibility</li>
+                            <li>Led a weekly educational session for dozens of Moffitt R users centered
+                                around <em>R for Data Science</em>
+                            </li>
+                        </ul>
+                        <div class="no-page-break">
+                             <h6 class="job-title sm-margin-top no-margin-bottom">
+                                <span class="job-details">
+                                    
+                                    
+                                    Jan 2020<br />Jan 2020
+                                </span>
+
+                                Workshop: JavaScript for Shiny Users
+                                <br /><small style="font-size: 90%;">rstudio::conf(2020)</small>
+                            </h6>
+
+                            <div class="clearfix"></div>
+                            <p class="job-information no-margin no-padding"> <a href="https://js4shiny.com">js4shiny.com</a>
+                                <br />
+                            </p>
+                            <p class="sm-margin-top newspaper">Created and led an entirely new, two-day, hands-on and project-driven
+                                workshop for 90 Shiny users on JavaScript and web development at one of
+                                the largest conferences for R users. Developed the js4shiny R package to
+                                support the workshop and provide additional resources and tools for JavaScript
+                                development in R and RStudio using R Markdown and Shiny, including an R
+                                Markdown format for literate JavaScript programming and a Codepen clone
+                                for RStudio with live preview of HTML, CSS and JS.</p>
+                        </div>
+                        <div class="no-page-break">
+                             <h6 class="job-title sm-margin-top no-margin-bottom">
+                                <span class="job-details">
+                                    
+                                    
+                                    Aug 2019<br />May 2018
+                                </span>
+
+                                Research Data Analyst II (Bioinformatics)
+                                <br /><small style="font-size: 90%;">Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center</small>
+                            </h6>
+
+                            <div class="clearfix"></div>
+                            <p class="job-information no-margin no-padding"></p>
+                            <p class="sm-margin-top newspaper">Conducted advanced bioinformatic and statistical analyses in support of
+                                cancer epidemiology research. Developed several R packages and worked with
+                                diverse data systems architects to coordinate development efforts throughout
+                                the data life cycle. Applied novel analytic approaches and software pipelines
+                                to multiplex immunohistochemistry data.</p>
+                        </div>
+                        <ul>
+                            <li>Designed and developed a Shiny dashboard interface with companion R package
+                                for analysis of the FCDS Florida Cancer Registry data</li>
+                            <li>Created and led an in-depth course on data processing with R for analysts
+                                in CDS</li>
+                            <li>Co-PI: Internal $50,000 grant to develop DV3, a framework for data virtualization,
+                                visualization and versioning</li>
+                        </ul>
+                        <div class="no-page-break">
+                             <h6 class="job-title sm-margin-top no-margin-bottom">
+                                <span class="job-details">
+                                    
+                                    
+                                    Jan 2018<br />Sep 2014
+                                </span>
+
+                                Project Coordinator and Research Associate
+                                <br /><small style="font-size: 90%;">University of South Florida</small>
+                            </h6>
+
+                            <div class="clearfix"></div>
+                            <p class="job-information no-margin no-padding"> <a href="http://usf.edu/engineering/create-health/">usf.edu/engineering/create-health/</a>
+                                <br
+                                />
+                            </p>
+                            <p class="sm-margin-top newspaper">Led diverse team of Ph.D., masters and undergraduate students in development
+                                and evaluation of large smart home project for monitoring the daily activities
+                                of community-dwelling, independent older adults.</p>
+                        </div>
+                        <ul>
+                            <li>Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students</li>
+                            <li>Lead software developer for remote sensor data collection, processing,
+                                storage, admin, and visualization</li>
+                            <li>Developed several R packages and Shiny applications for inventory management
+                                and data processing</li>
+                        </ul>
                     </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Aug 2019<br />May 2018
-                            </span>
-
-                            Research Data Analyst II (Bioinformatics)
-                            <br /><small style="font-size: 90%;">Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"></p>
-                        <p class="sm-margin-top newspaper">Conducted advanced bioinformatic and statistical analyses in support of
-                            cancer epidemiology research. Developed several R packages and worked with
-                            diverse data systems architects to coordinate development efforts throughout
-                            the data life cycle. Applied novel analytic approaches and software pipelines
-                            to multiplex immunohistochemistry data.</p>
-                    </div>
-                    <ul>
-                        <li>Designed and developed a Shiny dashboard interface with companion R package
-                            for analysis of the FCDS Florida Cancer Registry data</li>
-                        <li>Created and led an in-depth course on data processing with R for data
-                            analysts in CDS</li>
-                        <li>Co-PI: Internal $50,000 grant to develop DV3, a framework for data virtualization,
-                            visualization and versioning</li>
-                    </ul>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Jan 2018<br />Sep 2014
-                            </span>
-
-                            Project Coordinator and Research Associate
-                            <br /><small style="font-size: 90%;">University of South Florida</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"> <a href="http://usf.edu/engineering/create-health/">usf.edu/engineering/create-health/</a>
-                            <br
-                            />
-                        </p>
-                        <p class="sm-margin-top newspaper">Led diverse team of Ph.D., masters and undergraduate students in development
-                            and evaluation of large smart home project for monitoring the daily activities
-                            of community-dwelling, independent older adults.</p>
-                    </div>
-                    <ul>
-                        <li>Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students</li>
-                        <li>Lead software developer for remote sensor data collection, processing,
-                            storage, admin, and visualization</li>
-                        <li>Developed several R packages and Shiny applications for inventory management
-                            and data processing</li>
-                    </ul>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Mar 2017<br />Jul 2016
-                            </span>
-
-                            R Package Developer: MCTestAnalysis
-                            <br /><small style="font-size: 90%;">University of South Florida</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/mctestanalysis/">gadenbuie.github.io/mctestanalysis/</a>
-                            <br
-                            />
-                        </p>
-                        <p class="sm-margin-top newspaper">Developed an R package for Multiple-Choice Test Analysis for educators
-                            who are not comfortable programming. The package includes a web interface
-                            for interactive exploration of test results, or a generated report based
-                            on best practices for the design and evaluation of multiple-choice tests.</p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                May 2015<br />May 2014
-                            </span>
-
-                            Chapter President
-                            <br /><small style="font-size: 90%;">INFORMS Student Chapter at USF</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding"></p>
-                    </div>
-                    <ul>
-                        <li>Started a student-led monthly journal club to share and disseminate cutting-edge
-                            publications in statistics, machine learning, and operations research.</li>
-                        <li>Organized and led a college-wide code and data bootcamp for undergraduate
-                            and graduate students, featuring hands-on learning of data science and
-                            programming principles.</li>
-                    </ul>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Aug 2009<br />Jun 2008
-                            </span>
-
-                            Youth Development Specialist
-                            <br /><small style="font-size: 90%;">Peace Corps</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="job-information no-margin no-padding">Gualaceo, Ecuador</p>
-                        <p class="sm-margin-top newspaper">Served in the Peace Corps in Gualaceo, Ecuador, working in conjunction
-                            with local organizations to provide leadership training to children and
-                            youth among a number of other highlights listed below.</p>
-                    </div>
-                    <ul>
-                        <li>Created and implemented life-skills training program, educating 70 at-risk
-                            middle school students.</li>
-                        <li>Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created
-                            contest-based fundraiser for a shelter for trafficked women in Guayaquil,
-                            Ecuador.</li>
-                        <li>Various educational activities including: establishing a tutoring program
-                            for math students; designing interactive materials for children and parents
-                            around topics of public health; developing and delivering drug and alcohol
-                            abuse prevention education for parents.</li>
-                    </ul>
                 </div>
                 <!-- // RIGHT COLUMN: Experience -->
                 <!-- RIGHT COLUMN: Military -->
                 <!-- // RIGHT COLUMN: Miliary -->
                 <!-- RIGHT COLUMN: Awards -->
-                <div class="print-together">
+                <div class="section-awards print-together">
                     <div class="no-page-break">
                         <div class="page-header no-margin-bottom lg-margin-top">
                              <h5>Awards</h5>
@@ -2068,17 +2086,15 @@ Deep Learning, Large-Scale Optimization, Adv.
 
                         <div class="clearfix"></div>
                         <p class="education-details no-margin">RStudio
-                            <br />Selected as one of 10 developers from 136 submissions in recognition of
-                            a web app and dashboard built using Shiny. The dashboard monitors social
-                            media conversations around a conference or event, and received hundreds
-                            of simultaneous visitors per day during RStudio&#x27;s annual conference
-                            in January 2019.</p>
+                            <br />Built a Shiny dashboard to monitor social media conversations around a
+                            conference or event, and received hundreds of simultaneous visitors per
+                            day during RStudio&#x27;s annual conference in January 2019.</p>
                         <div class="clearfix"></div>
                     </div>
                 </div>
                 <!-- // RIGHT COLUMN: Awards -->
                 <!-- RIGHT COLUMN: Projects -->
-                <div class="no-page-break">
+                <div class="section-projects no-page-break">
                     <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top no-page-break-after">
                              <h5>Projects</h5>
@@ -2092,22 +2108,20 @@ Deep Learning, Large-Scale Optimization, Adv.
                     <div class="no-page-break">
                          <h6 class="job-title sm-margin-top no-margin">
 
-                            Scientific Software
+                            Shiny Apps
                         </h6>
 
                         <div class="clearfix"></div>
                         <p class="education-details no-margin"></p>
                         <ul class="no-margin-bottom">
-                            <li>moffittverse - An collection of internal R packages for data access and
-                                analysis at Moffitt. Enables and facilitates database access and workflows
-                                using various hospital data systems.</li>
-                            <li>fcds — <a href="https://gerkelab.github.io/fcds">gerkelab.github.io/fcds</a> 
-                                <br>An R package and Shiny web application for the analysis of Florida Cancer
-                                Regististry data from the <a href="https://fcds.med.miami.edu/inc/welcome.shtml">Florida Cancer Data System</a>
-                            </li>
-                            <li>ShinyDAG — <a href="https://gerkelab.com/project/shinydag">gerkelab.com/project/shinydag</a> 
-                                <br>A web application for building, analyzing, and visualizing directed acyclic
-                                graphs (DAGs)</li>
+                            <li><a href="https://apps.garrickadenbuie.com/rstudioconf-2019">tweet-conf-dash</a>
+                                <br>A Shiny dashboard for following a remote conference, such as rstudio::conf(2019).
+                                Featured in the <a href="https://shiny.rstudio.com/gallery/#user-showcase">Shiny User Showcase</a>.</li>
+                            <li><a href="https://garrick-rstudio.shinyapps.io/rstudio-global-2021/">rstudio::global(2021) Calendar</a>
+                                <br>Find talks in your local timezone and download your schedule as an <code>.ics</code> file.</li>
+                            <li><a href="https://www.garrickadenbuie.com/blog/branchmover/">branchmover</a>
+                                <br>An RStudio addin and Shiny app to help you change the default branch of
+                                all of your GitHub repos from <code>master</code> to <code>main</code>.</li>
                         </ul>
                     </div>
                     <div class="no-page-break">
@@ -2118,105 +2132,57 @@ Deep Learning, Large-Scale Optimization, Adv.
 
                         <div class="clearfix"></div>
                         <p class="education-details no-margin"></p>
-                        <p class="sm-margin-top">I enjoy contributing to open source software projects and whenever possible
-                            I contribute to the R packages that I use. I also have released the following
-                            software packages for R on CRAN and GitHub:</p>
+                        <p class="sm-margin-top">I enjoy creating and contributing to open source software. Here are some
+                            of my favorite personal projects, you can find more at <a href="https://garrickadenbuie.com/project">garrickadenbuie.com/project</a> or
+                            on my <a href="https://github.com/gadenbuie">GitHub</a>.</p>
                         <ul class="no-margin-bottom">
-                            <li>regexplain: <a href="https://www.garrickadenbuie.com/project/regexplain/">garrickadenbuie.com/project/regexplain/</a>
+                            <li><a href="https://www.garrickadenbuie.com/project/regexplain/">regexplain</a>
                             </li>
-                            <li>tidyexplain: <a href="https://www.garrickadenbuie.com/project/tidyexplain">garrickadenbuie.com/project/tidyexplain/</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/countdown">countdown</a>
                             </li>
-                            <li>countdown: <a href="https://pkg.garrickadenbuie.com/countdown">pkg.garrickadenbuie.com/countdown</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/xaringanthemer">xaringanthemer</a>
                             </li>
-                            <li>xaringanthemer: <a href="https://pkg.garrickadenbuie.com/xaringanthemer">pkg.garrickadenbuie.com/xaringanthemer</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/xaringanExtra">xaringanExtra</a>
                             </li>
-                            <li>xaringanExtra: <a href="https://pkg.garrickadenbuie.com/xaringanExtra">pkg.garrickadenbuie.com/xaringanExtra</a>
+                            <li><a href="http://pkg.js4shiny.com/">js4shiny</a>
                             </li>
-                            <li>js4shiny: <a href="http://pkg.js4shiny.com/">pkg.js4shiny.com/</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/epoxy">epoxy</a>
                             </li>
-                            <li>ggpomological: <a href="https://www.garrickadenbuie.com/project/ggpomological">garrickadenbuie.com/project/ggpomological</a>
+                            <li><a href="https://github.com/gadenbuie/shinyComponents">shinyComponents</a>
                             </li>
-                            <li>rsthemes: <a href="https://www.garrickadenbuie.com/project/rsthemes">garrickadenbuie.com/project/rsthemes</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/metathis/">metathis</a>
                             </li>
-                            <li>shrtcts: <a href="https://pkg.garrickadenbuie.com/shrtcts/">pkg.garrickadenbuie.com/shrtcts</a>
+                            <li><a href="https://pkg.garrickadenbuie.com/cleanrmd">cleanrmd</a>
                             </li>
-                            <li>metathis: <a href="https://pkg.garrickadenbuie.com/metathis/">pkg.garrickadenbuie.com/metathis/</a>
-                            </li>
-                            <li>ggweekly: <a href="https://github.com/gadenbuie/ggweekly">github.com/gadenbuie/ggweekly</a>
-                            </li>
-                            <li>cleanrmd: <a href="https://pkg.garrickadenbuie.com/cleanrmd">pkg.garrickadenbuie.com/cleanrmd</a>
-                            </li>
-                            <li>tweetrmd: <a href="https://github.com/gadenbuie/tweetrmd">github.com/gadenbuie/tweetrmd</a>
-                            </li>
-                            <li>MCTestAnalysis: <a href="https://www.garrickadenbuie.com/project/mc-test-analysis/">garrickadenbuie.com/project/mc-test-analysis/</a>
-                            </li>
+                        </ul>
+                    </div>
+                    <div class="no-page-break">
+                         <h6 class="job-title sm-margin-top no-margin">
+
+                            Scientific Software
+                        </h6>
+
+                        <div class="clearfix"></div>
+                        <p class="education-details no-margin"></p>
+                        <ul class="no-margin-bottom">
+                            <li>moffittverse
+                                <br>A collection of internal R packages for data access and analysis at Moffitt.
+                                Enables and facilitates database access and workflows using various hospital
+                                data systems.</li>
+                            <li><a href="https://gerkelab.github.io/fcds">fcds</a> 
+                                <br>An R package and Shiny web application for the analysis of Florida Cancer
+                                Regististry data from the Florida Cancer Data System.</li>
+                            <li><a href="https://gerkelab.com/project/shinydag">ShinyDAG</a> 
+                                <br>A web application for building, analyzing, and visualizing directed acyclic
+                                graphs (DAGs).</li>
                         </ul>
                     </div>
                 </div>
                 <!-- // RIGHT COLUMN: Projects -->
                 <!-- RIGHT COLUMN: Publications -->
-                <div class="print-together">
-                    <div class="page-header no-margin-bottom lg-margin-top">
-                         <h5>Selected Publications</h5>
-
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2020
-                            </span>
-
-                            HomeSense: Design of an ambient home health and wellness monitoring platform for older adults
-                            <br /><small style="font-size: 90%;">Health and Technology</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">VandeWeerd C, Yalcin A, Aden-Buie G, Wang Y, Roberts M, Mahser N, Fnu
-                            C, Fabiano D</p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2019
-                            </span>
-
-                            epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology
-                            <br /><small style="font-size: 90%;">Bioinformatics</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Creed J, Aden-Buie G, Monteiro A, Gerke TA</p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2014
-                            </span>
-
-                            Introduction to Engineering Design: Piloting design projects for the first year engineering experience
-                            <br /><small style="font-size: 90%;">Sixth Annual First Year Engineering Experience Conference</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Gaines J, Joseph B, Aden-Buie G</p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2014
-                            </span>
-
-                            Are multiple-choice questions suitable for a final examination in a STEM course?
-                            <br /><small style="font-size: 90%;">American Society for Engineering Education</small>
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Aden-Buie G, Kaw A, Yalcin A, Pendyala R</p>
-                    </div>
-                </div>
                 <!-- // RIGHT COLUMN: Publications -->
                 <!-- RIGHT COLUMN: Presentations -->
-                <div class="no-page-break">
+                <div class="section-presentations no-page-break">
                     <div class="print-together">
                         <div class="page-header no-margin-bottom lg-margin-top">
                              <h5>Selected Presentations</h5>
@@ -2225,6 +2191,58 @@ Deep Learning, Large-Scale Optimization, Adv.
                         <div class="no-page-break">
                              <h6 class="job-title sm-margin-top no-margin">
                             <span class="education-date">
+                                2021-07-07
+                            </span>
+
+                            Professional, Polished, Presentable
+                            <br /><small style="font-size: 90%;">useR!2021</small>
+                        </h6>
+
+                            <p class="job-information no-margin no-padding"> <a href="https://presentable-user2021.netlify.app/">presentable-user2021.netlify.app/</a>
+                                <br
+                                />
+                            </p>
+                            <div class="clearfix"></div>
+                            <p class="education-details no-margin"></p>
+                        </div>
+                    </div>
+                    <div class="no-page-break">
+                         <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2021-02-11
+                            </span>
+
+                            R Markdown: An Incomplete History
+                            <br /><small style="font-size: 90%;">Toronto Data Workshop</small>
+                        </h6>
+
+                        <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/toronto-data-workshop/">garrickadenbuie.com/talk/toronto-data-workshop/</a>
+                            <br
+                            />
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="education-details no-margin"></p>
+                    </div>
+                    <div class="no-page-break">
+                         <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
+                                2021-01-21
+                            </span>
+
+                            xaringan Playground
+                            <br /><small style="font-size: 90%;">rstudio::global(2021)</small>
+                        </h6>
+
+                        <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/xaringan-playground/">garrickadenbuie.com/talk/xaringan-playground/</a>
+                            <br
+                            />
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="education-details no-margin"></p>
+                    </div>
+                    <div class="no-page-break">
+                         <h6 class="job-title sm-margin-top no-margin">
+                            <span class="education-date">
                                 2020-08-28
                             </span>
 
@@ -2232,13 +2250,12 @@ Deep Learning, Large-Scale Optimization, Adv.
                             <br /><small style="font-size: 90%;">R/Medicine 2020</small>
                         </h6>
 
-                            <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/build-your-own-universe/">garrickadenbuie.com/talk/build-your-own-universe/</a>
-                                <br
-                                />
-                            </p>
-                            <div class="clearfix"></div>
-                            <p class="education-details no-margin"></p>
-                        </div>
+                        <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/build-your-own-universe/">garrickadenbuie.com/talk/build-your-own-universe/</a>
+                            <br
+                            />
+                        </p>
+                        <div class="clearfix"></div>
+                        <p class="education-details no-margin"></p>
                     </div>
                     <div class="no-page-break">
                          <h6 class="job-title sm-margin-top no-margin">
@@ -2256,74 +2273,6 @@ Deep Learning, Large-Scale Optimization, Adv.
                         </p>
                         <div class="clearfix"></div>
                         <p class="education-details no-margin"></p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2019-07-19
-                            </span>
-
-                            Reproducible Data Workflows with Drake
-                            <br /><small style="font-size: 90%;">Bio-Data Club at Moffitt Cancer Center</small>
-                        </h6>
-
-                        <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/drake-intro/">gadenbuie.github.io/drake-intro/</a>
-                            <br
-                            />
-                        </p>
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin"></p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-11-06
-                            </span>
-
-                            A Gentle Guide to the Grammar of Graphics with ggplot2
-                            <br /><small style="font-size: 90%;">Workshop on Data Analysis Using R (ASA at USF)</small>
-                        </h6>
-
-                        <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/gentle-ggplot2">garrickadenbuie.com/talk/gentle-ggplot2</a>
-                            <br
-                            />
-                        </p>
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin"></p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-10-29
-                            </span>
-
-                            The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring
-                            <br /><small style="font-size: 90%;">Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center</small>
-                        </h6>
-
-                        <p class="job-information no-margin no-padding"> <a href="http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/">garrickadenbuie.com/slides/moffitt-passive-smart-home/</a>
-                            <br
-                            />
-                        </p>
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Aden-Buie G</p>
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-05-07
-                            </span>
-
-                            Unsupervised behavior change detection using passive sensor systems in the homes of older adults
-                            <br /><small style="font-size: 90%;">11th World Conference of Gerontechnology</small>
-                        </h6>
-
-                        <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/isg-2018/">garrickadenbuie.com/talk/isg-2018/</a>
-                            <br
-                            />
-                        </p>
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Aden-Buie G, Yalcin A, VandeWeerd C</p>
                     </div>
                 </div>
                 <!-- // RIGHT COLUMN: Presentations -->

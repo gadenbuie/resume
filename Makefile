@@ -10,7 +10,7 @@ index.html: resume.json
 
 cover: cover-letter.pdf
 
-cover-letter.pdf: cover-letter.Rmd
+cover-letter.pdf: cover-letter.Rmd cover-letter.template
 	Rscript -e "rmarkdown::render('cover-letter.Rmd')"
 
 pdf: resume
